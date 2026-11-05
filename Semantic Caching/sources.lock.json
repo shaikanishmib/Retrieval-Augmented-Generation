@@ -1,0 +1,50 @@
+[
+  {
+    "name": "hotpot",
+    "url": "https://huggingface.co/datasets/hotpotqa/hotpot_qa/resolve/1908d6afbbead072334abe2965f91bd2709910ab/distractor/validation-00000-of-00001.parquet",
+    "bytes": 46436398,
+    "sha256": "0c6722fabb720c43a11f2248e3d58bff7ccf7a9b2112a02c251c4f72b3b170b5",
+    "license": "CC BY-SA 4.0",
+    "download_bytes": 27452575,
+    "download_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "acquired_utc": "2026-11-01T21:18:55.002306+00:00",
+    "local_file": "data/raw/hotpot.json",
+    "source_page": "https://hotpotqa.github.io/"
+  },
+  {
+    "name": "squad",
+    "url": "https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v2.0.json",
+    "version": "SQuAD 2.0 public training release",
+    "bytes": 42123633,
+    "sha256": "68dcfbb971bd3e96d5b46c7177b16c1a4e7d4bdef19fb204502738552dede002",
+    "license": "CC BY-SA 4.0",
+    "acquired_utc": "2026-11-02T05:43:27Z",
+    "hash_provenance": "SHA-256 measured at acquisition; not an independently supplied upstream checksum",
+    "local_file": "data/raw/squad-train.json",
+    "source_page": "https://rajpurkar.github.io/SQuAD-explorer/"
+  },
+  {
+    "name": "paws",
+    "revision": "161ece9501cf0a11f3e48bd356eaa82de46d6a09",
+    "version": "PAWS-Wiki Labeled Final 2019",
+    "source_page": "https://github.com/google-research-datasets/paws",
+    "license": "Google PAWS dataset license: freely usable for any purpose; supplied AS IS",
+    "license_url": "https://github.com/google-research-datasets/paws/blob/master/LICENSE",
+    "checksum_origin": "Measured mirror bytes, not an independent upstream checksum",
+    "splits": {
+      "dev": {
+        "url": "https://huggingface.co/datasets/google-research-datasets/paws/resolve/161ece9501cf0a11f3e48bd356eaa82de46d6a09/labeled_final/validation-00000-of-00001.parquet",
+        "sha256": "7760d829453764ba342a6f562809a8ed21c2c3eec3fd9ffa544089f145d42f6d",
+        "bytes": 1230379,
+        "rows": 8000
+      },
+      "test": {
+        "url": "https://huggingface.co/datasets/google-research-datasets/paws/resolve/161ece9501cf0a11f3e48bd356eaa82de46d6a09/labeled_final/test-00000-of-00001.parquet",
+        "sha256": "ae342ff12bb84b84b95f468abf5db6cb7c7bd578271299fe9c99be75b8132f4d",
+        "bytes": 1235128,
+        "rows": 8000
+      }
+    },
+    "bytes": 2465507
+  }
+]

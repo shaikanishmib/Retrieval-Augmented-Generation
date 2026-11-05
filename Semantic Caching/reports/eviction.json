@@ -1,0 +1,66 @@
+[
+  {
+    "capacity": 8,
+    "policy": "lru",
+    "requests": 256,
+    "hits": 0,
+    "evictions": 248,
+    "expirations": 0
+  },
+  {
+    "capacity": 8,
+    "policy": "ttl",
+    "requests": 256,
+    "hits": 0,
+    "evictions": 248,
+    "expirations": 0
+  },
+  {
+    "capacity": 32,
+    "policy": "lru",
+    "requests": 256,
+    "hits": 0,
+    "evictions": 224,
+    "expirations": 0
+  },
+  {
+    "capacity": 32,
+    "policy": "ttl",
+    "requests": 256,
+    "hits": 0,
+    "evictions": 0,
+    "expirations": 240
+  },
+  {
+    "capacity": 128,
+    "policy": "lru",
+    "requests": 256,
+    "hits": 128,
+    "evictions": 0,
+    "expirations": 0
+  },
+  {
+    "capacity": 128,
+    "policy": "ttl",
+    "requests": 256,
+    "hits": 0,
+    "evictions": 0,
+    "expirations": 240
+  },
+  {
+    "capacity": 512,
+    "policy": "lru",
+    "requests": 256,
+    "hits": 128,
+    "evictions": 0,
+    "expirations": 0
+  },
+  {
+    "capacity": 512,
+    "policy": "ttl",
+    "requests": 256,
+    "hits": 0,
+    "evictions": 0,
+    "expirations": 240
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "span_text_offset_mismatches": 0,
+  "quality": {
+    "good": 17617,
+    "truncated": 29,
+    "incorrect_refusal": 144
+  },
+  "implicit_true": {
+    "False": 12361,
+    "True": 1928
+  },
+  "quality_policy": "Retain all original quality flags. Incorrect refusals can have no hallucination span while still failing question relevance or completeness.",
+  "test_visibility": "Schema and aggregate test prevalence audited before freezing; individual test predictions and errors unavailable to selection."
+}

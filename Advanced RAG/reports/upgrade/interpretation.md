@@ -1,0 +1,21 @@
+# What changed and what did not improve
+
+FLAN-T5-base is the practical answer-generation upgrade in this study. With the original TinyBERT reranking pipeline, it reaches F1 0.5074 on 256 fresh HotpotQA questions and 0.6017 on 256 fresh SQuAD questions. It still assigns citations by lexical overlap. These accuracy gains do not demonstrate better citation support.
+
+Against FLAN-T5-small with the same retrieval, the fresh-sample F1 gains are 0.0674 on HotpotQA (95% bootstrap interval 0.0241 to 0.1101) and 0.2112 on SQuAD (article-cluster interval 0.1422 to 0.2847). The original 64-question HotpotQA sample instead changes from 0.5020 to 0.4911, an uncertain difference of -0.0109. The original SQuAD sample changes from 0.3958 to 0.6699. Fresh and original samples remain separate throughout the reports.
+
+The structured Qwen3-1.7B pipeline supplies explicit claim-to-source links, rejects fabricated identifiers, and records support checks. Its development-selected NLI rule reaches F1 0.2832 on HotpotQA and 0.5330 on SQuAD. Both scores are below the practical FLAN-T5-base reference. The engineering changes make failures inspectable, but this experiment does not establish a more accurate general answerer.
+
+The selected HotpotQA context contains 89.49% of annotated supporting sentences on average. Accepted cited windows contain 33.63%. These are exact sentence-containment diagnostics over the 256 fresh questions, with whitespace normalized. They expose a gap between available evidence and its use in generation and attribution. They do not measure whether every generated claim is entailed.
+
+Abstention needs a class-prevalence control. Always returning an empty answer scores F1 0.5273 on the fresh SQuAD sample, which contains 135 unanswerable questions among 256. The NLI rule's F1 0.5330 is only slightly higher. Formatting failures and model refusals can count as correct abstentions without recognizing missing evidence.
+
+The question-conditioned follow-up asks FLAN-T5-base to answer from the Qwen proposal's cited windows. Development selection enables it for SQuAD and disables it for HotpotQA. On fresh SQuAD questions it reaches F1 0.5838, answerable F1 0.3674, unanswerable recall 0.7778, and coverage 0.3047. Its paired gain over NLI is 0.0508, with a 95% article-cluster bootstrap interval from -0.0001 to 0.0990. The point estimate is encouraging; the interval leaves the direction uncertain. Verification ran as a CPU replay, so its additional latency is not a newly measured combined end-to-end latency.
+
+In the twenty matched assistant-reviewed cases, the original system answered every question: eight answers were supported, three partially supported, and nine unsupported. The development-selected upgrade answers ten: six supported, one partially supported, and three unsupported. It reduces unsupported accepted answers while also reducing the number of supported answers. These judgments are exploratory coding-assistant reviews with references visible, not independent human annotations.
+
+NLI can assign a high score to a true fact about the wrong person. It can also reject an answer supported by the cited text. QA-model agreement can share those errors. A valid source identifier establishes traceability; neither the identifier nor model agreement establishes that the answer follows from the evidence.
+
+The separate five-case synthetic probe returns the expected answer in only two cases: missing evidence and negation. Clean, injected-instruction, and two-source cases produce invalid JSON and are rejected. The injected case does not emit the requested malicious answer, but a rejection on both clean and injected text does not establish useful injection resistance. The structured generator remains unreliable even on simple evidence.
+
+The recorded study uses bounded candidate passages from public development releases, a small development sample, and a single sequential experiment schedule. Controlled ablations use 64 fresh questions per dataset; frozen configurations use 256. Timing reflects the recorded CPU and GPU backends and uncontrolled host load. Larger open-domain evaluations, independent support labels, quantized 4B models, and production prompt-injection resistance remain untested.

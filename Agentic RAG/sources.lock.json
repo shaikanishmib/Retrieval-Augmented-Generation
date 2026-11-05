@@ -1,0 +1,22 @@
+[
+  {
+    "name": "hotpot",
+    "url": "https://huggingface.co/datasets/hotpotqa/hotpot_qa/resolve/1908d6afbbead072334abe2965f91bd2709910ab/distractor/validation-00000-of-00001.parquet",
+    "bytes": 46436398,
+    "sha256": "0c6722fabb720c43a11f2248e3d58bff7ccf7a9b2112a02c251c4f72b3b170b5",
+    "license": "CC BY-SA 4.0",
+    "download_bytes": 27452575,
+    "download_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "acquired_utc": "2026-11-01T21:18:55.002306+00:00"
+  },
+  {
+    "name": "squad",
+    "url": "https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v2.0.json",
+    "version": "SQuAD 2.0 public training release",
+    "bytes": 42123633,
+    "sha256": "68dcfbb971bd3e96d5b46c7177b16c1a4e7d4bdef19fb204502738552dede002",
+    "license": "CC BY-SA 4.0",
+    "acquired_utc": "2026-11-02T05:43:27Z",
+    "hash_provenance": "SHA-256 measured at acquisition; not an independently supplied upstream checksum"
+  }
+]

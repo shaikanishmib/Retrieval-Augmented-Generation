@@ -1,0 +1,30 @@
+{
+  "n_pairs": 6,
+  "tokenization_seconds": 0.023528299992904067,
+  "model_load_seconds": 2.9993024000141304,
+  "model_bytes": 371368493,
+  "scope": "Six real development pairs; includes warm-up. Batching changes numeric rounding and is checked for decision consistency, not assumed equivalent.",
+  "cuda-batch1": {
+    "seconds": 1.2789787000219803,
+    "process_rss": 1772720128
+  },
+  "cuda-batch6": {
+    "seconds": 0.11366570001700893,
+    "process_rss": 1790095360
+  },
+  "cpu-batch1": {
+    "seconds": 5.827743299974827,
+    "process_rss": 2277773312
+  },
+  "cpu-batch6": {
+    "seconds": 3.744243099994492,
+    "process_rss": 2549231616
+  },
+  "maximum_probability_difference": 1.9073486328125e-06,
+  "argmax_decision_agreement": {
+    "cuda-batch1": 1.0,
+    "cuda-batch6": 1.0,
+    "cpu-batch1": 1.0,
+    "cpu-batch6": 1.0
+  }
+}

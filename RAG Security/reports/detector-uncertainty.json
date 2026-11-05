@@ -1,0 +1,76 @@
+{
+  "groups": 32,
+  "examples": 160,
+  "replicates": 2000,
+  "methods": {
+    "lexical": {
+      "f1_task_group_bootstrap_95": [
+        0.49411764705882355,
+        0.585635359116022
+      ],
+      "average_precision_task_group_bootstrap_95": [
+        0.5858108108108108,
+        0.6129901960784314
+      ]
+    },
+    "tfidf": {
+      "f1_task_group_bootstrap_95": [
+        0.4714285714285714,
+        0.717391304347826
+      ],
+      "average_precision_task_group_bootstrap_95": [
+        0.8687749967951761,
+        0.9260765662792193
+      ]
+    },
+    "embedding": {
+      "f1_task_group_bootstrap_95": [
+        0.4881889763779528,
+        0.7924528301886793
+      ],
+      "average_precision_task_group_bootstrap_95": [
+        0.8559150090031331,
+        0.924302711252494
+      ]
+    },
+    "deberta": {
+      "f1_task_group_bootstrap_95": [
+        0.5743589743589743,
+        0.6432160804020101
+      ],
+      "average_precision_task_group_bootstrap_95": [
+        0.598182994135756,
+        0.6976224507405409
+      ]
+    },
+    "llm": {
+      "f1_task_group_bootstrap_95": [
+        0.2857142857142857,
+        0.4566929133858268
+      ],
+      "average_precision_task_group_bootstrap_95": [
+        0.6691368727092742,
+        0.776256641549041
+      ]
+    }
+  },
+  "paired_f1_difference_from_tfidf_95": {
+    "lexical": [
+      -0.2232736572890025,
+      0.11420678768745063
+    ],
+    "embedding": [
+      0.01713859910581217,
+      0.09245283018867934
+    ],
+    "deberta": [
+      -0.08430433590602081,
+      0.14022191400832174
+    ],
+    "llm": [
+      -0.3124223602484473,
+      -0.09406903257170635
+    ]
+  },
+  "limitations": "Task-group resampling preserves repeated family outcomes within tasks, but does not create independent payload families."
+}

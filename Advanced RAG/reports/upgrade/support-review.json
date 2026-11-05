@@ -1,0 +1,330 @@
+{
+  "reviewer": "Coding assistant; no independent human rater",
+  "references_visible": true,
+  "selection": "First ten original questions per dataset in deterministic study order, matched to the baseline review",
+  "criterion": "Cited text must support the complete answer to the question. Extraneous citations and entity/answer-type errors are noted separately.",
+  "scope": "Twenty exploratory matched cases, not a population faithfulness estimate",
+  "baseline_counts": {
+    "supported": 8,
+    "partial": 3,
+    "unsupported": 9
+  },
+  "raw_counts": {
+    "invalid": 5,
+    "supported": 9,
+    "partial": 1,
+    "unsupported": 5
+  },
+  "final_counts": {
+    "abstained": 12,
+    "partial": 1,
+    "unsupported": 2,
+    "supported": 5
+  },
+  "frozen_claims_path": {
+    "counts": {
+      "abstained": 12,
+      "partial": 1,
+      "unsupported": 2,
+      "supported": 5
+    },
+    "answered": 8,
+    "coverage": 0.4,
+    "strict_support_among_answered": 0.625
+  },
+  "question_check_path": {
+    "counts": {
+      "abstained": 12,
+      "supported": 5,
+      "partial": 1,
+      "unsupported": 2
+    },
+    "answered": 8,
+    "coverage": 0.4,
+    "strict_support_among_answered": 0.625
+  },
+  "development_selected_default": {
+    "counts": {
+      "abstained": 10,
+      "partial": 1,
+      "unsupported": 3,
+      "supported": 6
+    },
+    "answered": 10,
+    "coverage": 0.5,
+    "strict_support_among_answered": 0.6
+  },
+  "fixed_0.5_reference": {
+    "counts": {
+      "abstained": 15,
+      "partial": 1,
+      "unsupported": 1,
+      "supported": 3
+    },
+    "answered": 5,
+    "coverage": 0.25,
+    "strict_support_among_answered": 0.6
+  },
+  "cases": [
+    {
+      "dataset": "hotpot",
+      "id": "5a8b8b3a5542995d1e6f13e5",
+      "raw_label": "invalid",
+      "final_label": "abstained",
+      "reason": "The response has an extra closing brace and fails JSON parsing. No answer reaches the final output.",
+      "reviewed_prediction_sha256": "36fcd852462a77d37c0013068c7296993642f02b9afec8568fc483c016fd1837",
+      "question_label": "abstained",
+      "default_label": "abstained",
+      "reference_0.5_label": "abstained",
+      "prediction_sha256": "36fcd852462a77d37c0013068c7296993642f02b9afec8568fc483c016fd1837",
+      "question_validation_sha256": "77c2d1e0fa1232c8dcc6fba7ebb6df630169ce9296452180b4f22d840ffd072d"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5ab746c8554299110f219aef",
+      "raw_label": "supported",
+      "final_label": "abstained",
+      "reason": "Both cited windows support the affirmative answer. The literal answer-string guard rejects the word yes because it is absent from the declarative claim.",
+      "reviewed_prediction_sha256": "deef50459e2a5968a1a150b315a9cf85c2f8db62e5b7be94ddb0437e6b4b4363",
+      "question_label": "supported",
+      "default_label": "abstained",
+      "reference_0.5_label": "abstained",
+      "prediction_sha256": "deef50459e2a5968a1a150b315a9cf85c2f8db62e5b7be94ddb0437e6b4b4363",
+      "question_validation_sha256": "0d7cf461cb406f95ad33a2e1ae84f2ddeac0de104c212d43a4762816faa2416c"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5ab48c325542996a3a969f93",
+      "raw_label": "partial",
+      "final_label": "partial",
+      "reason": "The cited window establishes a burial location but not the requested county. High NLI support for the generated claim does not resolve the answer-type error.",
+      "reviewed_prediction_sha256": "7c499825f3ec870103d9fec3568f0d549712379d5bdcdf465f04f119f5a9a472",
+      "question_label": "partial",
+      "default_label": "partial",
+      "reference_0.5_label": "partial",
+      "prediction_sha256": "7c499825f3ec870103d9fec3568f0d549712379d5bdcdf465f04f119f5a9a472",
+      "question_validation_sha256": "7e4b3c57641f46919fd3a9a58ce0c4200bb9bebdfd2a4cf0f26227cb53d77e46"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5a8e024f5542995085b37375",
+      "raw_label": "unsupported",
+      "final_label": "unsupported",
+      "reason": "The answer selects the school of a different composer, despite also generating a claim about the relevant composer's training. The response carries a low-support flag.",
+      "reviewed_prediction_sha256": "3843a3284e4db68c2c82c4aaf11096d4e2068700f740fdbe86d1602dc32f61a8",
+      "question_label": "abstained",
+      "default_label": "unsupported",
+      "reference_0.5_label": "abstained",
+      "prediction_sha256": "3843a3284e4db68c2c82c4aaf11096d4e2068700f740fdbe86d1602dc32f61a8",
+      "question_validation_sha256": "9a0f601432caf6fb30026ad9e6a54e989eaae00896c734d6b4ae8b6688916727"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5a7bbee85542997c3ec97270",
+      "raw_label": "invalid",
+      "final_label": "abstained",
+      "reason": "The response contains an extra closing brace. Parsing rejects it before citation verification.",
+      "reviewed_prediction_sha256": "77d4ee6b267c1f470788aee13cdf795bb6052d5f13e0416231d44119bfb754dd",
+      "question_label": "abstained",
+      "default_label": "abstained",
+      "reference_0.5_label": "abstained",
+      "prediction_sha256": "77d4ee6b267c1f470788aee13cdf795bb6052d5f13e0416231d44119bfb754dd",
+      "question_validation_sha256": "3c000817c42a4734480aca24e9361eec8f8a128dae864596652763a967bc6971"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5adbf43655429947ff173864",
+      "raw_label": "supported",
+      "final_label": "supported",
+      "reason": "One cited window explicitly establishes the shared coloration pattern. A second citation is extraneous. The NLI score is low despite the first window supporting the answer.",
+      "reviewed_prediction_sha256": "1b3381e09b0ea01739b2925b9d1a3281693572eb534d6fbabe0d39724df5254e",
+      "question_label": "abstained",
+      "default_label": "supported",
+      "reference_0.5_label": "abstained",
+      "prediction_sha256": "1b3381e09b0ea01739b2925b9d1a3281693572eb534d6fbabe0d39724df5254e",
+      "question_validation_sha256": "dda77e28baca425c03b163eaf5438653da01ed788bf5d5fa300663ee519e57f8"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5a7c90125542990527d554d1",
+      "raw_label": "unsupported",
+      "final_label": "unsupported",
+      "reason": "The cited birth year belongs to a singer-songwriter sharing a name with a fictional character in the question. The statement is entailed but does not answer the requested author's birth-year question.",
+      "reviewed_prediction_sha256": "1011922066f9890f25317d6d570ab1d445b24fddbd3a699e72aa84c22103825b",
+      "question_label": "unsupported",
+      "default_label": "unsupported",
+      "reference_0.5_label": "unsupported",
+      "prediction_sha256": "1011922066f9890f25317d6d570ab1d445b24fddbd3a699e72aa84c22103825b",
+      "question_validation_sha256": "b45532bc41bbaa776f3ef4f8c6aaa6bfe4d52ceaeca0dc0a5c8fe559dc7329a5"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5add2df85542992ae4cec4d6",
+      "raw_label": "supported",
+      "final_label": "abstained",
+      "reason": "The two cited windows establish different countries for the bands. The literal answer-string guard rejects a valid negative answer because no is absent from the two claims.",
+      "reviewed_prediction_sha256": "c48bd1e0b183cd8c98eb43f085037dec0c4e29b22dd7cfed2cccfe3a8dcb91f8",
+      "question_label": "abstained",
+      "default_label": "abstained",
+      "reference_0.5_label": "abstained",
+      "prediction_sha256": "c48bd1e0b183cd8c98eb43f085037dec0c4e29b22dd7cfed2cccfe3a8dcb91f8",
+      "question_validation_sha256": "187c51d263763532cc0117970fce0cb2176d23e6d8d06180083e632889083f26"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5ac4f12d55429924173fb4f6",
+      "raw_label": "supported",
+      "final_label": "supported",
+      "reason": "One cited window establishes the opera. The ship's namesake explanation identifies the other item as a newspaper, which supports the negative answer. An additional performer citation is extraneous.",
+      "reviewed_prediction_sha256": "c5e0fae1efacfc0bf97002d27480e858a9e92536b58da0da0bbc7ec8ea34cdae",
+      "question_label": "abstained",
+      "default_label": "supported",
+      "reference_0.5_label": "abstained",
+      "prediction_sha256": "c5e0fae1efacfc0bf97002d27480e858a9e92536b58da0da0bbc7ec8ea34cdae",
+      "question_validation_sha256": "39202239fcda2d2e1d199c9e50050138fded3059ba76bcb6b8c941210994466e"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5abe9c1a5542993f32c2a183",
+      "raw_label": "supported",
+      "final_label": "supported",
+      "reason": "The cited window explicitly identifies the person honored by the genus name.",
+      "reviewed_prediction_sha256": "6b60f7dfa3470952075967a4011cbc49f78600c0d64b1098e6a5b9cd69a48e33",
+      "question_label": "supported",
+      "default_label": "supported",
+      "reference_0.5_label": "supported",
+      "prediction_sha256": "6b60f7dfa3470952075967a4011cbc49f78600c0d64b1098e6a5b9cd69a48e33",
+      "question_validation_sha256": "e39ad8c2ae35b034bc3f7be92b2db5543d9ab7a2d45293b8fc3b40753aa00a35"
+    },
+    {
+      "dataset": "squad",
+      "id": "57263677ec44d21400f3dc49",
+      "raw_label": "supported",
+      "final_label": "supported",
+      "reason": "The cited window directly names the concept developed during the specified research.",
+      "reviewed_prediction_sha256": "6287c561ea08cf3baa4046ef445413a69362c3121b2bb6e3c8809b3115c7bd74",
+      "question_label": "supported",
+      "default_label": "supported",
+      "reference_0.5_label": "supported",
+      "prediction_sha256": "6287c561ea08cf3baa4046ef445413a69362c3121b2bb6e3c8809b3115c7bd74",
+      "question_validation_sha256": "79bf1137b6437ec2f0a10950ec44ae65f9290f682d0f35abe42d13d5b2e9de52"
+    },
+    {
+      "dataset": "squad",
+      "id": "571090abb654c5140001f997",
+      "raw_label": "invalid",
+      "final_label": "abstained",
+      "reason": "A trailing quotation mark makes the response invalid JSON. The generated answer does not reach the final output.",
+      "reviewed_prediction_sha256": "8e6355ee69a605bca15d19e4ffcd812620c42a259c42a46c00bfbbf8405cd98a",
+      "question_label": "abstained",
+      "default_label": "abstained",
+      "reference_0.5_label": "abstained",
+      "prediction_sha256": "8e6355ee69a605bca15d19e4ffcd812620c42a259c42a46c00bfbbf8405cd98a",
+      "question_validation_sha256": "6a180a495f48bfc75296fc104e6ee6d7f87a631ab18e2b906b2618456296c3bd"
+    },
+    {
+      "dataset": "squad",
+      "id": "5ad25f29d7d075001a428f60",
+      "raw_label": "unsupported",
+      "final_label": "abstained",
+      "reason": "The response transfers a distance for a different settlement to the requested settlement. NLI support filtering rejects it.",
+      "reviewed_prediction_sha256": "7a029efbdc40fd7b542295869c0fad8d1f546c42b2e7522221a365a0ccf3e5dd",
+      "question_label": "unsupported",
+      "default_label": "unsupported",
+      "reference_0.5_label": "abstained",
+      "prediction_sha256": "7a029efbdc40fd7b542295869c0fad8d1f546c42b2e7522221a365a0ccf3e5dd",
+      "question_validation_sha256": "3711128fffd6ca972cddc90248fa3c5446cc49f2a0798847f598ee76feb26519"
+    },
+    {
+      "dataset": "squad",
+      "id": "5a25fa34c93d92001a400370",
+      "raw_label": "unsupported",
+      "final_label": "abstained",
+      "reason": "The cited numeric rate concerns the United States rather than the requested EU jurisdiction. The answer-binding guard rejects the response.",
+      "reviewed_prediction_sha256": "3e0f3ee84964430b6dd3d93c0fd62e42188aaeeb2e9260acbe3cca399ba523b5",
+      "question_label": "abstained",
+      "default_label": "abstained",
+      "reference_0.5_label": "abstained",
+      "prediction_sha256": "3e0f3ee84964430b6dd3d93c0fd62e42188aaeeb2e9260acbe3cca399ba523b5",
+      "question_validation_sha256": "32875d39e6ef60707bbc555d6e7df0d207a9cbc76a6c4a5636844075bbc2f9c9"
+    },
+    {
+      "dataset": "squad",
+      "id": "5a6659d3846392001a1e1b0f",
+      "raw_label": "invalid",
+      "final_label": "abstained",
+      "reason": "An extra closing brace makes the output invalid JSON. It is rejected before support evaluation.",
+      "reviewed_prediction_sha256": "9de366e46edbf3b58ac4a96753855afc211da181e40abbedd691354877d5c378",
+      "question_label": "abstained",
+      "default_label": "abstained",
+      "reference_0.5_label": "abstained",
+      "prediction_sha256": "9de366e46edbf3b58ac4a96753855afc211da181e40abbedd691354877d5c378",
+      "question_validation_sha256": "1e69f55c0811f1fede3227168a5e3322935ce4921eff58951d71ed7ee64b962c"
+    },
+    {
+      "dataset": "squad",
+      "id": "571153422419e3140095557e",
+      "raw_label": "supported",
+      "final_label": "abstained",
+      "reason": "The cited window attributes the locomotive to the returned designer. The NLI filter rejects this supported response.",
+      "reviewed_prediction_sha256": "e6a2880b2913899fe7ec6ca70f97bd56338d859b941b51abdc6a81556bbc5c01",
+      "question_label": "supported",
+      "default_label": "supported",
+      "reference_0.5_label": "abstained",
+      "prediction_sha256": "e6a2880b2913899fe7ec6ca70f97bd56338d859b941b51abdc6a81556bbc5c01",
+      "question_validation_sha256": "fd35715db9814f7763f7cc81d3ab3929817d76e4f7db38c69a561110d3855264"
+    },
+    {
+      "dataset": "squad",
+      "id": "5730b6592461fd1900a9cfcf",
+      "raw_label": "supported",
+      "final_label": "abstained",
+      "reason": "The cited description identifies the British Empire as the largest. The answer expresses its country as the United Kingdom, which differs from the literal reference strings. The NLI filter rejects it.",
+      "reviewed_prediction_sha256": "332f2890412b219a40ec46a5845196f53733db8272ea0845a00e8905cac8b9c1",
+      "question_label": "abstained",
+      "default_label": "abstained",
+      "reference_0.5_label": "abstained",
+      "prediction_sha256": "332f2890412b219a40ec46a5845196f53733db8272ea0845a00e8905cac8b9c1",
+      "question_validation_sha256": "07c45508fdb361979877c8e7ffac8e203fb2769a07f362a3c6945ebfc1de4494"
+    },
+    {
+      "dataset": "squad",
+      "id": "5705e63175f01819005e7724",
+      "raw_label": "supported",
+      "final_label": "supported",
+      "reason": "The cited window states the requested relative direction.",
+      "reviewed_prediction_sha256": "8c02df3ca1a3d86384a02d97c204e6ba6590ea54a7d972b6bffcffccb27ae575",
+      "question_label": "supported",
+      "default_label": "supported",
+      "reference_0.5_label": "supported",
+      "prediction_sha256": "8c02df3ca1a3d86384a02d97c204e6ba6590ea54a7d972b6bffcffccb27ae575",
+      "question_validation_sha256": "69d4daa3ed00606e1e00cfd788c7ea423af27619e4b9fb5b427c0a96c895209d"
+    },
+    {
+      "dataset": "squad",
+      "id": "5728510f4b864d1900164937",
+      "raw_label": "unsupported",
+      "final_label": "abstained",
+      "reason": "The response confuses the number of professional schools with the number of graduate divisions. The source explicitly distinguishes them, and NLI filtering rejects the answer.",
+      "reviewed_prediction_sha256": "f77f1160f00b97f49f205cd94643e7ade8677ea6d6af251c16c73fad1601a809",
+      "question_label": "abstained",
+      "default_label": "abstained",
+      "reference_0.5_label": "abstained",
+      "prediction_sha256": "f77f1160f00b97f49f205cd94643e7ade8677ea6d6af251c16c73fad1601a809",
+      "question_validation_sha256": "d1ecb0316229e612528b3eb076c34ecec2846a5a283edf271e745711e14f052b"
+    },
+    {
+      "dataset": "squad",
+      "id": "5727aeac3acd2414000de98a",
+      "raw_label": "invalid",
+      "final_label": "abstained",
+      "reason": "A trailing quotation mark causes JSON parsing failure. No final answer is accepted.",
+      "reviewed_prediction_sha256": "e8d124fc89565ff1444e629bdef8397ae32c4d16de84e5354013d454bebdd80d",
+      "question_label": "abstained",
+      "default_label": "abstained",
+      "reference_0.5_label": "abstained",
+      "prediction_sha256": "e8d124fc89565ff1444e629bdef8397ae32c4d16de84e5354013d454bebdd80d",
+      "question_validation_sha256": "1f7582dbcb03c90c916304073a78eb1ca972c35edadfb229045290f0baf061da"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+data/
+*.zip
+*.tar
+*.gz
+*.jsonl
+*.tsv
+__pycache__/
+.pytest_cache/
+.venv/
+*.egg-info/
+build/
+dist/
+notebooks/01_complete_retrieval_research.ipynb
+.local/
+reports/cleanup/

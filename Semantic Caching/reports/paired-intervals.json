@@ -1,0 +1,386 @@
+{
+  "hotpot-mixed-exact": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": -50.64738854096302,
+      "low": -62.09959951799343,
+      "high": -40.155722880328746,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "hotpot-mixed-semantic": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": -40.13427638786501,
+      "low": -52.06927297008532,
+      "high": -29.197109147881093,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "hotpot-mixed-evidence": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": 72.1907211810099,
+      "low": 62.36085417226099,
+      "high": 83.02519919219168,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "hotpot-mixed-hybrid": {
+    "f1": {
+      "mean_difference": 0.005208333333333333,
+      "low": -0.010416666666666666,
+      "high": 0.026041666666666668,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": -51.71629305479857,
+      "low": -63.486381517998325,
+      "high": -41.14822038912078,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "hotpot-unique-heavy-exact": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": -39.78785958449104,
+      "low": -57.16801137222579,
+      "high": -22.885391513641395,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "hotpot-unique-heavy-semantic": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": -3.489166665773761,
+      "low": -19.103197390116872,
+      "high": 13.039577143110643,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "hotpot-unique-heavy-evidence": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": 29.754789581056684,
+      "low": 26.17474682599369,
+      "high": 33.618309869327895,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "hotpot-unique-heavy-hybrid": {
+    "f1": {
+      "mean_difference": 0.004166666666666667,
+      "low": 0.0,
+      "high": 0.01293103448275862,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": -10.900129166111583,
+      "low": -30.657882305861815,
+      "high": 8.703097824811975,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "hotpot-unique-exact": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": 3.4820442751879455,
+      "low": -0.8256561414100361,
+      "high": 7.831757010050446,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "hotpot-unique-semantic": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": 19.98761354495097,
+      "low": 17.12548573170049,
+      "high": 22.939590588839565,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "hotpot-unique-evidence": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": 20.10917240068011,
+      "low": 16.687201815674747,
+      "high": 23.5396765156338,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "hotpot-unique-hybrid": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": 17.292962504749692,
+      "low": 13.570261629888591,
+      "high": 21.079601540888387,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "squad-mixed-exact": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": -47.53545798742683,
+      "low": -55.4787836343701,
+      "high": -39.36095875550568,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "squad-mixed-semantic": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": -62.438110244632604,
+      "low": -70.26587749321142,
+      "high": -55.26595827481772,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "squad-mixed-evidence": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": 12.504933505169902,
+      "low": 8.854294535127872,
+      "high": 15.94355986043855,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "squad-mixed-hybrid": {
+    "f1": {
+      "mean_difference": 0.0053819444444444435,
+      "low": -0.011290550391835248,
+      "high": 0.022058080808080784,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": -77.17325330122549,
+      "low": -84.59020473723191,
+      "high": -69.78668878048143,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "squad-unique-heavy-exact": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": -37.46356374989167,
+      "low": -49.677496967881154,
+      "high": -25.03301376404274,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "squad-unique-heavy-semantic": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": -28.294932915620546,
+      "low": -43.80879281444338,
+      "high": -12.499586518042644,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "squad-unique-heavy-evidence": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": 10.143086666842768,
+      "low": 6.7204179246899445,
+      "high": 13.997461107031176,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "squad-unique-heavy-hybrid": {
+    "f1": {
+      "mean_difference": 0.008333333333333333,
+      "low": 0.0,
+      "high": 0.024390243902439025,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": -28.73415624878059,
+      "low": -42.99916687632476,
+      "high": -13.931774906541209,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "squad-unique-exact": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": -14.965903646498191,
+      "low": -27.193122782167407,
+      "high": -3.896847468392349,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "squad-unique-semantic": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": 9.31545364634682,
+      "low": -3.379685318034787,
+      "high": 20.465053173749556,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "squad-unique-evidence": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": 18.50096770719271,
+      "low": 5.922174506861392,
+      "high": 31.29077566731698,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  },
+  "squad-unique-hybrid": {
+    "f1": {
+      "mean_difference": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "source group",
+      "replicates": 2000
+    },
+    "total_ms": {
+      "mean_difference": 5.6878333313458525,
+      "low": -6.419274081233912,
+      "high": 16.11670540652571,
+      "unit": "source group",
+      "replicates": 2000
+    }
+  }
+}

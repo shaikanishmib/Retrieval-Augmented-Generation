@@ -1,0 +1,167 @@
+{
+  "dataset": "SQuAD 2.0 training release",
+  "pairs": [
+    {
+      "source_id": "5706cb470eeca41400aa0e31",
+      "target_id": "5706cb470eeca41400aa0e2f",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "5706cb470eeca41400aa0e31",
+      "target_id": "5706cb470eeca41400aa0e31",
+      "variant": "synthetic_wrapper"
+    },
+    {
+      "source_id": "570c7c46b3d812140066d20a",
+      "target_id": "570c7c46b3d812140066d209",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "570c7c46b3d812140066d20a",
+      "target_id": "570c7c46b3d812140066d20a",
+      "variant": "synthetic_wrapper"
+    },
+    {
+      "source_id": "5725e3de89a1e219009ac042",
+      "target_id": "5725e35889a1e219009ac030",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "5725e3de89a1e219009ac042",
+      "target_id": "5725e3de89a1e219009ac042",
+      "variant": "synthetic_wrapper"
+    },
+    {
+      "source_id": "57265c815951b619008f7098",
+      "target_id": "57265c815951b619008f7098",
+      "variant": "synthetic_wrapper"
+    },
+    {
+      "source_id": "57265c815951b619008f7098",
+      "target_id": "5a7cbdfbe8bc7e001a9e1fa0",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "572671c4708984140094c648",
+      "target_id": "57266781dd62a815002e83cb",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "572671c4708984140094c648",
+      "target_id": "572671c4708984140094c648",
+      "variant": "synthetic_wrapper"
+    },
+    {
+      "source_id": "5726a1cadd62a815002e8b80",
+      "target_id": "57269e385951b619008f77ef",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "5726a1cadd62a815002e8b80",
+      "target_id": "5726a1cadd62a815002e8b80",
+      "variant": "synthetic_wrapper"
+    },
+    {
+      "source_id": "5727b1112ca10214002d9402",
+      "target_id": "5727b1112ca10214002d9401",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "5727b1112ca10214002d9402",
+      "target_id": "5727b1112ca10214002d9402",
+      "variant": "synthetic_wrapper"
+    },
+    {
+      "source_id": "57325d96b9d445190005eab7",
+      "target_id": "57325d96b9d445190005eab4",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "57325d96b9d445190005eab7",
+      "target_id": "57325d96b9d445190005eab7",
+      "variant": "synthetic_wrapper"
+    },
+    {
+      "source_id": "5733b5df4776f41900661107",
+      "target_id": "5733b5df4776f41900661107",
+      "variant": "synthetic_wrapper"
+    },
+    {
+      "source_id": "5733b5df4776f41900661107",
+      "target_id": "5733caf74776f4190066124e",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "5a0cbb29f5590b0018dab531",
+      "target_id": "5725c4b6ec44d21400f3d523",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "5a0cbb29f5590b0018dab531",
+      "target_id": "5a0cbb29f5590b0018dab531",
+      "variant": "synthetic_wrapper"
+    },
+    {
+      "source_id": "5a8310f7e60761001a2eb359",
+      "target_id": "56de679e4396321400ee2893",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "5a8310f7e60761001a2eb359",
+      "target_id": "5a8310f7e60761001a2eb359",
+      "variant": "synthetic_wrapper"
+    },
+    {
+      "source_id": "5acd645f07355d001abf4076",
+      "target_id": "570a3d1f6d058f1900182d0c",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "5acd645f07355d001abf4076",
+      "target_id": "5acd645f07355d001abf4076",
+      "variant": "synthetic_wrapper"
+    },
+    {
+      "source_id": "5aceee5932bba1001ae4b94a",
+      "target_id": "5733ea75d058e614000b65a4",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "5aceee5932bba1001ae4b94a",
+      "target_id": "5aceee5932bba1001ae4b94a",
+      "variant": "synthetic_wrapper"
+    },
+    {
+      "source_id": "5ad2265bd7d075001a428547",
+      "target_id": "5727fb69ff5b5019007d99ef",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "5ad2265bd7d075001a428547",
+      "target_id": "5ad2265bd7d075001a428547",
+      "variant": "synthetic_wrapper"
+    },
+    {
+      "source_id": "5ad2da59d7d075001a42a4a0",
+      "target_id": "56df322e96943c1400a5d2d5",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "5ad2da59d7d075001a42a4a0",
+      "target_id": "5ad2da59d7d075001a42a4a0",
+      "variant": "synthetic_wrapper"
+    },
+    {
+      "source_id": "5ad4230e604f3c001a400809",
+      "target_id": "570ab31c6d058f190018309c",
+      "variant": "nearby_authentic"
+    },
+    {
+      "source_id": "5ad4230e604f3c001a400809",
+      "target_id": "5ad4230e604f3c001a400809",
+      "variant": "synthetic_wrapper"
+    }
+  ],
+  "query_outcomes": 192,
+  "selection": "Highest cosine within held-out source article among distinct questions with disjoint answer annotation strings."
+}

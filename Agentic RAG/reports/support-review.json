@@ -1,0 +1,163 @@
+{
+  "annotator": "Assistant review; no independent human rater.",
+  "selection": "First two nonempty proposals per dataset and strategy, excluding questions already selected for another method; verification preferentially samples rejected proposals. Unblinded to reference answers. Qualitative, purposive sample.",
+  "scope": "Whether the proposed answer answers the question and is supported by its actual assigned citation window; generated-claim wording is inspected separately.",
+  "criteria": "Supported: the requested answer relation is established. Partial: relevant support leaves an identifying condition unresolved or material wording ambiguous. Unsupported: the answer relation is absent or contradicted. Claim-rewriting defects are also described separately. These are subjective assistant judgments, not independent human annotations.",
+  "unique_questions": 12,
+  "counts": {
+    "unsupported": 2,
+    "partial": 4,
+    "supported": 6
+  },
+  "accepted_counts": {
+    "unsupported": 1,
+    "partial": 3,
+    "supported": 4
+  },
+  "cases": [
+    {
+      "tag": "hotpot-fixed-1",
+      "dataset": "hotpot",
+      "strategy": "fixed",
+      "id": "5a8739a05542994775f607ab",
+      "case_hash": "3cd008ab41c1bb185e1dcc43dc0af1bdd2b118e847a5fa58c124ed01387dcbb8",
+      "accepted": true,
+      "support": "unsupported",
+      "answer_matches_reference": false,
+      "claim_fidelity": "Preserves the proposed birthplace assertion, which the source does not establish.",
+      "rationale": "The citation concerns a different district and describes residence rather than birthplace. It does not support the proposed city for the question's senator."
+    },
+    {
+      "tag": "hotpot-fixed-2",
+      "dataset": "hotpot",
+      "strategy": "fixed",
+      "id": "5ac4e13f554299076e296e2d",
+      "case_hash": "26a1d9b7f69639fb803b936798a22b56bef9018d1e5d8636b4cc97ad199f3ecb",
+      "accepted": true,
+      "support": "partial",
+      "answer_matches_reference": true,
+      "claim_fidelity": "Ambiguous authorship: the quoted comment and the opera are blurred.",
+      "rationale": "The passage attributes a quoted comment to the reference author. The shortened claim can imply authorship of the opera, and this window does not establish the German-philosopher qualification."
+    },
+    {
+      "tag": "hotpot-agent-1",
+      "dataset": "hotpot",
+      "strategy": "agent",
+      "id": "5ae834e95542997ec272776a",
+      "case_hash": "722da03ee3e83baa68c696f91421dfccc8bc305ef01d6e37fcf4b2628d92d460",
+      "accepted": true,
+      "support": "partial",
+      "answer_matches_reference": true,
+      "claim_fidelity": "Omits the requested naming relationship and asserts an uncited songwriter credit.",
+      "rationale": "The window connects the song to the supergroup's name and members, but it does not name its songwriter. The generated authorship claim therefore exceeds the assigned citation."
+    },
+    {
+      "tag": "hotpot-agent-2",
+      "dataset": "hotpot",
+      "strategy": "agent",
+      "id": "5a8b017155429949d91db463",
+      "case_hash": "590baa2a1192a1b84b0cc11b553a6ec8e5348c3be9cdb8e33b2681c3f76aedc9",
+      "accepted": true,
+      "support": "partial",
+      "answer_matches_reference": true,
+      "claim_fidelity": "Retains identifying attributes but omits the league-history relation.",
+      "rationale": "The citation lists the proposed player among those who played in four national leagues. It does not establish his nationality, playing position or club, which the generated claim asserts."
+    },
+    {
+      "tag": "hotpot-verify-1",
+      "dataset": "hotpot",
+      "strategy": "verify",
+      "id": "5ae09d6155429945ae9593d4",
+      "case_hash": "8fdf331f0c0c8815bea56e6201172ae0908dcbe3454c45045170f30c649c220b",
+      "accepted": false,
+      "support": "supported",
+      "answer_matches_reference": true,
+      "claim_fidelity": "Drops the genre answer and substitutes a cast-membership assertion.",
+      "rationale": "The cited opening sentence explicitly gives the proposed genre. The generated claim omits that answer and asserts a casting fact absent from this window, so the gate is checking a different proposition."
+    },
+    {
+      "tag": "hotpot-verify-2",
+      "dataset": "hotpot",
+      "strategy": "verify",
+      "id": "5ae2eb7f55429928c423955b",
+      "case_hash": "e0ae3002c2c8a79aef058dc33131c59c270d0fcb6cb63ac3f903b6cdc8449a97",
+      "accepted": false,
+      "support": "supported",
+      "answer_matches_reference": true,
+      "claim_fidelity": "Adds an unsourced decade.",
+      "rationale": "The source directly credits the proposed composer. The rewritten claim adds a date that the citation does not provide; low NLI support for that embellished claim does not refute the short answer."
+    },
+    {
+      "tag": "squad-fixed-1",
+      "dataset": "squad",
+      "strategy": "fixed",
+      "id": "572b91e5f75d5e190021fe56",
+      "case_hash": "8c7881193888aa082bea79b985b51114fbf703dd06b4a9c2bebf73fe7d0c0acf",
+      "accepted": true,
+      "support": "supported",
+      "answer_matches_reference": true,
+      "claim_fidelity": "Preserves the question-answer meaning.",
+      "rationale": "The citation explicitly states the same relationship requested by the question. Its low model entailment score conflicts with this direct textual support."
+    },
+    {
+      "tag": "squad-fixed-2",
+      "dataset": "squad",
+      "strategy": "fixed",
+      "id": "56bf91c6a10cfb1400551182",
+      "case_hash": "8594442f4cbc71056639c45d38031c7a10cf6c43b4640ef18ba15c5a57d51f5a",
+      "accepted": true,
+      "support": "supported",
+      "answer_matches_reference": true,
+      "claim_fidelity": "Ambiguous announcement location versus later breakup location.",
+      "rationale": "The source places the announcement in the proposed city. The rewritten sentence can instead locate the breakup there, although the passage says the breakup would follow a later tour leg."
+    },
+    {
+      "tag": "squad-agent-1",
+      "dataset": "squad",
+      "strategy": "agent",
+      "id": "56db61d2e7c41114004b503a",
+      "case_hash": "d9c360668dbbeb1abde690b31d96472922800f440a67f81f6bc801371a8cc70b",
+      "accepted": true,
+      "support": "supported",
+      "answer_matches_reference": true,
+      "claim_fidelity": "Preserves the question-answer meaning.",
+      "rationale": "The citation identifies the named reviewer with the proposed publication. The answer and rewritten claim are supported despite the entailment score remaining below the gate threshold."
+    },
+    {
+      "tag": "squad-agent-2",
+      "dataset": "squad",
+      "strategy": "agent",
+      "id": "56e1c227cd28a01900c67b32",
+      "case_hash": "cdcf3a77c1b22fea1d6d0449098486e38a1a8f6ff94b483d3b081fed0442c40c",
+      "accepted": true,
+      "support": "supported",
+      "answer_matches_reference": true,
+      "claim_fidelity": "Preserves the question-answer meaning.",
+      "rationale": "The passage explicitly places both named broadcasters in the proposed category. The answer and generated claim express that relationship."
+    },
+    {
+      "tag": "squad-verify-1",
+      "dataset": "squad",
+      "strategy": "verify",
+      "id": "5a2f0b35a83784001a7d2660",
+      "case_hash": "205a903a982d5b22178391b3b4b440b8c526aa3326c8e2cd3f8754b8083b7132",
+      "accepted": false,
+      "support": "unsupported",
+      "answer_matches_reference": false,
+      "claim_fidelity": "Drops the proposed alias and substitutes a different fact.",
+      "rationale": "The source mentions two air sports separately and does not establish the proposed term as another name for paragliding. The original annotation is unanswerable; abstention is appropriate for this proposal."
+    },
+    {
+      "tag": "squad-verify-2",
+      "dataset": "squad",
+      "strategy": "verify",
+      "id": "572fec5d947a6a140053cdff",
+      "case_hash": "25b7d642e1c85741e135b50f2b84fe8cf0f0b73bb06aa6fcaa02a684df8ae44a",
+      "accepted": false,
+      "support": "partial",
+      "answer_matches_reference": true,
+      "claim_fidelity": "Drops the restoration-attempt qualification.",
+      "rationale": "The source connects an attempt to restore the old kingdom with instability in Greece. It supports the proposed effect in that setting, while the question and rewritten claim omit that qualification."
+    }
+  ]
+}

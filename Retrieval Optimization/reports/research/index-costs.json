@@ -1,0 +1,20 @@
+[
+  {
+    "dataset": "scifact",
+    "bm25_build_seconds": 3.249304900004063,
+    "faiss_build_seconds": 0.03944369999226183,
+    "qdrant_build_seconds": 29.08546849997947,
+    "dense_matrix_bytes": 7961088,
+    "faiss_file_bytes": 7961133,
+    "qdrant_file_bytes": 21451347
+  },
+  {
+    "dataset": "fiqa",
+    "bm25_build_seconds": 17.465675400017062,
+    "faiss_build_seconds": 0.047571900009643286,
+    "qdrant_build_seconds": 426.3229003000015,
+    "dense_matrix_bytes": 88531968,
+    "faiss_file_bytes": 88532013,
+    "qdrant_file_bytes": 238670419
+  }
+]

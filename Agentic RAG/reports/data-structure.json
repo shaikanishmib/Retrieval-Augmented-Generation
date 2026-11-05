@@ -1,0 +1,31 @@
+{
+  "hotpot": {
+    "candidate_document_instances": 1920,
+    "unique_exact_bodies": 1914,
+    "unique_document_ids_by_split": {
+      "development": 320,
+      "validation": 320,
+      "evaluation": 1275
+    },
+    "document_id_overlap": {
+      "development/validation": 0,
+      "development/evaluation": 1,
+      "validation/evaluation": 0
+    },
+    "questions_with_duplicate_context_titles": 0
+  },
+  "squad": {
+    "candidate_document_instances": 192,
+    "unique_exact_bodies": 192,
+    "unique_document_ids_by_split": {
+      "development": 32,
+      "validation": 32,
+      "evaluation": 128
+    },
+    "document_id_overlap": {
+      "development/validation": 0,
+      "development/evaluation": 0,
+      "validation/evaluation": 0
+    }
+  }
+}

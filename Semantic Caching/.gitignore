@@ -1,0 +1,6 @@
+data/
+.local/
+__pycache__/
+.pytest_cache/
+*.pyc
+notebooks/01_complete_semantic_caching_research.ipynb

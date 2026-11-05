@@ -1,0 +1,11 @@
+{
+  "candidate_files": 161,
+  "baseline_preserved": true,
+  "source_equivalence": true,
+  "public_outputs_empty": true,
+  "local_artifacts_ignored": true,
+  "credential_pattern_scan": "No matches",
+  "development_pilot_had_no_fresh_evaluation": true,
+  "study_fingerprint": "fc93c01b1252c9bcc0ff07e2852759071cd133c43e04d390d90a6b28bf189cd3",
+  "scope": "Advanced RAG only"
+}

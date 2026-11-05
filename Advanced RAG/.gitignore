@@ -1,0 +1,6 @@
+data/
+.local/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+notebooks/01_complete_advanced_rag_research.ipynb

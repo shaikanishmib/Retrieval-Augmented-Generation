@@ -1,0 +1,63 @@
+{
+  "scope": "Two real CLI invocations on synthetic evidence, separate from benchmark totals",
+  "results": [
+    {
+      "threshold": null,
+      "expected": "Bea",
+      "result": {
+        "answer": "Bea",
+        "flag": "accepted",
+        "support_score": 0.9959916472434998,
+        "citations": [
+          {
+            "id": "S1",
+            "chunk_id": "[\"reference\", 0]",
+            "document_id": "reference",
+            "text": "The museum was not founded by Ada. It was founded by Bea."
+          }
+        ],
+        "claims": [
+          {
+            "text": "The museum was founded by Bea.",
+            "sources": [
+              "S1"
+            ]
+          }
+        ],
+        "timings": {
+          "query_encoding_ms": 46.22609999933047,
+          "retrieval_ms": 0.1469000053475611,
+          "reranking_ms": 6.516699999338016,
+          "context_ms": 19.18170000135433,
+          "generation_ms": 1580.9019000007538,
+          "planning_ms": 0.0,
+          "verification_ms": 83.79550000245217,
+          "question_validation_ms": 821.3969999997062
+        }
+      },
+      "passed": true
+    },
+    {
+      "threshold": 1.1,
+      "expected": "",
+      "result": {
+        "answer": "",
+        "flag": "insufficient_support",
+        "support_score": 0.9959916472434998,
+        "citations": [],
+        "claims": [],
+        "timings": {
+          "query_encoding_ms": 46.789599997282494,
+          "retrieval_ms": 0.14760000340174884,
+          "reranking_ms": 7.0357000004150905,
+          "context_ms": 20.23209999606479,
+          "generation_ms": 1603.0941999997594,
+          "planning_ms": 0.0,
+          "verification_ms": 82.89180000429042,
+          "question_validation_ms": 475.44680000282824
+        }
+      },
+      "passed": true
+    }
+  ]
+}

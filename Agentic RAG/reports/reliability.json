@@ -1,0 +1,2403 @@
+{
+  "adaptive-hotpot-development": {
+    "termination_reasons": {
+      "rule_sufficient": 30,
+      "rule_exhausted": 2
+    },
+    "controller_stop_reasons": {
+      "rule_sufficient": 30,
+      "rule_exhausted": 2
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 9776,
+    "generative_output_tokens": 848,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 31,
+    "tool_distribution": {
+      "bm25": 32,
+      "dense": 5,
+      "rerank": 3
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.734375,
+    "returned_evidence_recall": 0.734375,
+    "mean_nli_entailment_on_claims": 0.2724778428868552,
+    "mean_nli_entailment_on_accepted_claims": 0.2724778428868552,
+    "high_support_answer_em_mismatch": 6,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "adaptive-hotpot-evaluation": {
+    "termination_reasons": {
+      "rule_sufficient": 118,
+      "rule_exhausted": 10
+    },
+    "controller_stop_reasons": {
+      "rule_sufficient": 118,
+      "rule_exhausted": 10
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 37109,
+    "generative_output_tokens": 3416,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 121,
+    "tool_distribution": {
+      "bm25": 128,
+      "dense": 24,
+      "rerank": 12
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.63671875,
+    "returned_evidence_recall": 0.63671875,
+    "mean_nli_entailment_on_claims": 0.24872171302576143,
+    "mean_nli_entailment_on_accepted_claims": 0.24872171302576143,
+    "high_support_answer_em_mismatch": 21,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "adaptive-hotpot-validation": {
+    "termination_reasons": {
+      "rule_exhausted": 3,
+      "rule_sufficient": 29
+    },
+    "controller_stop_reasons": {
+      "rule_exhausted": 3,
+      "rule_sufficient": 29
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 9864,
+    "generative_output_tokens": 875,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 32,
+    "tool_distribution": {
+      "bm25": 32,
+      "dense": 10,
+      "rerank": 5
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.640625,
+    "returned_evidence_recall": 0.640625,
+    "mean_nli_entailment_on_claims": 0.264355449557911,
+    "mean_nli_entailment_on_accepted_claims": 0.264355449557911,
+    "high_support_answer_em_mismatch": 6,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "adaptive-squad-development": {
+    "termination_reasons": {
+      "rule_sufficient": 29,
+      "rule_exhausted": 3
+    },
+    "controller_stop_reasons": {
+      "rule_sufficient": 29,
+      "rule_exhausted": 3
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 10647,
+    "generative_output_tokens": 662,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 26,
+    "tool_distribution": {
+      "bm25": 32,
+      "dense": 3,
+      "rerank": 3
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.37652355044750807,
+    "mean_nli_entailment_on_accepted_claims": 0.37652355044750807,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "adaptive-squad-evaluation": {
+    "termination_reasons": {
+      "rule_sufficient": 119,
+      "rule_exhausted": 9
+    },
+    "controller_stop_reasons": {
+      "rule_sufficient": 119,
+      "rule_exhausted": 9
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 39706,
+    "generative_output_tokens": 2539,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 103,
+    "tool_distribution": {
+      "bm25": 128,
+      "dense": 9,
+      "rerank": 9
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.39074425416765735,
+    "mean_nli_entailment_on_accepted_claims": 0.39074425416765735,
+    "high_support_answer_em_mismatch": 15,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "adaptive-squad-validation": {
+    "termination_reasons": {
+      "rule_sufficient": 31,
+      "rule_exhausted": 1
+    },
+    "controller_stop_reasons": {
+      "rule_sufficient": 31,
+      "rule_exhausted": 1
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 10393,
+    "generative_output_tokens": 626,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 26,
+    "tool_distribution": {
+      "bm25": 32,
+      "dense": 1,
+      "rerank": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.3477491501415408,
+    "mean_nli_entailment_on_accepted_claims": 0.3477491501415408,
+    "high_support_answer_em_mismatch": 2,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "agent-hotpot-development": {
+    "termination_reasons": {
+      "failure_limit": 24,
+      "max_steps": 8
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 24,
+      "max_steps": 8
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 47,
+    "generative_input_tokens": 73409,
+    "generative_output_tokens": 3181,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 6,
+    "claim_proposals": 30,
+    "tool_distribution": {
+      "bm25": 33,
+      "fetch": 38
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 62,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.671875,
+    "returned_evidence_recall": 0.671875,
+    "mean_nli_entailment_on_claims": 0.2616691088633767,
+    "mean_nli_entailment_on_accepted_claims": 0.2616691088633767,
+    "high_support_answer_em_mismatch": 7,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "agent-hotpot-evaluation": {
+    "termination_reasons": {
+      "max_steps": 54,
+      "no_valid_source": 1,
+      "failure_limit": 73
+    },
+    "controller_stop_reasons": {
+      "max_steps": 54,
+      "failure_limit": 74
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 185,
+    "generative_input_tokens": 295635,
+    "generative_output_tokens": 12911,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 10,
+    "claim_proposals": 117,
+    "tool_distribution": {
+      "bm25": 142,
+      "fetch": 157,
+      "expand": 1,
+      "graph": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 211,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.66015625,
+    "returned_evidence_recall": 0.66015625,
+    "mean_nli_entailment_on_claims": 0.20489986845680885,
+    "mean_nli_entailment_on_accepted_claims": 0.20489986845680885,
+    "high_support_answer_em_mismatch": 17,
+    "rejected_proposals": 1,
+    "rejected_exact_match_proposals": 0
+  },
+  "agent-hotpot-validation": {
+    "termination_reasons": {
+      "max_steps": 18,
+      "failure_limit": 14
+    },
+    "controller_stop_reasons": {
+      "max_steps": 18,
+      "failure_limit": 14
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 43,
+    "generative_input_tokens": 74708,
+    "generative_output_tokens": 3243,
+    "empty_successful_calls": 1,
+    "failed_dispatches": 2,
+    "claim_proposals": 32,
+    "tool_distribution": {
+      "bm25": 37,
+      "fetch": 41,
+      "graph": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 48,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.609375,
+    "returned_evidence_recall": 0.609375,
+    "mean_nli_entailment_on_claims": 0.22575224411025374,
+    "mean_nli_entailment_on_accepted_claims": 0.22575224411025374,
+    "high_support_answer_em_mismatch": 5,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "agent-squad-development": {
+    "termination_reasons": {
+      "max_steps": 7,
+      "failure_limit": 25
+    },
+    "controller_stop_reasons": {
+      "max_steps": 7,
+      "failure_limit": 25
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 50,
+    "generative_input_tokens": 54240,
+    "generative_output_tokens": 2847,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 5,
+    "claim_proposals": 26,
+    "tool_distribution": {
+      "bm25": 28,
+      "fetch": 32,
+      "rerank": 2,
+      "expand": 1,
+      "dense": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 62,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.3830613923155397,
+    "mean_nli_entailment_on_accepted_claims": 0.3830613923155397,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "agent-squad-evaluation": {
+    "termination_reasons": {
+      "failure_limit": 103,
+      "max_steps": 24,
+      "no_valid_source": 1
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 104,
+      "max_steps": 24
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 209,
+    "generative_input_tokens": 219434,
+    "generative_output_tokens": 11719,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 15,
+    "claim_proposals": 102,
+    "tool_distribution": {
+      "bm25": 114,
+      "fetch": 129,
+      "dense": 3,
+      "rerank": 6
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 247,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.9880952380952381,
+    "returned_evidence_recall": 0.9880952380952381,
+    "mean_nli_entailment_on_claims": 0.3569869892670991,
+    "mean_nli_entailment_on_accepted_claims": 0.3569869892670991,
+    "high_support_answer_em_mismatch": 13,
+    "rejected_proposals": 1,
+    "rejected_exact_match_proposals": 0
+  },
+  "agent-squad-validation": {
+    "termination_reasons": {
+      "max_steps": 6,
+      "failure_limit": 26
+    },
+    "controller_stop_reasons": {
+      "max_steps": 6,
+      "failure_limit": 26
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 54,
+    "generative_input_tokens": 55317,
+    "generative_output_tokens": 2777,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 3,
+    "claim_proposals": 26,
+    "tool_distribution": {
+      "bm25": 24,
+      "fetch": 32,
+      "rerank": 3,
+      "dense": 3
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 61,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.3477491501415408,
+    "mean_nli_entailment_on_accepted_claims": 0.3477491501415408,
+    "high_support_answer_em_mismatch": 2,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "answer_flan-base-hotpot-development": {
+    "termination_reasons": {
+      "fixed_complete": 8
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 8
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 2476,
+    "generative_output_tokens": 193,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 7,
+    "tool_distribution": {
+      "rerank": 8
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.5625,
+    "returned_evidence_recall": 0.5625,
+    "mean_nli_entailment_on_claims": 0.3846609592853513,
+    "mean_nli_entailment_on_accepted_claims": 0.3846609592853513,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "answer_flan-base-squad-development": {
+    "termination_reasons": {
+      "fixed_complete": 8
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 8
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 2583,
+    "generative_output_tokens": 150,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 6,
+    "tool_distribution": {
+      "rerank": 8
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.36374679576450336,
+    "mean_nli_entailment_on_accepted_claims": 0.36374679576450336,
+    "high_support_answer_em_mismatch": 2,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "answer_qwen06-hotpot-development": {
+    "termination_reasons": {
+      "fixed_complete": 8
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 8
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 2535,
+    "generative_output_tokens": 288,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 8,
+    "tool_distribution": {
+      "rerank": 8
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.5625,
+    "returned_evidence_recall": 0.5625,
+    "mean_nli_entailment_on_claims": 0.37009098385260586,
+    "mean_nli_entailment_on_accepted_claims": 0.37009098385260586,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "answer_qwen06-squad-development": {
+    "termination_reasons": {
+      "fixed_complete": 8
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 8
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 2917,
+    "generative_output_tokens": 250,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 8,
+    "tool_distribution": {
+      "rerank": 8
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.28192772891634377,
+    "mean_nli_entailment_on_accepted_claims": 0.28192772891634377,
+    "high_support_answer_em_mismatch": 2,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "answer_qwen17-hotpot-development": {
+    "termination_reasons": {
+      "fixed_complete": 8
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 8
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 2356,
+    "generative_output_tokens": 222,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 5,
+    "tool_distribution": {
+      "rerank": 8
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.5625,
+    "returned_evidence_recall": 0.5625,
+    "mean_nli_entailment_on_claims": 0.21191358803771437,
+    "mean_nli_entailment_on_accepted_claims": 0.21191358803771437,
+    "high_support_answer_em_mismatch": 1,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "answer_qwen17-squad-development": {
+    "termination_reasons": {
+      "fixed_complete": 8
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 8
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 2882,
+    "generative_output_tokens": 219,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 8,
+    "tool_distribution": {
+      "rerank": 8
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.5150829242775217,
+    "mean_nli_entailment_on_accepted_claims": 0.5150829242775217,
+    "high_support_answer_em_mismatch": 4,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "bm25_only-hotpot-evaluation": {
+    "termination_reasons": {
+      "failure_limit": 32
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 8,
+    "generative_input_tokens": 55312,
+    "generative_output_tokens": 2733,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 27,
+    "tool_distribution": {
+      "bm25": 35
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 64,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.578125,
+    "returned_evidence_recall": 0.578125,
+    "mean_nli_entailment_on_claims": 0.3233775794964189,
+    "mean_nli_entailment_on_accepted_claims": 0.3233775794964189,
+    "high_support_answer_em_mismatch": 5,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "bm25_only-squad-evaluation": {
+    "termination_reasons": {
+      "failure_limit": 31,
+      "no_valid_source": 1
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 8,
+    "generative_input_tokens": 41754,
+    "generative_output_tokens": 2599,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 28,
+    "tool_distribution": {
+      "bm25": 31
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 64,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.96,
+    "returned_evidence_recall": 0.96,
+    "mean_nli_entailment_on_claims": 0.3409811458854425,
+    "mean_nli_entailment_on_accepted_claims": 0.3409811458854425,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 1,
+    "rejected_exact_match_proposals": 0
+  },
+  "calls2-hotpot-evaluation": {
+    "termination_reasons": {
+      "tool_budget": 27,
+      "no_valid_source": 1,
+      "failure_limit": 4
+    },
+    "controller_stop_reasons": {
+      "tool_budget": 27,
+      "failure_limit": 5
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 8,
+    "generative_input_tokens": 47861,
+    "generative_output_tokens": 1978,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 3,
+    "claim_proposals": 4,
+    "tool_distribution": {
+      "bm25": 25,
+      "fetch": 33
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 17,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.59375,
+    "returned_evidence_recall": 0.59375,
+    "mean_nli_entailment_on_claims": 0.11629370508671855,
+    "mean_nli_entailment_on_accepted_claims": 0.11629370508671855,
+    "high_support_answer_em_mismatch": 0,
+    "rejected_proposals": 1,
+    "rejected_exact_match_proposals": 0
+  },
+  "calls2-squad-evaluation": {
+    "termination_reasons": {
+      "tool_budget": 22,
+      "failure_limit": 10
+    },
+    "controller_stop_reasons": {
+      "tool_budget": 22,
+      "failure_limit": 10
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 16,
+    "generative_input_tokens": 37262,
+    "generative_output_tokens": 2075,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 5,
+    "claim_proposals": 10,
+    "tool_distribution": {
+      "bm25": 21,
+      "fetch": 32,
+      "dense": 1,
+      "rerank": 2
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 28,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.35167129347464654,
+    "mean_nli_entailment_on_accepted_claims": 0.35167129347464654,
+    "high_support_answer_em_mismatch": 2,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "context280-hotpot-evaluation": {
+    "termination_reasons": {
+      "max_steps": 13,
+      "no_valid_source": 1,
+      "failure_limit": 18
+    },
+    "controller_stop_reasons": {
+      "max_steps": 13,
+      "failure_limit": 19
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 44,
+    "generative_input_tokens": 70244,
+    "generative_output_tokens": 3119,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 3,
+    "claim_proposals": 27,
+    "tool_distribution": {
+      "bm25": 34,
+      "fetch": 38
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 53,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.640625,
+    "returned_evidence_recall": 0.640625,
+    "mean_nli_entailment_on_claims": 0.2129445171805047,
+    "mean_nli_entailment_on_accepted_claims": 0.2129445171805047,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 1,
+    "rejected_exact_match_proposals": 0
+  },
+  "context280-squad-evaluation": {
+    "termination_reasons": {
+      "failure_limit": 26,
+      "max_steps": 6
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 26,
+      "max_steps": 6
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 51,
+    "generative_input_tokens": 51413,
+    "generative_output_tokens": 2910,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 5,
+    "claim_proposals": 28,
+    "tool_distribution": {
+      "bm25": 27,
+      "fetch": 33,
+      "dense": 1,
+      "rerank": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 63,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.411857207149816,
+    "mean_nli_entailment_on_accepted_claims": 0.411857207149816,
+    "high_support_answer_em_mismatch": 4,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "empty_first-hotpot-evaluation": {
+    "termination_reasons": {
+      "max_steps": 13,
+      "no_valid_source": 4,
+      "failure_limit": 15
+    },
+    "controller_stop_reasons": {
+      "max_steps": 13,
+      "failure_limit": 19
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 49,
+    "generative_input_tokens": 59723,
+    "generative_output_tokens": 3040,
+    "empty_successful_calls": 31,
+    "failed_dispatches": 0,
+    "claim_proposals": 24,
+    "tool_distribution": {
+      "bm25": 33,
+      "fetch": 37,
+      "expand": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 51,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.5,
+    "returned_evidence_recall": 0.5,
+    "mean_nli_entailment_on_claims": 0.2432082862418762,
+    "mean_nli_entailment_on_accepted_claims": 0.2432082862418762,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 4,
+    "rejected_exact_match_proposals": 0
+  },
+  "empty_first-squad-evaluation": {
+    "termination_reasons": {
+      "failure_limit": 21,
+      "max_steps": 8,
+      "no_valid_source": 3
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 24,
+      "max_steps": 8
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 55,
+    "generative_input_tokens": 47425,
+    "generative_output_tokens": 2954,
+    "empty_successful_calls": 33,
+    "failed_dispatches": 0,
+    "claim_proposals": 24,
+    "tool_distribution": {
+      "bm25": 35,
+      "fetch": 29,
+      "expand": 1,
+      "rerank": 2,
+      "graph": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 55,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.8,
+    "returned_evidence_recall": 0.8,
+    "mean_nli_entailment_on_claims": 0.38628922789030185,
+    "mean_nli_entailment_on_accepted_claims": 0.38628922789030185,
+    "high_support_answer_em_mismatch": 4,
+    "rejected_proposals": 3,
+    "rejected_exact_match_proposals": 0
+  },
+  "fixed-hotpot-evaluation": {
+    "termination_reasons": {
+      "fixed_complete": 128
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 128
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 35662,
+    "generative_output_tokens": 3342,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 120,
+    "tool_distribution": {
+      "bm25": 128
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.6015625,
+    "returned_evidence_recall": 0.6015625,
+    "mean_nli_entailment_on_claims": 0.24232783709390635,
+    "mean_nli_entailment_on_accepted_claims": 0.24232783709390635,
+    "high_support_answer_em_mismatch": 20,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "fixed-hotpot-validation": {
+    "termination_reasons": {
+      "fixed_complete": 32
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 9143,
+    "generative_output_tokens": 830,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 32,
+    "tool_distribution": {
+      "bm25": 32
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.5625,
+    "returned_evidence_recall": 0.5625,
+    "mean_nli_entailment_on_claims": 0.2602949087710158,
+    "mean_nli_entailment_on_accepted_claims": 0.2602949087710158,
+    "high_support_answer_em_mismatch": 6,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "fixed-squad-evaluation": {
+    "termination_reasons": {
+      "fixed_complete": 128
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 128
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 39706,
+    "generative_output_tokens": 2539,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 103,
+    "tool_distribution": {
+      "bm25": 128
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.39074425416765735,
+    "mean_nli_entailment_on_accepted_claims": 0.39074425416765735,
+    "high_support_answer_em_mismatch": 15,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "fixed-squad-validation": {
+    "termination_reasons": {
+      "fixed_complete": 32
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 10393,
+    "generative_output_tokens": 626,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 26,
+    "tool_distribution": {
+      "bm25": 32
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.3477491501415408,
+    "mean_nli_entailment_on_accepted_claims": 0.3477491501415408,
+    "high_support_answer_em_mismatch": 2,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "injection_first-hotpot-evaluation": {
+    "termination_reasons": {
+      "max_steps": 12,
+      "no_valid_source": 1,
+      "failure_limit": 19
+    },
+    "controller_stop_reasons": {
+      "max_steps": 12,
+      "failure_limit": 20
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 47,
+    "generative_input_tokens": 64071,
+    "generative_output_tokens": 3119,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 1,
+    "claim_proposals": 29,
+    "tool_distribution": {
+      "bm25": 31,
+      "fetch": 39,
+      "expand": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 53,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.4375,
+    "returned_evidence_recall": 0.4375,
+    "mean_nli_entailment_on_claims": 0.14897158258407153,
+    "mean_nli_entailment_on_accepted_claims": 0.14897158258407153,
+    "high_support_answer_em_mismatch": 2,
+    "rejected_proposals": 1,
+    "rejected_exact_match_proposals": 0
+  },
+  "injection_first-squad-evaluation": {
+    "termination_reasons": {
+      "failure_limit": 24,
+      "max_steps": 8
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 24,
+      "max_steps": 8
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 46,
+    "generative_input_tokens": 52078,
+    "generative_output_tokens": 2941,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 8,
+    "claim_proposals": 27,
+    "tool_distribution": {
+      "bm25": 35,
+      "fetch": 39,
+      "dense": 2,
+      "rerank": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 63,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.88,
+    "returned_evidence_recall": 0.88,
+    "mean_nli_entailment_on_claims": 0.38110129745069166,
+    "mean_nli_entailment_on_accepted_claims": 0.38110129745069166,
+    "high_support_answer_em_mismatch": 4,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "irrelevant_first-hotpot-evaluation": {
+    "termination_reasons": {
+      "max_steps": 10,
+      "no_valid_source": 1,
+      "failure_limit": 21
+    },
+    "controller_stop_reasons": {
+      "max_steps": 10,
+      "failure_limit": 22
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 50,
+    "generative_input_tokens": 74088,
+    "generative_output_tokens": 3038,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 1,
+    "claim_proposals": 24,
+    "tool_distribution": {
+      "bm25": 30,
+      "fetch": 38
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 54,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.421875,
+    "returned_evidence_recall": 0.421875,
+    "mean_nli_entailment_on_claims": 0.22076078007474584,
+    "mean_nli_entailment_on_accepted_claims": 0.22076078007474584,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 1,
+    "rejected_exact_match_proposals": 0
+  },
+  "irrelevant_first-squad-evaluation": {
+    "termination_reasons": {
+      "failure_limit": 27,
+      "max_steps": 5
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 27,
+      "max_steps": 5
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 53,
+    "generative_input_tokens": 54252,
+    "generative_output_tokens": 3060,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 4,
+    "claim_proposals": 30,
+    "tool_distribution": {
+      "bm25": 27,
+      "fetch": 33,
+      "dense": 1,
+      "rerank": 2
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 63,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.3753213506175598,
+    "mean_nli_entailment_on_accepted_claims": 0.3753213506175598,
+    "high_support_answer_em_mismatch": 4,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "no_dedup-hotpot-evaluation": {
+    "termination_reasons": {
+      "max_steps": 8,
+      "no_valid_source": 1,
+      "failure_limit": 23
+    },
+    "controller_stop_reasons": {
+      "max_steps": 8,
+      "failure_limit": 24
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 48,
+    "generative_input_tokens": 74545,
+    "generative_output_tokens": 3097,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 4,
+    "claim_proposals": 28,
+    "tool_distribution": {
+      "bm25": 30,
+      "fetch": 38
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 59,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.609375,
+    "returned_evidence_recall": 0.609375,
+    "mean_nli_entailment_on_claims": 0.17039088284387358,
+    "mean_nli_entailment_on_accepted_claims": 0.17039088284387358,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 1,
+    "rejected_exact_match_proposals": 0
+  },
+  "no_dedup-squad-evaluation": {
+    "termination_reasons": {
+      "failure_limit": 25,
+      "max_steps": 7
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 25,
+      "max_steps": 7
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 47,
+    "generative_input_tokens": 57510,
+    "generative_output_tokens": 3037,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 8,
+    "claim_proposals": 29,
+    "tool_distribution": {
+      "bm25": 28,
+      "fetch": 36,
+      "dense": 1,
+      "rerank": 2
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 65,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.36323831901220194,
+    "mean_nli_entailment_on_accepted_claims": 0.36323831901220194,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "none-hotpot-evaluation": {
+    "termination_reasons": {
+      "no_retrieval_control": 128
+    },
+    "controller_stop_reasons": {
+      "no_retrieval_control": 128
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 8111,
+    "generative_output_tokens": 724,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 0,
+    "tool_distribution": {},
+    "support_truncations": 0,
+    "answer_without_valid_citation": 95,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.0,
+    "returned_evidence_recall": 0.0,
+    "mean_nli_entailment_on_claims": null,
+    "mean_nli_entailment_on_accepted_claims": null,
+    "high_support_answer_em_mismatch": 0,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "none-squad-evaluation": {
+    "termination_reasons": {
+      "no_retrieval_control": 128
+    },
+    "controller_stop_reasons": {
+      "no_retrieval_control": 128
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 6879,
+    "generative_output_tokens": 797,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 0,
+    "tool_distribution": {},
+    "support_truncations": 0,
+    "answer_without_valid_citation": 66,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.0,
+    "returned_evidence_recall": 0.0,
+    "mean_nli_entailment_on_claims": null,
+    "mean_nli_entailment_on_accepted_claims": null,
+    "high_support_answer_em_mismatch": 0,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "oracle-hotpot-evaluation": {
+    "termination_reasons": {
+      "oracle_control": 128
+    },
+    "controller_stop_reasons": {
+      "oracle_control": 128
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 50667,
+    "generative_output_tokens": 3521,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 125,
+    "tool_distribution": {},
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 0.0,
+    "mean_nli_entailment_on_claims": 0.16476779118878768,
+    "mean_nli_entailment_on_accepted_claims": 0.16476779118878768,
+    "high_support_answer_em_mismatch": 11,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "oracle-squad-evaluation": {
+    "termination_reasons": {
+      "oracle_control": 109,
+      "no_valid_source": 19
+    },
+    "controller_stop_reasons": {
+      "oracle_control": 128
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 28864,
+    "generative_output_tokens": 2251,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 84,
+    "tool_distribution": {},
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 0.0,
+    "mean_nli_entailment_on_claims": 0.4029704466904929,
+    "mean_nli_entailment_on_accepted_claims": 0.4029704466904929,
+    "high_support_answer_em_mismatch": 10,
+    "rejected_proposals": 19,
+    "rejected_exact_match_proposals": 0
+  },
+  "plan-hotpot-development": {
+    "termination_reasons": {
+      "plan_complete": 32
+    },
+    "controller_stop_reasons": {
+      "plan_complete": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 1,
+    "generative_input_tokens": 19908,
+    "generative_output_tokens": 1863,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 4,
+    "claim_proposals": 29,
+    "tool_distribution": {
+      "fetch": 61
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 11,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.59375,
+    "returned_evidence_recall": 0.59375,
+    "mean_nli_entailment_on_claims": 0.24751083021190676,
+    "mean_nli_entailment_on_accepted_claims": 0.24751083021190676,
+    "high_support_answer_em_mismatch": 5,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "plan-hotpot-evaluation": {
+    "termination_reasons": {
+      "plan_complete": 126,
+      "no_valid_source": 2
+    },
+    "controller_stop_reasons": {
+      "plan_complete": 126,
+      "invalid_plan": 2
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 78925,
+    "generative_output_tokens": 7087,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 3,
+    "claim_proposals": 118,
+    "tool_distribution": {
+      "fetch": 244,
+      "graph": 3
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 10,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.6015625,
+    "returned_evidence_recall": 0.6015625,
+    "mean_nli_entailment_on_claims": 0.20513853999036502,
+    "mean_nli_entailment_on_accepted_claims": 0.20513853999036502,
+    "high_support_answer_em_mismatch": 19,
+    "rejected_proposals": 2,
+    "rejected_exact_match_proposals": 0
+  },
+  "plan-hotpot-validation": {
+    "termination_reasons": {
+      "plan_complete": 31,
+      "no_valid_source": 1
+    },
+    "controller_stop_reasons": {
+      "plan_complete": 31,
+      "invalid_plan": 1
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 19978,
+    "generative_output_tokens": 1937,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 3,
+    "claim_proposals": 30,
+    "tool_distribution": {
+      "fetch": 62
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 9,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.5625,
+    "returned_evidence_recall": 0.5625,
+    "mean_nli_entailment_on_claims": 0.26785253222454536,
+    "mean_nli_entailment_on_accepted_claims": 0.26785253222454536,
+    "high_support_answer_em_mismatch": 6,
+    "rejected_proposals": 1,
+    "rejected_exact_match_proposals": 0
+  },
+  "plan-squad-development": {
+    "termination_reasons": {
+      "plan_complete": 31,
+      "invalid_plan": 1
+    },
+    "controller_stop_reasons": {
+      "plan_complete": 31,
+      "invalid_plan": 1
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 15,
+    "generative_input_tokens": 15863,
+    "generative_output_tokens": 1690,
+    "empty_successful_calls": 13,
+    "failed_dispatches": 1,
+    "claim_proposals": 25,
+    "tool_distribution": {
+      "fetch": 32,
+      "graph": 13,
+      "bm25": 2
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 19,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.9523809523809523,
+    "returned_evidence_recall": 0.9523809523809523,
+    "mean_nli_entailment_on_claims": 0.3983834338933229,
+    "mean_nli_entailment_on_accepted_claims": 0.3983834338933229,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "plan-squad-evaluation": {
+    "termination_reasons": {
+      "plan_complete": 127,
+      "no_valid_source": 1
+    },
+    "controller_stop_reasons": {
+      "plan_complete": 127,
+      "failure_limit": 1
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 60,
+    "generative_input_tokens": 61135,
+    "generative_output_tokens": 6908,
+    "empty_successful_calls": 55,
+    "failed_dispatches": 3,
+    "claim_proposals": 103,
+    "tool_distribution": {
+      "fetch": 130,
+      "graph": 55,
+      "bm25": 11
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 66,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.9880952380952381,
+    "returned_evidence_recall": 0.9880952380952381,
+    "mean_nli_entailment_on_claims": 0.3620546113785715,
+    "mean_nli_entailment_on_accepted_claims": 0.3620546113785715,
+    "high_support_answer_em_mismatch": 13,
+    "rejected_proposals": 1,
+    "rejected_exact_match_proposals": 0
+  },
+  "plan-squad-validation": {
+    "termination_reasons": {
+      "plan_complete": 32
+    },
+    "controller_stop_reasons": {
+      "plan_complete": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 18,
+    "generative_input_tokens": 15831,
+    "generative_output_tokens": 1647,
+    "empty_successful_calls": 13,
+    "failed_dispatches": 1,
+    "claim_proposals": 26,
+    "tool_distribution": {
+      "fetch": 33,
+      "graph": 13
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 20,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.3477491501415408,
+    "mean_nli_entailment_on_accepted_claims": 0.3477491501415408,
+    "high_support_answer_em_mismatch": 2,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "plan_probe-hotpot-development": {
+    "termination_reasons": {
+      "plan_complete": 4
+    },
+    "controller_stop_reasons": {
+      "plan_complete": 4
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 2493,
+    "generative_output_tokens": 221,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 4,
+    "tool_distribution": {
+      "fetch": 8
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.5,
+    "returned_evidence_recall": 0.5,
+    "mean_nli_entailment_on_claims": 0.7426203310023993,
+    "mean_nli_entailment_on_accepted_claims": 0.7426203310023993,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "plan_probe-squad-development": {
+    "termination_reasons": {
+      "plan_complete": 4
+    },
+    "controller_stop_reasons": {
+      "plan_complete": 4
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 1,
+    "generative_input_tokens": 1900,
+    "generative_output_tokens": 219,
+    "empty_successful_calls": 2,
+    "failed_dispatches": 0,
+    "claim_proposals": 3,
+    "tool_distribution": {
+      "fetch": 4,
+      "graph": 2,
+      "bm25": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 1,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.5667498273930202,
+    "mean_nli_entailment_on_accepted_claims": 0.5667498273930202,
+    "high_support_answer_em_mismatch": 2,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "planner_flan-base-hotpot-development": {
+    "termination_reasons": {
+      "no_valid_source": 7,
+      "failure_limit": 1
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 8
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 5556,
+    "generative_output_tokens": 196,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 0,
+    "tool_distribution": {},
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 16,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.0,
+    "returned_evidence_recall": 0.0,
+    "mean_nli_entailment_on_claims": null,
+    "mean_nli_entailment_on_accepted_claims": null,
+    "high_support_answer_em_mismatch": 0,
+    "rejected_proposals": 7,
+    "rejected_exact_match_proposals": 1
+  },
+  "planner_flan-base-squad-development": {
+    "termination_reasons": {
+      "failure_limit": 3,
+      "no_valid_source": 5
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 8
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 3953,
+    "generative_output_tokens": 300,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 0,
+    "tool_distribution": {},
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 16,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.0,
+    "returned_evidence_recall": 0.0,
+    "mean_nli_entailment_on_claims": null,
+    "mean_nli_entailment_on_accepted_claims": null,
+    "high_support_answer_em_mismatch": 0,
+    "rejected_proposals": 5,
+    "rejected_exact_match_proposals": 0
+  },
+  "planner_qwen06-hotpot-development": {
+    "termination_reasons": {
+      "no_valid_source": 5,
+      "model_abstain": 1,
+      "failure_limit": 2
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 7,
+      "model_abstain": 1
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 5476,
+    "generative_output_tokens": 332,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 0,
+    "tool_distribution": {
+      "fetch": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 15,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.0625,
+    "returned_evidence_recall": 0.0625,
+    "mean_nli_entailment_on_claims": null,
+    "mean_nli_entailment_on_accepted_claims": null,
+    "high_support_answer_em_mismatch": 0,
+    "rejected_proposals": 5,
+    "rejected_exact_match_proposals": 0
+  },
+  "planner_qwen06-squad-development": {
+    "termination_reasons": {
+      "model_abstain": 1,
+      "no_valid_source": 3,
+      "failure_limit": 4
+    },
+    "controller_stop_reasons": {
+      "model_abstain": 1,
+      "failure_limit": 7
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 2,
+    "generative_input_tokens": 6057,
+    "generative_output_tokens": 431,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 1,
+    "claim_proposals": 3,
+    "tool_distribution": {
+      "expand": 1,
+      "fetch": 4,
+      "rerank": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 16,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.6,
+    "returned_evidence_recall": 0.6,
+    "mean_nli_entailment_on_claims": 0.39300429122522473,
+    "mean_nli_entailment_on_accepted_claims": 0.39300429122522473,
+    "high_support_answer_em_mismatch": 1,
+    "rejected_proposals": 3,
+    "rejected_exact_match_proposals": 0
+  },
+  "planner_qwen17-hotpot-development": {
+    "termination_reasons": {
+      "failure_limit": 7,
+      "max_steps": 1
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 7,
+      "max_steps": 1
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 15,
+    "generative_input_tokens": 18405,
+    "generative_output_tokens": 768,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 8,
+    "tool_distribution": {
+      "bm25": 6,
+      "fetch": 10
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 15,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.6875,
+    "returned_evidence_recall": 0.6875,
+    "mean_nli_entailment_on_claims": 0.3350074694290015,
+    "mean_nli_entailment_on_accepted_claims": 0.3350074694290015,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "planner_qwen17-squad-development": {
+    "termination_reasons": {
+      "max_steps": 2,
+      "failure_limit": 6
+    },
+    "controller_stop_reasons": {
+      "max_steps": 2,
+      "failure_limit": 6
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 14,
+    "generative_input_tokens": 13901,
+    "generative_output_tokens": 695,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 6,
+    "tool_distribution": {
+      "bm25": 6,
+      "fetch": 8,
+      "rerank": 2
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 14,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.36374679576450336,
+    "mean_nli_entailment_on_accepted_claims": 0.36374679576450336,
+    "high_support_answer_em_mismatch": 2,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "retrieval_bm25-hotpot-development": {
+    "termination_reasons": {
+      "fixed_complete": 32
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 9529,
+    "generative_output_tokens": 848,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 31,
+    "tool_distribution": {
+      "bm25": 32
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.6875,
+    "returned_evidence_recall": 0.6875,
+    "mean_nli_entailment_on_claims": 0.20814170589135522,
+    "mean_nli_entailment_on_accepted_claims": 0.20814170589135522,
+    "high_support_answer_em_mismatch": 5,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "retrieval_bm25-squad-development": {
+    "termination_reasons": {
+      "fixed_complete": 32
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 10647,
+    "generative_output_tokens": 662,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 26,
+    "tool_distribution": {
+      "bm25": 32
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.37652355044750807,
+    "mean_nli_entailment_on_accepted_claims": 0.37652355044750807,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "retrieval_dense-hotpot-development": {
+    "termination_reasons": {
+      "fixed_complete": 32
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 9341,
+    "generative_output_tokens": 797,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 29,
+    "tool_distribution": {
+      "dense": 32
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.71875,
+    "returned_evidence_recall": 0.71875,
+    "mean_nli_entailment_on_claims": 0.2781578355174259,
+    "mean_nli_entailment_on_accepted_claims": 0.2781578355174259,
+    "high_support_answer_em_mismatch": 6,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "retrieval_dense-squad-development": {
+    "termination_reasons": {
+      "fixed_complete": 32
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 10740,
+    "generative_output_tokens": 669,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 26,
+    "tool_distribution": {
+      "dense": 32
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.3828072539695663,
+    "mean_nli_entailment_on_accepted_claims": 0.3828072539695663,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "retrieval_hybrid-hotpot-development": {
+    "termination_reasons": {
+      "fixed_complete": 32
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 9501,
+    "generative_output_tokens": 811,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 29,
+    "tool_distribution": {
+      "hybrid": 32
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.71875,
+    "returned_evidence_recall": 0.71875,
+    "mean_nli_entailment_on_claims": 0.3241660718019281,
+    "mean_nli_entailment_on_accepted_claims": 0.3241660718019281,
+    "high_support_answer_em_mismatch": 7,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "retrieval_hybrid-squad-development": {
+    "termination_reasons": {
+      "fixed_complete": 32
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 10647,
+    "generative_output_tokens": 662,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 26,
+    "tool_distribution": {
+      "hybrid": 32
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.3830613923155397,
+    "mean_nli_entailment_on_accepted_claims": 0.3830613923155397,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "retrieval_rerank-hotpot-development": {
+    "termination_reasons": {
+      "fixed_complete": 32
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 9719,
+    "generative_output_tokens": 815,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 29,
+    "tool_distribution": {
+      "rerank": 32
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.6875,
+    "returned_evidence_recall": 0.6875,
+    "mean_nli_entailment_on_claims": 0.308804807013828,
+    "mean_nli_entailment_on_accepted_claims": 0.308804807013828,
+    "high_support_answer_em_mismatch": 6,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "retrieval_rerank-squad-development": {
+    "termination_reasons": {
+      "fixed_complete": 32
+    },
+    "controller_stop_reasons": {
+      "fixed_complete": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 10736,
+    "generative_output_tokens": 662,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 26,
+    "tool_distribution": {
+      "rerank": 32
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.37652355044750807,
+    "mean_nli_entailment_on_accepted_claims": 0.37652355044750807,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "search_only-hotpot-evaluation": {
+    "termination_reasons": {
+      "failure_limit": 29,
+      "no_valid_source": 3
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 2,
+    "generative_input_tokens": 55442,
+    "generative_output_tokens": 2798,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 27,
+    "tool_distribution": {
+      "bm25": 30,
+      "rerank": 5
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 64,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.546875,
+    "returned_evidence_recall": 0.546875,
+    "mean_nli_entailment_on_claims": 0.3084354951603961,
+    "mean_nli_entailment_on_accepted_claims": 0.3084354951603961,
+    "high_support_answer_em_mismatch": 5,
+    "rejected_proposals": 3,
+    "rejected_exact_match_proposals": 0
+  },
+  "search_only-squad-evaluation": {
+    "termination_reasons": {
+      "failure_limit": 27,
+      "max_steps": 3,
+      "no_valid_source": 2
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 29,
+      "max_steps": 3
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 8,
+    "generative_input_tokens": 41896,
+    "generative_output_tokens": 2644,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 25,
+    "tool_distribution": {
+      "bm25": 30,
+      "rerank": 3,
+      "dense": 3
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 61,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.84,
+    "returned_evidence_recall": 0.84,
+    "mean_nli_entailment_on_claims": 0.33114283471979433,
+    "mean_nli_entailment_on_accepted_claims": 0.33114283471979433,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 2,
+    "rejected_exact_match_proposals": 0
+  },
+  "steps1-hotpot-evaluation": {
+    "termination_reasons": {
+      "max_steps": 31,
+      "no_valid_source": 1
+    },
+    "controller_stop_reasons": {
+      "max_steps": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 16161,
+    "generative_output_tokens": 1353,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 26,
+    "tool_distribution": {
+      "bm25": 22,
+      "fetch": 9
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 1,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.484375,
+    "returned_evidence_recall": 0.484375,
+    "mean_nli_entailment_on_claims": 0.2574218192383761,
+    "mean_nli_entailment_on_accepted_claims": 0.2574218192383761,
+    "high_support_answer_em_mismatch": 4,
+    "rejected_proposals": 1,
+    "rejected_exact_match_proposals": 0
+  },
+  "steps1-squad-evaluation": {
+    "termination_reasons": {
+      "max_steps": 32
+    },
+    "controller_stop_reasons": {
+      "max_steps": 32
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 0,
+    "generative_input_tokens": 14682,
+    "generative_output_tokens": 1269,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 0,
+    "claim_proposals": 29,
+    "tool_distribution": {
+      "bm25": 21,
+      "fetch": 11
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 0,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.36353726309030676,
+    "mean_nli_entailment_on_accepted_claims": 0.36353726309030676,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 0,
+    "rejected_exact_match_proposals": 0
+  },
+  "verify-hotpot-development": {
+    "termination_reasons": {
+      "verified_stop": 8,
+      "verification_abstain": 24
+    },
+    "controller_stop_reasons": {
+      "verified_stop": 8,
+      "failure_limit": 17,
+      "max_steps": 7
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 33,
+    "generative_input_tokens": 66460,
+    "generative_output_tokens": 3283,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 5,
+    "claim_proposals": 31,
+    "tool_distribution": {
+      "bm25": 31,
+      "fetch": 33
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 46,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.671875,
+    "returned_evidence_recall": 0.671875,
+    "mean_nli_entailment_on_claims": 0.285250767196093,
+    "mean_nli_entailment_on_accepted_claims": 0.951019287109375,
+    "high_support_answer_em_mismatch": 7,
+    "rejected_proposals": 23,
+    "rejected_exact_match_proposals": 7
+  },
+  "verify-hotpot-evaluation": {
+    "termination_reasons": {
+      "verification_abstain": 104,
+      "verified_stop": 24
+    },
+    "controller_stop_reasons": {
+      "max_steps": 42,
+      "failure_limit": 62,
+      "verified_stop": 24
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 151,
+    "generative_input_tokens": 276440,
+    "generative_output_tokens": 13614,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 9,
+    "claim_proposals": 117,
+    "tool_distribution": {
+      "bm25": 132,
+      "fetch": 137,
+      "expand": 1,
+      "graph": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 175,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.62890625,
+    "returned_evidence_recall": 0.62890625,
+    "mean_nli_entailment_on_claims": 0.22133539555201984,
+    "mean_nli_entailment_on_accepted_claims": 0.9325850158929825,
+    "high_support_answer_em_mismatch": 16,
+    "rejected_proposals": 93,
+    "rejected_exact_match_proposals": 38
+  },
+  "verify-hotpot-validation": {
+    "termination_reasons": {
+      "verification_abstain": 24,
+      "verified_stop": 8
+    },
+    "controller_stop_reasons": {
+      "max_steps": 13,
+      "failure_limit": 11,
+      "verified_stop": 8
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 33,
+    "generative_input_tokens": 65149,
+    "generative_output_tokens": 3265,
+    "empty_successful_calls": 1,
+    "failed_dispatches": 1,
+    "claim_proposals": 32,
+    "tool_distribution": {
+      "bm25": 34,
+      "fetch": 32,
+      "graph": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 36,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.578125,
+    "returned_evidence_recall": 0.578125,
+    "mean_nli_entailment_on_claims": 0.24242833937364594,
+    "mean_nli_entailment_on_accepted_claims": 0.9324386790394783,
+    "high_support_answer_em_mismatch": 6,
+    "rejected_proposals": 24,
+    "rejected_exact_match_proposals": 8
+  },
+  "verify-squad-development": {
+    "termination_reasons": {
+      "verified_stop": 7,
+      "verification_abstain": 25
+    },
+    "controller_stop_reasons": {
+      "verified_stop": 7,
+      "failure_limit": 20,
+      "max_steps": 5
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 40,
+    "generative_input_tokens": 46157,
+    "generative_output_tokens": 2490,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 4,
+    "claim_proposals": 26,
+    "tool_distribution": {
+      "bm25": 26,
+      "fetch": 27,
+      "rerank": 2,
+      "expand": 1,
+      "dense": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 49,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.3830613923155397,
+    "mean_nli_entailment_on_accepted_claims": 0.9541477390698024,
+    "high_support_answer_em_mismatch": 2,
+    "rejected_proposals": 19,
+    "rejected_exact_match_proposals": 10
+  },
+  "verify-squad-evaluation": {
+    "termination_reasons": {
+      "verification_abstain": 100,
+      "verified_stop": 28
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 83,
+      "max_steps": 17,
+      "verified_stop": 28
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 163,
+    "generative_input_tokens": 187333,
+    "generative_output_tokens": 10278,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 13,
+    "claim_proposals": 102,
+    "tool_distribution": {
+      "bm25": 109,
+      "fetch": 112,
+      "dense": 1,
+      "rerank": 3
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 196,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.9880952380952381,
+    "returned_evidence_recall": 0.9880952380952381,
+    "mean_nli_entailment_on_claims": 0.3569869892670991,
+    "mean_nli_entailment_on_accepted_claims": 0.9537491926125118,
+    "high_support_answer_em_mismatch": 11,
+    "rejected_proposals": 74,
+    "rejected_exact_match_proposals": 43
+  },
+  "verify-squad-validation": {
+    "termination_reasons": {
+      "verification_abstain": 25,
+      "verified_stop": 7
+    },
+    "controller_stop_reasons": {
+      "max_steps": 5,
+      "verified_stop": 7,
+      "failure_limit": 20
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 41,
+    "generative_input_tokens": 47697,
+    "generative_output_tokens": 2460,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 3,
+    "claim_proposals": 26,
+    "tool_distribution": {
+      "bm25": 24,
+      "fetch": 29,
+      "rerank": 3,
+      "dense": 2
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 48,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.3477491501415408,
+    "mean_nli_entailment_on_accepted_claims": 0.919954606464931,
+    "high_support_answer_em_mismatch": 2,
+    "rejected_proposals": 19,
+    "rejected_exact_match_proposals": 11
+  },
+  "verify_high-hotpot-evaluation": {
+    "termination_reasons": {
+      "verification_abstain": 26,
+      "verified_stop": 6
+    },
+    "controller_stop_reasons": {
+      "max_steps": 11,
+      "failure_limit": 15,
+      "verified_stop": 6
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 34,
+    "generative_input_tokens": 64255,
+    "generative_output_tokens": 3139,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 3,
+    "claim_proposals": 28,
+    "tool_distribution": {
+      "bm25": 32,
+      "fetch": 32
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 43,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.59375,
+    "returned_evidence_recall": 0.59375,
+    "mean_nli_entailment_on_claims": 0.23896367605435184,
+    "mean_nli_entailment_on_accepted_claims": 0.9737913807233175,
+    "high_support_answer_em_mismatch": 4,
+    "rejected_proposals": 22,
+    "rejected_exact_match_proposals": 9
+  },
+  "verify_high-squad-evaluation": {
+    "termination_reasons": {
+      "verification_abstain": 24,
+      "verified_stop": 8
+    },
+    "controller_stop_reasons": {
+      "failure_limit": 20,
+      "max_steps": 4,
+      "verified_stop": 8
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 37,
+    "generative_input_tokens": 44154,
+    "generative_output_tokens": 2597,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 5,
+    "claim_proposals": 29,
+    "tool_distribution": {
+      "bm25": 25,
+      "fetch": 30,
+      "dense": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 49,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.36353726309030676,
+    "mean_nli_entailment_on_accepted_claims": 0.9920898675918579,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 21,
+    "rejected_exact_match_proposals": 15
+  },
+  "verify_zero-hotpot-evaluation": {
+    "termination_reasons": {
+      "verified_stop": 22,
+      "verification_abstain": 10
+    },
+    "controller_stop_reasons": {
+      "verified_stop": 22,
+      "failure_limit": 7,
+      "max_steps": 3
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 14,
+    "generative_input_tokens": 36281,
+    "generative_output_tokens": 2162,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 2,
+    "claim_proposals": 28,
+    "tool_distribution": {
+      "bm25": 26,
+      "fetch": 19
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 20,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 0.546875,
+    "returned_evidence_recall": 0.546875,
+    "mean_nli_entailment_on_claims": 0.23903539946630709,
+    "mean_nli_entailment_on_accepted_claims": 0.3034539945243027,
+    "high_support_answer_em_mismatch": 4,
+    "rejected_proposals": 6,
+    "rejected_exact_match_proposals": 2
+  },
+  "verify_zero-squad-evaluation": {
+    "termination_reasons": {
+      "verified_stop": 21,
+      "verification_abstain": 11
+    },
+    "controller_stop_reasons": {
+      "verified_stop": 21,
+      "failure_limit": 9,
+      "max_steps": 2
+    },
+    "termination_failures": 0,
+    "repeated_action_rejections": 18,
+    "generative_input_tokens": 29454,
+    "generative_output_tokens": 1937,
+    "empty_successful_calls": 0,
+    "failed_dispatches": 2,
+    "claim_proposals": 29,
+    "tool_distribution": {
+      "bm25": 23,
+      "fetch": 21,
+      "dense": 1
+    },
+    "support_truncations": 0,
+    "answer_without_valid_citation": 0,
+    "invalid_trace_events": 22,
+    "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+    "memory_evidence_recall": 1.0,
+    "returned_evidence_recall": 1.0,
+    "mean_nli_entailment_on_claims": 0.36353726309030676,
+    "mean_nli_entailment_on_accepted_claims": 0.4050653326131786,
+    "high_support_answer_em_mismatch": 3,
+    "rejected_proposals": 8,
+    "rejected_exact_match_proposals": 3
+  }
+}

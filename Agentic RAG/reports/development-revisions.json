@@ -1,0 +1,18 @@
+{
+  "scope": "Development events before the final evaluation freeze. These are engineering and pilot observations, not final benchmark measurements.",
+  "events": [
+    {"event": "Initial environment imports", "outcome": "The sandbox blocked Torch package files. Elevated read access resolved the import; no replacement package download was needed."},
+    {"event": "Initial retrieval import", "outcome": "rank_bm25 was absent. A tested positive-IDF BM25 implementation replaced that optional dependency."},
+    {"event": "Initial boundary tests", "outcome": "Tests exposed an unavailable-service mock path. The retrieval adapter now rejects missing encode services explicitly."},
+    {"event": "Planner pilot v0", "outcome": "Complete pilot retained locally. Wrong lookup arguments, repeated actions and no-source answers motivated development changes."},
+    {"event": "Prompt and source guard revision", "outcome": "Candidate titles and lookup schemas were added; deployable no-source answers became abstentions. Planner utility changed before held-out evaluation."},
+    {"event": "Intermediate development interrupted", "outcome": "Intentionally stopped before any held-out evaluation to reserve the decoder-start token, count plan attempts, preserve controller stopping reasons, seed Torch and verify cached row hashes. Checkpoints and summaries remain under ignored development-history storage."},
+    {"event": "Plan-array contract correction", "outcome": "A later development pass rejected every plan because the prompt requested an array but showed a single-object example. That development pass was stopped before the freeze, its summaries and source snapshot were preserved, and the example was corrected. The eight-question development probe is recorded separately in plan-schema-probe.json."},
+    {"event": "Boundary tests", "outcome": "56 tests passed after the budget fixes; two publication-dependent checks were deferred until report and notebook creation. Final publication runs the complete suite again."}
+  ],
+  "postfreeze_reporting_events": [
+    "Displaying qualitative cases hit Windows cp1252 UnicodeEncodeError. The wrapper now uses UTF-8 stdout/stderr. UTF-8 predictions and frozen inference code were unchanged.",
+    "Initial qualitative selection repeated questions across methods. That selection is preserved locally; the final purposive review excludes previously sampled questions and covers 12 distinct question IDs."
+  ],
+  "cleanup": "No files were deleted. Earlier traces and development summaries remain local. Not every intermediate failing test XML was retained; the session tool results and this revision record describe those checks."
+}

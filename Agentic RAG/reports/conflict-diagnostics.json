@@ -1,0 +1,68 @@
+{
+  "scope": "Exploratory post-run NLI replay of retained final claims against every packed passage. A flag requires entailment >=0.5 in one window and contradiction >=0.5 in another. These are model signals, not independently annotated contradictions; they never alter frozen predictions.",
+  "results": {
+    "fixed-hotpot-evaluation": {
+      "claim_proposals": 120,
+      "model_conflict_flags": 16,
+      "accepted_with_conflict_flag": 16,
+      "truncated_pairs": 0
+    },
+    "adaptive-hotpot-evaluation": {
+      "claim_proposals": 121,
+      "model_conflict_flags": 17,
+      "accepted_with_conflict_flag": 17,
+      "truncated_pairs": 0
+    },
+    "plan-hotpot-evaluation": {
+      "claim_proposals": 118,
+      "model_conflict_flags": 18,
+      "accepted_with_conflict_flag": 18,
+      "truncated_pairs": 0
+    },
+    "agent-hotpot-evaluation": {
+      "claim_proposals": 117,
+      "model_conflict_flags": 15,
+      "accepted_with_conflict_flag": 15,
+      "truncated_pairs": 0
+    },
+    "verify-hotpot-evaluation": {
+      "claim_proposals": 117,
+      "model_conflict_flags": 9,
+      "accepted_with_conflict_flag": 4,
+      "truncated_pairs": 0
+    },
+    "fixed-squad-evaluation": {
+      "claim_proposals": 103,
+      "model_conflict_flags": 4,
+      "accepted_with_conflict_flag": 4,
+      "truncated_pairs": 0
+    },
+    "adaptive-squad-evaluation": {
+      "claim_proposals": 103,
+      "model_conflict_flags": 4,
+      "accepted_with_conflict_flag": 4,
+      "truncated_pairs": 0
+    },
+    "plan-squad-evaluation": {
+      "claim_proposals": 103,
+      "model_conflict_flags": 4,
+      "accepted_with_conflict_flag": 4,
+      "truncated_pairs": 0
+    },
+    "agent-squad-evaluation": {
+      "claim_proposals": 102,
+      "model_conflict_flags": 4,
+      "accepted_with_conflict_flag": 4,
+      "truncated_pairs": 0
+    },
+    "verify-squad-evaluation": {
+      "claim_proposals": 102,
+      "model_conflict_flags": 4,
+      "accepted_with_conflict_flag": 3,
+      "truncated_pairs": 0
+    }
+  },
+  "replay_ms": 29453.313499994692,
+  "nli_model": "nli",
+  "model_load_ms": 548.472499998752
+}

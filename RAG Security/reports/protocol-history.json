@@ -1,0 +1,13 @@
+{
+  "superseded_development_attempts": 1152,
+  "superseded_identity": "caab812f358cda3ee5234f424a63f7886374723174e9e6871b29f4b1392350b6",
+  "reason": "Pilot review found full-sentence color answers and fenced JSON proposals were undercounted. Completion and poison/proposal oracles were corrected before held-out generation. Old source, manifests, freeze and per-attempt traces remain local. No held-out generator result was observed before correction.",
+  "initial_freeze": {
+    "model": "flan-base",
+    "defense": "D1",
+    "score": 0.3333333333333333,
+    "clean_completion": 0.5,
+    "attacked_completion": 0.5,
+    "asr": 0.16666666666666666
+  }
+}

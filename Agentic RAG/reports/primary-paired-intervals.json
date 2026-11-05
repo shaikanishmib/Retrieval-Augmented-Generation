@@ -1,0 +1,102 @@
+{
+  "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+  "results": {
+    "adaptive-hotpot": {
+      "delta": 0.002976190476190476,
+      "low": -0.020479910714285714,
+      "high": 0.026413690476190476,
+      "resampling": "question groups for HotpotQA; articles for SQuAD",
+      "replicates": 2000,
+      "groups": 128
+    },
+    "plan-hotpot": {
+      "delta": -0.10350980539677615,
+      "low": -0.20184077780977983,
+      "high": -0.00562906602945671,
+      "resampling": "question groups for HotpotQA; articles for SQuAD",
+      "replicates": 2000,
+      "groups": 128
+    },
+    "agent-hotpot": {
+      "delta": -0.06201054944439521,
+      "low": -0.13241362697212622,
+      "high": 0.013620815482190839,
+      "resampling": "question groups for HotpotQA; articles for SQuAD",
+      "replicates": 2000,
+      "groups": 128
+    },
+    "verify-hotpot": {
+      "delta": -0.4134536918055063,
+      "low": -0.4926049582557899,
+      "high": -0.32914663692322466,
+      "resampling": "question groups for HotpotQA; articles for SQuAD",
+      "replicates": 2000,
+      "groups": 128
+    },
+    "none-hotpot": {
+      "delta": -0.39717404990842486,
+      "low": -0.4847265982715201,
+      "high": -0.3077134486607143,
+      "resampling": "question groups for HotpotQA; articles for SQuAD",
+      "replicates": 2000,
+      "groups": 128
+    },
+    "oracle-hotpot": {
+      "delta": 0.16044251832117257,
+      "low": 0.07967230902777778,
+      "high": 0.23896558379736296,
+      "resampling": "question groups for HotpotQA; articles for SQuAD",
+      "replicates": 2000,
+      "groups": 128
+    },
+    "adaptive-squad": {
+      "delta": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "resampling": "question groups for HotpotQA; articles for SQuAD",
+      "replicates": 2000,
+      "groups": 82
+    },
+    "plan-squad": {
+      "delta": -0.028645833333333332,
+      "low": -0.06084656084656084,
+      "high": -0.005509641873278236,
+      "resampling": "question groups for HotpotQA; articles for SQuAD",
+      "replicates": 2000,
+      "groups": 82
+    },
+    "agent-squad": {
+      "delta": -0.021701388888888888,
+      "low": -0.04802259887005649,
+      "high": -0.0006196846979886126,
+      "resampling": "question groups for HotpotQA; articles for SQuAD",
+      "replicates": 2000,
+      "groups": 82
+    },
+    "verify-squad": {
+      "delta": -0.2697172619047619,
+      "low": -0.39035418273890765,
+      "high": -0.14871148459383757,
+      "resampling": "question groups for HotpotQA; articles for SQuAD",
+      "replicates": 2000,
+      "groups": 82
+    },
+    "none-squad": {
+      "delta": -0.5744487283549784,
+      "low": -0.6813163093520236,
+      "high": -0.462921908452574,
+      "resampling": "question groups for HotpotQA; articles for SQuAD",
+      "replicates": 2000,
+      "groups": 82
+    },
+    "oracle-squad": {
+      "delta": 0.13541666666666669,
+      "low": 0.0687711423367161,
+      "high": 0.19896737244012494,
+      "resampling": "question groups for HotpotQA; articles for SQuAD",
+      "replicates": 2000,
+      "groups": 82
+    }
+  },
+  "scope": "Primary conditions; verified against the final trace reconstruction."
+}

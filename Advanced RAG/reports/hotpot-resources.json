@@ -1,0 +1,7 @@
+{
+  "max_sampled_rss_bytes": 1121771520,
+  "build_p50_ms": 164.6002499946917,
+  "build_p95_ms": 256.3372750031703,
+  "gpu_peak_allocated_bytes": null,
+  "scope": "RSS sampled after each question; model loading and document encoding excluded from per-answer latency. CPU/GPU peaks are process observations."
+}

@@ -1,0 +1,22 @@
+{
+  "humanizer_skill": "C:/Users/shaik/.agents/skills/humanizer/SKILL.md, version 3.1.0",
+  "prose_review_scope": ["README", "documentation", "notebook markdown", "comments and docstrings", "error and CLI messages", "generated benchmark prose", "commit description"],
+  "tests": {"passed": 22, "failed": 0, "skipped": 0},
+  "syntax_checks": "src, scripts, and tests compiled successfully",
+  "notebook": {"cells": 84, "executed_code_cells": 42, "output_objects": 60, "png_outputs": 4, "source_equivalence": true, "local_executed_bytes_preserved": true},
+  "experiments": {"datasets": 2, "development_questions_per_dataset": 24, "heldout_questions_per_dataset": 64, "reported_configurations_per_dataset": 10, "paid_api_charges_usd": 0},
+  "provenance": "Dataset and model files verified against local locks; HotpotQA download also matches the mirror's published LFS SHA-256",
+  "support_review": "20 cases reviewed by the coding assistant with references visible; no independent human review",
+  "outstanding_limitations": [
+    "Bounded candidate evidence and small local partitions of public development releases",
+    "CPU execution; GPU performance not measured",
+    "Post hoc single-source citation attachment can omit evidence needed for a comparison",
+    "Lexical overlap does not establish entailment; selected abstention rule supplied no additional abstention benefit",
+    "Expansion is a simple evidence-term baseline, not learned decomposition",
+    "Question-level bootstrap does not account for SQuAD article dependence",
+    "Single sequential latency pass and sampled process RSS",
+    "Three synthetic probes do not establish general injection resistance",
+    "Original HotpotQA release contains one out-of-range supporting-sentence annotation; source-document labels retained unchanged",
+    "Model pretraining exposure to the benchmarks is unknown"
+  ]
+}

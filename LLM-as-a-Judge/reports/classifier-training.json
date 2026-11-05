@@ -1,0 +1,11 @@
+{
+  "training_responses": 14529,
+  "training_sources": 2455,
+  "training_identity": "bd5225fa8104f7a168e4224e7ddc87c1a4c0e604bb7798bd65525c492b0532f6",
+  "positive_labels": 6557,
+  "seconds": 15.804814899980556,
+  "features": "Response-only unigram/bigram TF-IDF plus lexical evidence overlap, response length and response/context length ratio. No generator model identity supplied.",
+  "limitations": "May learn task and generator style priors. Does not verify claims; no neural fine-tuning performed.",
+  "protected_source_groups_excluded": 150,
+  "exact_protected_response_duplicates_excluded": true
+}

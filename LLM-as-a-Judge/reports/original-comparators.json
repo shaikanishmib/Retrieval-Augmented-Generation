@@ -1,0 +1,74 @@
+{
+  "scope": "Exploratory post-freeze comparison using original precomputed dataset columns. Ragas, TruLens and GPT-3 were not executed locally; original software versions and exact scorer prompts are not independently verified. No thresholds are selected from these results.",
+  "reference": "Original GPT-4-turbo adherence labels, inverted to positive=non-adherence. These are not human labels.",
+  "alignment": "Response strings checked in exact evaluated row order; each comparator uses the identical nonmissing subset.",
+  "score_orientation": "One minus original support score; AUROC and average precision only, without asserting calibrated probabilities or threshold equivalence.",
+  "results": {
+    "ragas_faithfulness": {
+      "matched_rows": 117,
+      "excluded_missing_or_invalid": 3,
+      "metrics": {
+        "ragas_faithfulness": {
+          "roc_auc": 0.4711934156378601,
+          "average_precision": 0.49827443798032045
+        },
+        "ensemble": {
+          "roc_auc": 0.7366255144032923,
+          "average_precision": 0.709919308943532
+        },
+        "supervised-tfidf": {
+          "roc_auc": 0.6725455614344503,
+          "average_precision": 0.676239669317352
+        },
+        "nli-base/claims-mean": {
+          "roc_auc": 0.7037037037037037,
+          "average_precision": 0.6659467075118912
+        }
+      }
+    },
+    "trulens_groundedness": {
+      "matched_rows": 119,
+      "excluded_missing_or_invalid": 1,
+      "metrics": {
+        "trulens_groundedness": {
+          "roc_auc": 0.611111111111111,
+          "average_precision": 0.5186979154112076
+        },
+        "ensemble": {
+          "roc_auc": 0.7455840455840456,
+          "average_precision": 0.7101780879361517
+        },
+        "supervised-tfidf": {
+          "roc_auc": 0.6769230769230768,
+          "average_precision": 0.6743479337146346
+        },
+        "nli-base/claims-mean": {
+          "roc_auc": 0.7008547008547009,
+          "average_precision": 0.6558718951060397
+        }
+      }
+    },
+    "gpt3_adherence": {
+      "matched_rows": 120,
+      "excluded_missing_or_invalid": 0,
+      "metrics": {
+        "gpt3_adherence": {
+          "roc_auc": 0.5378787878787878,
+          "average_precision": 0.47045454545454546
+        },
+        "ensemble": {
+          "roc_auc": 0.7485970819304152,
+          "average_precision": 0.709919308943532
+        },
+        "supervised-tfidf": {
+          "roc_auc": 0.680695847362514,
+          "average_precision": 0.6740392381607626
+        },
+        "nli-base/claims-mean": {
+          "roc_auc": 0.7025813692480359,
+          "average_precision": 0.6548623247660443
+        }
+      }
+    }
+  }
+}

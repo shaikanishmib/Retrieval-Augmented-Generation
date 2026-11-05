@@ -1,0 +1,15 @@
+{
+  "scope": "Two uncached passes over eight development questions with fixed per-question seeds",
+  "matching_predictions": 8,
+  "questions": 8,
+  "p50_ms": [
+    2651.883499998803,
+    2421.7513499970664
+  ],
+  "p95_ms": [
+    4099.425209999026,
+    3946.7366549986764
+  ],
+  "model_load_ms": 3099.757600000885,
+  "cached_predictions_used": false
+}

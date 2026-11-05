@@ -1,0 +1,294 @@
+{
+  "hotpot": {
+    "generator_plain_flan-small": {
+      "delta": 0.20407127594627594,
+      "low": 0.07286601419413918,
+      "high": 0.34385478670634906,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "generator_plain_flan-base": {
+      "delta": 0.19980158730158729,
+      "low": 0.060027901785714266,
+      "high": 0.3452182539682539,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "generator_plain_qwen06": {
+      "delta": -0.15321773501503538,
+      "low": -0.27242583886530264,
+      "high": -0.03935268865583779,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "generator_plain_qwen17": {
+      "delta": -0.011035038882200351,
+      "low": -0.12771555042097166,
+      "high": 0.10625717237327457,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "retrieval_bm25": {
+      "delta": 0.023611111111111104,
+      "low": -0.10938368055555556,
+      "high": 0.15314236111111101,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "retrieval_dense_minilm": {
+      "delta": -0.04871031746031747,
+      "low": -0.1767013888888889,
+      "high": 0.07500868055555551,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "retrieval_hybrid_minilm": {
+      "delta": 0.012673611111111113,
+      "low": -0.10260416666666666,
+      "high": 0.12448350694444443,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "retrieval_hybrid_bge": {
+      "delta": -0.01597222222222222,
+      "low": -0.14104166666666665,
+      "high": 0.10630208333333306,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "retrieval_tinybert": {
+      "delta": -0.0034722222222222238,
+      "low": -0.10768229166666667,
+      "high": 0.10251736111111064,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "retrieval_minilm_rerank": {
+      "delta": 0.0390625,
+      "low": -0.07035156249999999,
+      "high": 0.1406640624999998,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "context_384_1_0": {
+      "delta": -0.010363247863247861,
+      "low": -0.13225560897435898,
+      "high": 0.11465411324786316,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "context_768_1_0": {
+      "delta": 0.0390625,
+      "low": -0.07035156249999999,
+      "high": 0.1406640624999998,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "context_1280_1_0": {
+      "delta": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "context_768_0_0": {
+      "delta": -0.003472222222222222,
+      "low": -0.109375,
+      "high": 0.10006944444444407,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "context_768_1_1": {
+      "delta": 0.1667200854700855,
+      "low": 0.044202724358974356,
+      "high": 0.2916766826923077,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "rewrite": {
+      "delta": -0.04734241452991453,
+      "low": -0.10817307692307691,
+      "high": 0.003004807692307692,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "multistep": {
+      "delta": -0.05451388888888889,
+      "low": -0.16354166666666664,
+      "high": 0.051397569444444395,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "corrective": {
+      "delta": 0.039831349206349204,
+      "low": -0.06296378968253968,
+      "high": 0.15,
+      "clusters": 64,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    }
+  },
+  "squad": {
+    "generator_plain_flan-small": {
+      "delta": 0.012068226911976905,
+      "low": -0.13769547964113182,
+      "high": 0.16727250575934782,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "generator_plain_flan-base": {
+      "delta": 0.12491544913419914,
+      "low": -0.024203527973158702,
+      "high": 0.2797770961286633,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "generator_plain_qwen06": {
+      "delta": -0.07249821899947857,
+      "low": -0.20125135780230108,
+      "high": 0.07196372297726096,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "generator_plain_qwen17": {
+      "delta": 0.07079408294252043,
+      "low": -0.06955211109616766,
+      "high": 0.2418588109242179,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "retrieval_bm25": {
+      "delta": 0.007589285714285714,
+      "low": -0.03658772012430549,
+      "high": 0.059523809523809514,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "retrieval_dense_minilm": {
+      "delta": 0.020089285714285712,
+      "low": -0.029068214076980882,
+      "high": 0.08000216450216449,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "retrieval_hybrid_minilm": {
+      "delta": 0.0075892857142857125,
+      "low": -0.03636551853943158,
+      "high": 0.06012463054187178,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "retrieval_hybrid_bge": {
+      "delta": 0.0075892857142857125,
+      "low": -0.03636551853943158,
+      "high": 0.06012463054187178,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "retrieval_tinybert": {
+      "delta": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "retrieval_minilm_rerank": {
+      "delta": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "context_384_1_0": {
+      "delta": 0.010416666666666668,
+      "low": -0.015625,
+      "high": 0.05357142857142857,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "context_768_1_0": {
+      "delta": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "context_1280_1_0": {
+      "delta": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "context_768_0_0": {
+      "delta": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "context_768_1_1": {
+      "delta": -0.02886904761904762,
+      "low": -0.11545855885408125,
+      "high": 0.06008714782485273,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "rewrite": {
+      "delta": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "multistep": {
+      "delta": -0.026041666666666664,
+      "low": -0.075764221158958,
+      "high": 0.01827118214104512,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "corrective": {
+      "delta": -0.04449404761904762,
+      "low": -0.1384056603773585,
+      "high": 0.03825467792680905,
+      "clusters": 22,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    }
+  }
+}

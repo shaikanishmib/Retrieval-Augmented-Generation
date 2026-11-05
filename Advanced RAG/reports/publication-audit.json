@@ -1,0 +1,9 @@
+{
+  "candidate_files": 53,
+  "source_identity": true,
+  "public_outputs_empty": true,
+  "excluded_artifacts": true,
+  "reference_unchanged": true,
+  "credential_pattern_scan": "No matches",
+  "scope": "Advanced RAG only"
+}

@@ -1,0 +1,202 @@
+{
+  "hotpot": {
+    "original_overlap_questions": 64,
+    "fresh_questions": 256,
+    "answer_exact_reproduction": {
+      "hybrid": {
+        "matching": 64,
+        "total": 64
+      },
+      "rerank": {
+        "matching": 64,
+        "total": 64
+      }
+    },
+    "fresh_metrics": {
+      "bm25": {
+        "em": 0.34375,
+        "f1": 0.4478197398751167,
+        "recall3": 0.6875,
+        "context_recall": 0.642578125,
+        "citation_precision": 0.67578125,
+        "citation_recall": 0.337890625,
+        "abstained": 0.0,
+        "answerable": 1.0,
+        "abstention_correct": 1.0,
+        "support_overlap": 0.9020182291666666,
+        "total_ms": 126.08743710947579,
+        "retrieval_ms": 0.3143949217019326,
+        "input_tokens": 348.10546875,
+        "output_tokens": 5.96875,
+        "n": 256,
+        "p50_ms": 115.82885000098031,
+        "p95_ms": 204.317549996631,
+        "selective_em": 0.34375,
+        "unanswerable_recall": null
+      },
+      "dense": {
+        "em": 0.296875,
+        "f1": 0.3786117813564359,
+        "recall3": 0.66015625,
+        "context_recall": 0.626953125,
+        "citation_precision": 0.671875,
+        "citation_recall": 0.3359375,
+        "abstained": 0.0,
+        "answerable": 1.0,
+        "abstention_correct": 1.0,
+        "support_overlap": 0.8759765625,
+        "total_ms": 129.2404968754397,
+        "retrieval_ms": 8.091364453065353,
+        "input_tokens": 334.0078125,
+        "output_tokens": 5.75390625,
+        "n": 256,
+        "p50_ms": 123.06890000036219,
+        "p95_ms": 196.85387500248908,
+        "selective_em": 0.296875,
+        "unanswerable_recall": null
+      },
+      "hybrid": {
+        "em": 0.32421875,
+        "f1": 0.43247590402346836,
+        "recall3": 0.734375,
+        "context_recall": 0.69921875,
+        "citation_precision": 0.71875,
+        "citation_recall": 0.359375,
+        "abstained": 0.0,
+        "answerable": 1.0,
+        "abstention_correct": 1.0,
+        "support_overlap": 0.8977864583333333,
+        "total_ms": 133.7267968750666,
+        "retrieval_ms": 8.10797890608228,
+        "input_tokens": 346.41796875,
+        "output_tokens": 5.84765625,
+        "n": 256,
+        "p50_ms": 124.83769999744254,
+        "p95_ms": 205.7632999985799,
+        "selective_em": 0.32421875,
+        "unanswerable_recall": null
+      },
+      "rerank": {
+        "em": 0.33203125,
+        "f1": 0.4400769546380155,
+        "recall3": 0.708984375,
+        "context_recall": 0.673828125,
+        "citation_precision": 0.7421875,
+        "citation_recall": 0.37109375,
+        "abstained": 0.0,
+        "answerable": 1.0,
+        "abstention_correct": 1.0,
+        "support_overlap": 0.8844401041666666,
+        "total_ms": 144.00581835963067,
+        "retrieval_ms": 21.849407812652544,
+        "input_tokens": 343.23046875,
+        "output_tokens": 5.83984375,
+        "n": 256,
+        "p50_ms": 136.0109499983082,
+        "p95_ms": 226.17614999944635,
+        "selective_em": 0.33203125,
+        "unanswerable_recall": null
+      }
+    }
+  },
+  "squad": {
+    "original_overlap_questions": 64,
+    "fresh_questions": 256,
+    "answer_exact_reproduction": {
+      "hybrid": {
+        "matching": 64,
+        "total": 64
+      },
+      "rerank": {
+        "matching": 64,
+        "total": 64
+      }
+    },
+    "fresh_metrics": {
+      "bm25": {
+        "em": 0.34765625,
+        "f1": 0.3905157125860251,
+        "recall3": 1.0,
+        "context_recall": 1.0,
+        "citation_precision": 0.4838709677419355,
+        "citation_recall": 0.9917355371900827,
+        "abstained": 0.03125,
+        "answerable": 0.47265625,
+        "abstention_correct": 0.49609375,
+        "support_overlap": 0.947561553030303,
+        "total_ms": 100.79223281249483,
+        "retrieval_ms": 0.05881992191802965,
+        "input_tokens": 248.6328125,
+        "output_tokens": 6.27734375,
+        "n": 256,
+        "p50_ms": 94.42335000130697,
+        "p95_ms": 159.99152500080527,
+        "selective_em": 0.33064516129032256,
+        "unanswerable_recall": 0.05185185185185185
+      },
+      "dense": {
+        "em": 0.34375,
+        "f1": 0.38921362925269176,
+        "recall3": 1.0,
+        "context_recall": 1.0,
+        "citation_precision": 0.4838709677419355,
+        "citation_recall": 0.9917355371900827,
+        "abstained": 0.03125,
+        "answerable": 0.47265625,
+        "abstention_correct": 0.49609375,
+        "support_overlap": 0.9449573863636364,
+        "total_ms": 108.79313398385193,
+        "retrieval_ms": 6.765354296646819,
+        "input_tokens": 248.453125,
+        "output_tokens": 6.23828125,
+        "n": 256,
+        "p50_ms": 102.62169999987236,
+        "p95_ms": 170.628174999365,
+        "selective_em": 0.32661290322580644,
+        "unanswerable_recall": 0.05185185185185185
+      },
+      "hybrid": {
+        "em": 0.34765625,
+        "f1": 0.39311987925269176,
+        "recall3": 1.0,
+        "context_recall": 1.0,
+        "citation_precision": 0.4838709677419355,
+        "citation_recall": 0.9917355371900827,
+        "abstained": 0.03125,
+        "answerable": 0.47265625,
+        "abstention_correct": 0.49609375,
+        "support_overlap": 0.947561553030303,
+        "total_ms": 107.98541679682216,
+        "retrieval_ms": 6.778730078139006,
+        "input_tokens": 248.32421875,
+        "output_tokens": 6.2265625,
+        "n": 256,
+        "p50_ms": 101.80084999956307,
+        "p95_ms": 165.54402499969,
+        "selective_em": 0.33064516129032256,
+        "unanswerable_recall": 0.05185185185185185
+      },
+      "rerank": {
+        "em": 0.34765625,
+        "f1": 0.3905157125860251,
+        "recall3": 1.0,
+        "context_recall": 1.0,
+        "citation_precision": 0.4838709677419355,
+        "citation_recall": 0.9917355371900827,
+        "abstained": 0.03125,
+        "answerable": 0.47265625,
+        "abstention_correct": 0.49609375,
+        "support_overlap": 0.9488636363636364,
+        "total_ms": 113.28723437466692,
+        "retrieval_ms": 11.180241015381398,
+        "input_tokens": 248.90234375,
+        "output_tokens": 6.296875,
+        "n": 256,
+        "p50_ms": 105.71024999808287,
+        "p95_ms": 182.2169250008301,
+        "selective_em": 0.33064516129032256,
+        "unanswerable_recall": 0.05185185185185185
+      }
+    }
+  }
+}

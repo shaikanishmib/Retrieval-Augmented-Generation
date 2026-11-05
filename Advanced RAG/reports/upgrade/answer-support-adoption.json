@@ -1,0 +1,20 @@
+{
+  "criterion": "Strictly higher development threshold-group F1; no held-out result used",
+  "validation_identity": "e94fdd9cdb81b8116d421cc82084910eb6e8ace0de5a6ee5ce8a5741e6c931a4",
+  "decisions": {
+    "hotpot": {
+      "enabled": false,
+      "original_development_f1": 0.2890625,
+      "question_check_development_f1": 0.25,
+      "agreement": 0.5,
+      "support": 0.0
+    },
+    "squad": {
+      "enabled": true,
+      "original_development_f1": 0.6657552973342447,
+      "question_check_development_f1": 0.6834586466165413,
+      "agreement": 0.5,
+      "support": 0.0
+    }
+  }
+}

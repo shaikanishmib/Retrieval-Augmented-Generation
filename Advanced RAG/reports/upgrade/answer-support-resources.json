@@ -1,0 +1,14 @@
+{
+  "sampled_peak_rss_bytes": 1724719104,
+  "windows_process_peak_bytes": 1724719104,
+  "sample_interval_ms": 50,
+  "samples": 192,
+  "gpu_peak_allocated_bytes": null,
+  "gpu_peak_reserved_bytes": null,
+  "scope": "CPU QA/NLI verifier probe over eight development generations; not a full-study peak",
+  "qa_loading_ms": 442.5774999981513,
+  "nli_loading_ms": 274.14860000135377,
+  "questions": 8,
+  "qa_checked": 6,
+  "mean_validation_ms": 610.2776875004565
+}

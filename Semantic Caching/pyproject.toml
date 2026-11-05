@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "semantic-caching-rag-research"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["torch==2.10.0", "transformers==4.57.3", "sentence-transformers==5.2.0", "numpy", "scikit-learn", "pyarrow==23.0.0", "psutil", "nbformat", "nbclient", "ipykernel", "matplotlib", "pandas", "pytest"]
+[project.optional-dependencies]
+backends = ["faiss-cpu==1.13.2", "qdrant-client==1.16.2"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

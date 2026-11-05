@@ -1,0 +1,11 @@
+{
+  "started_utc": "2026-11-01T05:11:44.962819+00:00",
+  "finished_utc": "2026-11-01T05:36:57.158583+00:00",
+  "samples": 1511,
+  "sample_interval_seconds": 1,
+  "host_physical_memory_bytes": 34038341632,
+  "maximum_sampled_rss_bytes": 3006918656,
+  "maximum_observed_windows_peak_wset_bytes": 3095658496,
+  "scope": "Whole research process, sampled from observer startup. The Windows peak counter includes earlier process lifetime; a peak after the last sample may be missed. These are not per-index memory costs.",
+  "observer_sha256": "60725362e92dc4a09282cb66d8c52e875f579b5de55f2f0dd929106ebcdb6887"
+}

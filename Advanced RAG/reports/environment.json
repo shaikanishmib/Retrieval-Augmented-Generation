@@ -1,0 +1,36 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "device": "cpu",
+  "torch": "2.10.0+cpu",
+  "source_sha256": {
+    "src/advanced_rag/data.py": "7b9658af2c7605df55ba681674ee45894f294360c8a06edc5bde64e17a616a59",
+    "src/advanced_rag/evaluation.py": "e350fbe423939b7489a11a05d154ba3f5524771b6c49d5849ce91ff66e67cd45",
+    "src/advanced_rag/pipeline.py": "060ebd1fe5deeb8654800b3399ee93f330e1c571ba4df76e0f2b151a4899a47b",
+    "src/advanced_rag/__init__.py": "35e1c3d2421cf89d56aa8be31d01ef3d9a11ed51930311a2b77d755a20c04268"
+  },
+  "config": {
+    "development_questions": 24,
+    "heldout_questions": 64,
+    "seed": 42,
+    "context_budget": 360,
+    "methods": [
+      "no_context",
+      "bm25",
+      "dense",
+      "hybrid",
+      "rerank",
+      "multihop",
+      "corrective",
+      "oracle"
+    ],
+    "threshold_candidates": [
+      -1,
+      0.5,
+      1.0
+    ],
+    "bootstrap_replicates": 2000
+  },
+  "api_charges_usd": 0,
+  "cost_scope": "No paid APIs. Electricity and hardware cost were not measured."
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "model": "flan-base",
+    "cold_process_seconds": [
+      11.363498400023673,
+      10.340531299996655
+    ],
+    "cold_process_p50_seconds": 10.852014850010164,
+    "cold_answers": [
+      "unknown",
+      "unknown"
+    ],
+    "cold_clean_completion": 0.0,
+    "warm_inference_seconds": [
+      0.5802722999942489,
+      0.08270279999123886,
+      0.0843587999988813
+    ],
+    "warm_inference_p50_seconds": 0.0843587999988813,
+    "sampled_peak_child_rss_bytes": 2239643648,
+    "scope": "Cold process uses D6 and includes imports, screening, tokenization, weight loading and any generation; failed answers are retained. OS file caches are warm; no cache clearing. Warm values time unfiltered model generation, not the complete D6 policy. Two cold and three warm repetitions are descriptive, with different policy scopes."
+  },
+  {
+    "model": "qwen06",
+    "cold_process_seconds": [
+      10.006464400008554,
+      19.504763200005982
+    ],
+    "cold_process_p50_seconds": 14.755613800007268,
+    "cold_answers": [
+      "unknown",
+      "unknown"
+    ],
+    "cold_clean_completion": 0.0,
+    "warm_inference_seconds": [
+      0.5699629999871831,
+      0.5147181999927852,
+      0.48111039999639615
+    ],
+    "warm_inference_p50_seconds": 0.5147181999927852,
+    "sampled_peak_child_rss_bytes": 3809509376,
+    "scope": "Cold process uses D6 and includes imports, screening, tokenization, weight loading and any generation; failed answers are retained. OS file caches are warm; no cache clearing. Warm values time unfiltered model generation, not the complete D6 policy. Two cold and three warm repetitions are descriptive, with different policy scopes."
+  }
+]

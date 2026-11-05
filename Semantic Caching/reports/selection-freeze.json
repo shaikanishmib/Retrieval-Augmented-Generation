@@ -1,0 +1,13 @@
+{
+  "identity": "4fbbe355512f0aa159bb7668784a2d8bb528442d0f68a2acac800ead6c01a9c3",
+  "encoder": "minilm",
+  "threshold": 1.001,
+  "generator": "flan-base",
+  "created_unix": 1793669829.0019488,
+  "selection_rule": "Maximize development true accepts with zero observed false accepts and guard; ties use measured batch encoding time. Generator maximizes development QA F1.",
+  "partitions": {
+    "hotpot.json": "527a009bbdf210d5341efaad0bab9e57b1e7b59016d93672630822542f88fc3e",
+    "paws.json": "d65ee0213dbbce43256ce17e60f6e9c6b9767b3cf79fedd5e990e74214d91e68",
+    "squad.json": "b5efd0671a4d4caa606dedc420f1f987952940ce6611f807fecc1871bb76868c"
+  }
+}

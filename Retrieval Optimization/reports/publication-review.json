@@ -1,0 +1,27 @@
+{
+  "humanizer_applied": true,
+  "skill": "Installed blader/humanizer 3.1.0",
+  "prose_scope": [
+    "notebook Markdown and display text",
+    "README and documentation",
+    "Python docstrings, comments, CLI help and errors",
+    "commit message"
+  ],
+  "tests": {
+    "passed": 34,
+    "failed": 0,
+    "skipped": 0
+  },
+  "clean_notebook_execution": true,
+  "source_identity_verified": true,
+  "saved_local_output_objects": 77,
+  "saved_local_png_outputs": 13,
+  "public_raw_text_review": "No source documents, queries, judgments, vectors, indexes or weights in publication candidates",
+  "limitations": [
+    "Semantic chunking and generative HyDE were not executed",
+    "Unselected dense chunk configurations were not encoded",
+    "Embedded Qdrant exceeds its local-mode size recommendation on FiQA",
+    "Background load was not controlled; both completed latency passes are retained",
+    "Underlying raw-text redistribution rights remain unresolved; raw content stays local"
+  ]
+}

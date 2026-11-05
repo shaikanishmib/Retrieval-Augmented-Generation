@@ -1,0 +1,137 @@
+{
+  "definition": "Fraction of valid annotated supporting sentences wholly contained in at least one selected or accepted cited window, after whitespace normalization. Split-sentence reconstruction is not counted.",
+  "results": {
+    "fresh/selected_raw": {
+      "n": 256,
+      "selected_sentence_recall": 0.8948567708333333,
+      "cited_sentence_recall": 0.33626302083333337,
+      "invalid_annotations": 0
+    },
+    "fresh/balanced": {
+      "n": 256,
+      "selected_sentence_recall": 0.8983723958333334,
+      "cited_sentence_recall": 0.0693359375,
+      "invalid_annotations": 0
+    },
+    "fresh/strongest": {
+      "n": 256,
+      "selected_sentence_recall": 0.8948567708333333,
+      "cited_sentence_recall": 0.33626302083333337,
+      "invalid_annotations": 0
+    },
+    "controlled/generator_plain_flan-small": {
+      "n": 64,
+      "selected_sentence_recall": 0.65078125,
+      "cited_sentence_recall": 0.0,
+      "invalid_annotations": 0
+    },
+    "controlled/generator_plain_flan-base": {
+      "n": 64,
+      "selected_sentence_recall": 0.65078125,
+      "cited_sentence_recall": 0.0,
+      "invalid_annotations": 0
+    },
+    "controlled/generator_plain_qwen06": {
+      "n": 64,
+      "selected_sentence_recall": 0.7408854166666666,
+      "cited_sentence_recall": 0.0,
+      "invalid_annotations": 0
+    },
+    "controlled/generator_plain_qwen17": {
+      "n": 64,
+      "selected_sentence_recall": 0.7408854166666666,
+      "cited_sentence_recall": 0.0,
+      "invalid_annotations": 0
+    },
+    "controlled/retrieval_bm25": {
+      "n": 64,
+      "selected_sentence_recall": 0.8489583333333333,
+      "cited_sentence_recall": 0.28151041666666665,
+      "invalid_annotations": 0
+    },
+    "controlled/retrieval_dense_minilm": {
+      "n": 64,
+      "selected_sentence_recall": 0.7692708333333333,
+      "cited_sentence_recall": 0.24739583333333331,
+      "invalid_annotations": 0
+    },
+    "controlled/retrieval_hybrid_minilm": {
+      "n": 64,
+      "selected_sentence_recall": 0.8619791666666667,
+      "cited_sentence_recall": 0.26432291666666663,
+      "invalid_annotations": 0
+    },
+    "controlled/retrieval_hybrid_bge": {
+      "n": 64,
+      "selected_sentence_recall": 0.8578125,
+      "cited_sentence_recall": 0.23567708333333331,
+      "invalid_annotations": 0
+    },
+    "controlled/retrieval_tinybert": {
+      "n": 64,
+      "selected_sentence_recall": 0.83984375,
+      "cited_sentence_recall": 0.2981770833333333,
+      "invalid_annotations": 0
+    },
+    "controlled/retrieval_minilm_rerank": {
+      "n": 64,
+      "selected_sentence_recall": 0.875,
+      "cited_sentence_recall": 0.35286458333333326,
+      "invalid_annotations": 0
+    },
+    "controlled/context_384_1_0": {
+      "n": 64,
+      "selected_sentence_recall": 0.7721354166666666,
+      "cited_sentence_recall": 0.26432291666666663,
+      "invalid_annotations": 0
+    },
+    "controlled/context_768_1_0": {
+      "n": 64,
+      "selected_sentence_recall": 0.875,
+      "cited_sentence_recall": 0.35286458333333326,
+      "invalid_annotations": 0
+    },
+    "controlled/context_1280_1_0": {
+      "n": 64,
+      "selected_sentence_recall": 0.8880208333333333,
+      "cited_sentence_recall": 0.265625,
+      "invalid_annotations": 0
+    },
+    "controlled/context_768_0_0": {
+      "n": 64,
+      "selected_sentence_recall": 0.88671875,
+      "cited_sentence_recall": 0.3333333333333333,
+      "invalid_annotations": 0
+    },
+    "controlled/context_768_1_1": {
+      "n": 64,
+      "selected_sentence_recall": 0.875,
+      "cited_sentence_recall": 0.3880208333333333,
+      "invalid_annotations": 0
+    },
+    "controlled/rewrite": {
+      "n": 64,
+      "selected_sentence_recall": 0.890625,
+      "cited_sentence_recall": 0.22916666666666666,
+      "invalid_annotations": 0
+    },
+    "controlled/multistep": {
+      "n": 64,
+      "selected_sentence_recall": 0.9049479166666666,
+      "cited_sentence_recall": 0.2747395833333333,
+      "invalid_annotations": 0
+    },
+    "controlled/corrective": {
+      "n": 64,
+      "selected_sentence_recall": 0.8971354166666666,
+      "cited_sentence_recall": 0.32552083333333337,
+      "invalid_annotations": 0
+    },
+    "original/selected_raw": {
+      "n": 64,
+      "selected_sentence_recall": 0.9244791666666666,
+      "cited_sentence_recall": 0.3372395833333333,
+      "invalid_annotations": 0
+    }
+  }
+}

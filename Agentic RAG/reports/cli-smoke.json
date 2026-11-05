@@ -1,0 +1,9 @@
+{
+  "scope": "One synthetic two-source CLI smoke test; not benchmark or production-reliability evidence.",
+  "exit_code": 0,
+  "answer": "England",
+  "citation_valid": true,
+  "calls": 1,
+  "reason": "fixed_complete",
+  "process_ms": 16625.311600000714
+}

@@ -1,0 +1,40 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "modules": {
+    "torch": {
+      "version": "2.10.0+cu128",
+      "cuda_available": true,
+      "cuda_runtime": "12.8"
+    },
+    "transformers": {
+      "version": "4.57.3"
+    },
+    "numpy": {
+      "version": "2.5.4"
+    },
+    "scipy": {
+      "version": "1.18.1"
+    },
+    "sklearn": {
+      "version": "1.9.1"
+    },
+    "pandas": {
+      "version": "2.3.3"
+    },
+    "matplotlib": {
+      "version": "3.11.2"
+    },
+    "nbformat": {
+      "version": "5.11.1"
+    },
+    "nbclient": {
+      "version": "0.11.0"
+    },
+    "psutil": {
+      "version": "7.2.2"
+    },
+    "joblib": {
+      "version": "1.6.0"
+    }
+  }
+}

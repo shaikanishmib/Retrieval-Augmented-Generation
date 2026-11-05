@@ -1,0 +1,18 @@
+{
+  "id": "galileo-ai/ragbench",
+  "revision": "97808f3e5fd16ede40bbff6c2949af8139b2eb7b",
+  "license": "cc-by-4.0",
+  "files": {
+    "README.md": {
+      "url": "https://huggingface.co/datasets/galileo-ai/ragbench/resolve/97808f3e5fd16ede40bbff6c2949af8139b2eb7b/README.md",
+      "sha256": "1afeca59575e9508432990054fd75b18b851a384376e2dd7e83852655f33cbe5",
+      "bytes": 24681
+    },
+    "techqa/test-00000-of-00001.parquet": {
+      "url": "https://huggingface.co/datasets/galileo-ai/ragbench/resolve/97808f3e5fd16ede40bbff6c2949af8139b2eb7b/techqa/test-00000-of-00001.parquet",
+      "sha256": "426f360d12b5d3589b66293c3417d3686a9d69eba3e82938e93d3e1545681264",
+      "bytes": 5348997
+    }
+  },
+  "role": "Complementary transfer agreement with model-generated labels; not independent human ground truth."
+}

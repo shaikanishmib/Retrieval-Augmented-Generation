@@ -1,0 +1,18 @@
+{
+  "hotpot": {
+    "n": 32,
+    "extra_call_questions": 27,
+    "same_answer_with_extra_calls": 19,
+    "no_f1_gain_with_extra_calls": 22,
+    "improved_f1_with_extra_calls": 5,
+    "interpretation": "Matched one-step versus multi-step budget contrast. Same-answer/no-gain counts are waste proxies, not annotated causal necessity."
+  },
+  "squad": {
+    "n": 32,
+    "extra_call_questions": 24,
+    "same_answer_with_extra_calls": 24,
+    "no_f1_gain_with_extra_calls": 24,
+    "improved_f1_with_extra_calls": 0,
+    "interpretation": "Matched one-step versus multi-step budget contrast. Same-answer/no-gain counts are waste proxies, not annotated causal necessity."
+  }
+}

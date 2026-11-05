@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-retrieval-optimization"
+version = "0.1.0"
+description = "Retrieval experiments on BEIR SciFact and FiQA-2018"
+requires-python = ">=3.12"
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.2.0"]
+research = ["sentence-transformers", "faiss-cpu", "qdrant-client", "pandas", "matplotlib", "nbformat", "nbclient", "ipykernel", "psutil"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-p no:cacheprovider"

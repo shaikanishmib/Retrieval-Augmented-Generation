@@ -1,0 +1,12 @@
+{
+  "configuration": "ensemble",
+  "n": 3,
+  "scope": "Three task-balanced development inputs, separate cold CLI processes. Includes imports, component model loading, tokenization and inference. Each required model loads once per request and supplies its related features; not a persistent-serving benchmark. p95 is descriptive for this small sample.",
+  "p50_cold_process_seconds": 30.865770999982487,
+  "p95_cold_process_seconds": 30.923791929977597,
+  "evaluations_per_second": 0.032577016486602405,
+  "peak_process_working_set": 8419553280,
+  "peak_gpu_allocated": 3794267648,
+  "mean_loading_seconds": 9.840345800010255,
+  "retained_prediction_agreement": true
+}

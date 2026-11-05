@@ -1,0 +1,11 @@
+{
+  "original_code_and_synthetic_fixtures": "MIT, see LICENSE",
+  "BIPIA_repository_and_attack_definitions": "MIT; pinned LICENSE hash in sources.lock.json",
+  "BIPIA_TableQA_contexts": "Derived from WikiTableQuestions/Wikipedia, CC BY-SA 4.0; raw contexts not redistributed",
+  "BIPIA_email": "Acquired for inspection only; not evaluated or redistributed",
+  "AgentDojo": "MIT metadata only; not executed or claimed as benchmark coverage",
+  "RAG-PIBench": "Paper only; dataset access and license unverified; excluded from scores",
+  "models": "Model-specific declared terms and hashes in models.lock.json; no weights redistributed",
+  "pretrained_detector": "Apache-2.0 declared by upstream; upstream data membership/rights are not independently established; no training data or weights redistributed",
+  "publication": "Original code, safe synthetic fixtures, aggregate results, locks, metadata and output-free notebook only"
+}

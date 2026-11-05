@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-11-02T07:32:45Z",
+  "available_ram_bytes": 16485068800,
+  "cpu_percent": 24.3,
+  "ac_line_status": 1,
+  "battery_percent": 100,
+  "gpu_samples": [
+    "72, P0, 43 %, 5223 MiB, 47.88 W, 2550 MHz",
+    "72, P0, 43 %, 5223 MiB, 47.88 W, 2550 MHz",
+    "71, P0, 77 %, 5223 MiB, 70.35 W, 2295 MHz",
+    "71, P0, 77 %, 5223 MiB, 70.35 W, 2295 MHz",
+    "72, P0, 42 %, 5223 MiB, 47.39 W, 2550 MHz"
+  ],
+  "scope": "Observational snapshot during reactive HotpotQA evaluation; no controlled cause of latency variation established and no host settings changed."
+}

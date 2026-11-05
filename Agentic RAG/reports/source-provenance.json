@@ -1,0 +1,62 @@
+{
+  "executed_source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+  "lf_normalized_source_identity": "2e3b2c6a379391f57fafcd760ab7de5d848385296d56f8707ce20bc34f5fa2a2",
+  "files": {
+    "src\\agentic_rag\\__init__.py": {
+      "workspace_sha256": "7375f075dc1336985871becd25e92f7b598dba18beca31df99c5fdb07d9d6cc8",
+      "git_lf_sha256": "7375f075dc1336985871becd25e92f7b598dba18beca31df99c5fdb07d9d6cc8",
+      "workspace_line_endings": "LF"
+    },
+    "src\\agentic_rag\\artifacts.py": {
+      "workspace_sha256": "ace59a1dc5dbfdae1e991b04cc17e945cf1491d55e95296e25e64de9f64d9668",
+      "git_lf_sha256": "ace59a1dc5dbfdae1e991b04cc17e945cf1491d55e95296e25e64de9f64d9668",
+      "workspace_line_endings": "LF"
+    },
+    "src\\agentic_rag\\controller.py": {
+      "workspace_sha256": "089be7231959a516c2200cdc01d9a0cbfe6038ba9cda0b636398beff68db9333",
+      "git_lf_sha256": "089be7231959a516c2200cdc01d9a0cbfe6038ba9cda0b636398beff68db9333",
+      "workspace_line_endings": "LF"
+    },
+    "src\\agentic_rag\\data.py": {
+      "workspace_sha256": "207c21e325e96a6869dcf7f64643a569278184dddf06236dc9e22d6d29593664",
+      "git_lf_sha256": "207c21e325e96a6869dcf7f64643a569278184dddf06236dc9e22d6d29593664",
+      "workspace_line_endings": "LF"
+    },
+    "src\\agentic_rag\\evaluation.py": {
+      "workspace_sha256": "85e126bd504c3ed2971919e0619309d83d66024922fd587966f009cfa2a22255",
+      "git_lf_sha256": "85e126bd504c3ed2971919e0619309d83d66024922fd587966f009cfa2a22255",
+      "workspace_line_endings": "LF"
+    },
+    "src\\agentic_rag\\models.py": {
+      "workspace_sha256": "687b74834059e89a31973f58d645ae412d2c569515ee93e9207a4b43db859f4a",
+      "git_lf_sha256": "687b74834059e89a31973f58d645ae412d2c569515ee93e9207a4b43db859f4a",
+      "workspace_line_endings": "LF"
+    },
+    "src\\agentic_rag\\study.py": {
+      "workspace_sha256": "f632d351e303ef9ec41cd2a5720af7d741baf9966b57613d54ce5f753c233d87",
+      "git_lf_sha256": "f632d351e303ef9ec41cd2a5720af7d741baf9966b57613d54ce5f753c233d87",
+      "workspace_line_endings": "LF"
+    },
+    "src\\agentic_rag\\tools.py": {
+      "workspace_sha256": "854cf98e768169974e570d00d095c918a2ce1f5bda9ef01e640ca54f42a25b0f",
+      "git_lf_sha256": "854cf98e768169974e570d00d095c918a2ce1f5bda9ef01e640ca54f42a25b0f",
+      "workspace_line_endings": "LF"
+    },
+    "configs\\study.json": {
+      "workspace_sha256": "2bdcfd373eb051b59ccfe57c227a6f7cbb13e6137efbfb4eb60769f3042c6f95",
+      "git_lf_sha256": "2bdcfd373eb051b59ccfe57c227a6f7cbb13e6137efbfb4eb60769f3042c6f95",
+      "workspace_line_endings": "LF"
+    },
+    "models.lock.json": {
+      "workspace_sha256": "b2fb3008683f8875b6a0898e1e473b3316226cfbdeb2a4ed097793afe2975362",
+      "git_lf_sha256": "c8dec5c30661e001eb06e7875da084ac920b903c8d1dd7ed245d9e0c749d1aeb",
+      "workspace_line_endings": "CRLF"
+    },
+    "sources.lock.json": {
+      "workspace_sha256": "761fd5b14858ce4800cdb3cd04fd2e851319d10031a1547f16a5f05998358b40",
+      "git_lf_sha256": "332a9ac9fe00505e01e846aa7504c3ed9274c739dae0108b9f75b8632a736bdd",
+      "workspace_line_endings": "CRLF"
+    }
+  },
+  "scope": "Frozen inference/evaluation source, study configuration and source/model locks. Paths use the recorded Windows representation. Git normalizes text line endings only; executable contents and JSON values are preserved. Reporting scripts are versioned by the publication commit."
+}

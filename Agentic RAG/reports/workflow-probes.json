@@ -1,0 +1,96 @@
+{
+  "scope": "One synthetic two-source question, two uncached greedy passes per strategy, and three simple NLI sentence-pair diagnostics. These are operational/semantic probes, not benchmark or comprehensive security evidence.",
+  "results": [
+    {
+      "strategy": "fixed",
+      "answer": "England",
+      "repeat_signature_equal": true,
+      "signatures": [
+        "1e9164834d39bfd63906f3ba464c8b68dd9d67a4d411a56de28ed152c4189e80",
+        "1e9164834d39bfd63906f3ba464c8b68dd9d67a4d411a56de28ed152c4189e80"
+      ],
+      "reason": "fixed_complete",
+      "calls": 1,
+      "tokens": 152
+    },
+    {
+      "strategy": "adaptive",
+      "answer": "England",
+      "repeat_signature_equal": true,
+      "signatures": [
+        "1e9164834d39bfd63906f3ba464c8b68dd9d67a4d411a56de28ed152c4189e80",
+        "1e9164834d39bfd63906f3ba464c8b68dd9d67a4d411a56de28ed152c4189e80"
+      ],
+      "reason": "rule_sufficient",
+      "calls": 1,
+      "tokens": 152
+    },
+    {
+      "strategy": "plan",
+      "answer": "England",
+      "repeat_signature_equal": true,
+      "signatures": [
+        "4d1882265b759a7dedeebc65e7d6b1469ee250314ab38897d1d7f1cd31494e11",
+        "4d1882265b759a7dedeebc65e7d6b1469ee250314ab38897d1d7f1cd31494e11"
+      ],
+      "reason": "plan_complete",
+      "calls": 2,
+      "tokens": 335
+    },
+    {
+      "strategy": "agent",
+      "answer": "England",
+      "repeat_signature_equal": true,
+      "signatures": [
+        "0972968728e368f7fdb349cb3c86fd01b709940bc286906ed6969a69e51d185f",
+        "0972968728e368f7fdb349cb3c86fd01b709940bc286906ed6969a69e51d185f"
+      ],
+      "reason": "max_steps",
+      "calls": 3,
+      "tokens": 1562
+    },
+    {
+      "strategy": "verify",
+      "answer": "England",
+      "repeat_signature_equal": true,
+      "signatures": [
+        "2c396e791fc5046cb784f70d3d2ef0e2838b92e730271911b55a43eea6a84da1",
+        "2c396e791fc5046cb784f70d3d2ef0e2838b92e730271911b55a43eea6a84da1"
+      ],
+      "reason": "verified_stop",
+      "calls": 1,
+      "tokens": 327
+    }
+  ],
+  "nli_labels": {
+    "0": "contradiction",
+    "1": "entailment",
+    "2": "neutral"
+  },
+  "nli_semantic_probes": [
+    {
+      "premise": "Dogs are animals.",
+      "claim": "Dogs are animals.",
+      "expected": "entailment",
+      "entailment": 0.9939206838607788,
+      "contradiction": 0.00028183500398881733,
+      "truncated": false
+    },
+    {
+      "premise": "The capital of France is Paris.",
+      "claim": "The capital of France is Berlin.",
+      "expected": "contradiction",
+      "entailment": 3.775137884076685e-05,
+      "contradiction": 0.9995477795600891,
+      "truncated": false
+    },
+    {
+      "premise": "A person is outdoors.",
+      "claim": "A person is outside.",
+      "expected": "entailment",
+      "entailment": 0.9959002137184143,
+      "contradiction": 0.000286067312117666,
+      "truncated": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# Metric definitions
+
+End-to-end time starts before scope computation and ends after cache insertion or answer return. First-use task indexing is charged to the first question. Corpus construction, library imports, model loading and one discarded inference warm-up are separate. Request throughput is the reciprocal of summed sequential request time, not a concurrent load-test result.
+
+Exact and semantic hit rates divide accepted hits of each kind by all requests. Miss rate is one minus their sum. The evidence policy counts evidence reuse as a hit while still recording a generation call. Hybrid records whether an accepted hit reused an answer or evidence. Embedding time is synchronized encoder inference; lookup time includes exact search, vector search, metadata filtering and eligibility checks. Backend microbenchmarks separately time semantic lookup without embedding.
+
+The primary trace compatibility label checks whether the stored family equals the current question family. Original questions, repeats and explicitly synthetic wrappers share a family. Distinct authentic question IDs are treated conservatively as different families. This is a request-family compatibility metric rather than independent human equivalence annotation. False-hit rates use both accepted-hit and all-request denominators. Precision is undefined for zero accepted hits.
+
+PAWS provides actual annotated equivalence labels for sentence pairs. True positives are accepted label-one pairs; false positives are accepted label-zero pairs. Precision divides true positives by all accepted pairs. Recall divides true positives by all label-one pairs; false-positive rate divides false positives by all label-zero pairs. An above-one threshold disables normalized cosine acceptance. Zero development errors do not establish a safe deployment error bound.
+
+The adversarial QA ablation selects nearby authentic SQuAD questions with disjoint answer annotation strings. Its `false_reuse` flag is an annotation-incompatibility proxy. Different strings can still name equivalent answers; use actual EM/F1 degradation against fresh generation and gold annotations alongside this flag. Evidence false matches describe potentially unsuitable retrieval, not automatic answer errors.
+
+Answer EM and token F1 follow lowercasing, punctuation removal, article removal and whitespace normalization. The maximum score across genuine annotated answers is retained. Empty prediction and empty gold both score one. The generator maps a small fixed set of explicit unanswerable responses to an empty answer. No oracle answerability labels enter generation.
+
+Generation calls avoided compare the actual calls in matching no-cache trials. CUDA event elapsed time avoided subtracts measured generation elapsed time totals. Negative values remain possible under timing variation. These measures do not directly quantify energy, financial savings or exclusive GPU use.
+
+Cold-cache phases are the first unique questions with a warm model. Exact-repeat and wrapper phases follow the complete first pass. Model loading is fresh-instance constructor time, not full process startup. The OS file cache is uncontrolled and likely warm; no cold-boot or forced disk-cache flush is claimed. SQLite/Qdrant restart costs measure close/reopen recovery. Persistent bytes, JSON serialized entry bytes, FAISS serialized index bytes and process RSS are different representations and must not be added as if they were independent memory allocations.
+
+Paired intervals use 2,000 bootstrap samples with a fixed seed. Sampling units are HotpotQA question families and SQuAD articles; all requests and timing trials within a unit stay together. Shared HotpotQA source pages can make question-level uncertainty optimistic. Intervals are pointwise, unadjusted and limited to this sample on one host. Trial order is fixed by policy rather than randomized, so timing drift remains a limitation.
+
+Security/freshness rates refer only to their controlled fixture denominators. Eleven changing-state scenarios each make one incompatible lookup. Tests also exercise storage tampering, concurrency and invalid values. A rejected incompatible scope is logical invalidation even if an old entry remains stored until TTL or eviction. No claim of zero real-world leakage or staleness follows from zero fixture failures.

@@ -1,0 +1,50 @@
+{
+  "raw": {
+    "files": 4,
+    "bytes": 91025538
+  },
+  "packages": {
+    "files": 3736,
+    "bytes": 191639197
+  },
+  "models": {
+    "files": 0,
+    "bytes": 0
+  },
+  "traces": {
+    "files": 90,
+    "bytes": 31900027
+  },
+  "backend": {
+    "files": 16,
+    "bytes": 31495227
+  },
+  "development": {
+    "files": 5,
+    "bytes": 429617
+  },
+  "evaluation": {
+    "files": 3,
+    "bytes": 299512
+  },
+  "ablations": {
+    "files": 1,
+    "bytes": 574635
+  },
+  "probes": {
+    "files": 1,
+    "bytes": 120318
+  },
+  "superseded-hybrid-v1": {
+    "files": 7,
+    "bytes": 1719706
+  },
+  "superseded-prompt-v1": {
+    "files": 57,
+    "bytes": 18277907
+  },
+  "superseded-scope-v1": {
+    "files": 14,
+    "bytes": 3295494
+  }
+}

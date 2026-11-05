@@ -1,0 +1,56 @@
+{
+  "baseline_commit": "92a85e1485be22bc762422b52bb554c09b8590f8",
+  "baseline_preserved": true,
+  "tests": {
+    "tests": 64,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0
+  },
+  "syntax_checks": "Source, scripts, tests, and notebook code compiled",
+  "notebook": {
+    "cells": 144,
+    "executed_code_cells": 72,
+    "local_outputs": 138,
+    "png_outputs": 10,
+    "sources_identical": true,
+    "public_outputs_empty": true,
+    "executed_local_unchanged": true,
+    "baseline_preserved": true,
+    "local_sha256": "003154fa9618069b534109f6353dfcf90be5b397feb4aec3205d623930d31b54",
+    "public_sha256": "263c5db519a2ea6ac3a212ef2ed2f7ab992f6db7401ebfbbfa3df07c25d9274c"
+  },
+  "provenance_sha256": {
+    "models.upgrade.lock.json": "740b1bee81853df0f1fe74eddc42c50f109e1aaee7e6043e43146667c017a038",
+    "configs/upgrade-study.json": "cfaf7fd606985b4bdfc83e548474e6de7a8a573ecb32de4436d79c67ac780b73",
+    "reports/upgrade/environment.json": "c11ac62469f5b1ed2e606e77c5774e94fa528f7fb8708434a7e0a5c823d3748d",
+    "reports/upgrade/requirements-lock.txt": "8a432ab7beb9c45647c8de6fb41dd1b2995673472aa02e9abacd97eceb03948c",
+    "reports/upgrade/experiment-identity.json": "202731c1e9453fc7e67734c8c2c139d0ad30a9070b184a4f4606dbeacb00f096",
+    "reports/upgrade/metrics.json": "181ab6b509e4a6d9b4b9444023aea3fce7917ffae1ae28ed0c550bca7c5cbb09",
+    "reports/upgrade/before-after.json": "6bcd25e2d9c4c110b10d523c24c3a3d7ad87200f71b673fb68ac1015c12b8edf",
+    "reports/upgrade/support-review.json": "6bbf876703f1cdf0c3f48b921845e536233157332df4b8f620c31b3cdcc2054f",
+    "reports/upgrade/selection.json": "101e30cfa01b25d65158f12e2052bf1b2ac19b66444c45620321f6727c74f291",
+    "src/advanced_rag/answer_support.py": "bf82b7bf15748448bd81e773039ad430dc743828d1e22d9b866b277a98a0d23e",
+    "reports/upgrade/answer-support-selection.json": "aa3ab116e5d8568ccfd32a07a3ba6b18f1b0a8c2a90e8ebdadb6a444af613f79",
+    "reports/upgrade/answer-support-results.json": "966ee4c0a5a8cbd148f52dd5b16d507e2c985af967563db5d9e78a891a323010",
+    "reports/upgrade/answer-support-adoption.json": "34d39e83415485ff33c4023b0c767e67519e738d57834e8ee553d223d12b1972",
+    "reports/upgrade/answer-support-analysis.json": "d3e9725356c369d87315d8a88ee0e6ca7c2a073246a2871b6f75c97299a70e82"
+  },
+  "prose_review": "README, design, notebook, reports, CLI messages, comments, and commit description reviewed using the installed Humanizer 3.1.0 instructions",
+  "support_review": "Twenty matched cases reviewed by the coding assistant with references visible; no independent human labels",
+  "paid_api_charges_usd": 0,
+  "limitations": [
+    "Bounded candidate pools and public development releases",
+    "Small development and controlled-comparison subsets",
+    "Model-based NLI scores can miss relevance and entailment errors",
+    "Citation-capable model selection is distinct from plain-answer model selection",
+    "No independent human support annotations",
+    "Per-question seeds do not guarantee cross-device bitwise identity",
+    "Question-conditioned follow-up reuses evaluation outputs after the frozen study; untouched confirmation remains pending",
+    "Cache reuse assumes the recorded hardware and runtime",
+    "Unquantized 4B and larger retrieval candidates were not evaluated",
+    "Only two of five synthetic probes produce the expected answer; three fail JSON parsing",
+    "No production injection-resistance claim",
+    "Whole-process resource peaks and limited repeated timing"
+  ]
+}

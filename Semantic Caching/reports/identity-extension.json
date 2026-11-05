@@ -1,0 +1,5 @@
+{
+  "previous_identity": "7671b1ad004ed6fd9d2594f65d0191516a292c48c86b119b34d40c14f098c25d",
+  "extended_identity": "bf2007ecce170ac717df359e3d3c164284340d6b80db078328921bca3322f8db",
+  "reason": "Include experiment-driver bytes in checkpoint identity. Core source hashes match the development selection; no final trials ran under the shorter identity."
+}

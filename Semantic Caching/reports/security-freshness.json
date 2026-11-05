@@ -1,0 +1,62 @@
+{
+  "probes": [
+    {
+      "scenario": "update",
+      "stale_or_unauthorized_return": false,
+      "correctly_rejected": true
+    },
+    {
+      "scenario": "delete",
+      "stale_or_unauthorized_return": false,
+      "correctly_rejected": true
+    },
+    {
+      "scenario": "revocation",
+      "stale_or_unauthorized_return": false,
+      "correctly_rejected": true
+    },
+    {
+      "scenario": "permission_epoch",
+      "stale_or_unauthorized_return": false,
+      "correctly_rejected": true
+    },
+    {
+      "scenario": "cross_tenant",
+      "stale_or_unauthorized_return": false,
+      "correctly_rejected": true
+    },
+    {
+      "scenario": "cross_user",
+      "stale_or_unauthorized_return": false,
+      "correctly_rejected": true
+    },
+    {
+      "scenario": "model",
+      "stale_or_unauthorized_return": false,
+      "correctly_rejected": true
+    },
+    {
+      "scenario": "prompt",
+      "stale_or_unauthorized_return": false,
+      "correctly_rejected": true
+    },
+    {
+      "scenario": "unknown_permission",
+      "stale_or_unauthorized_return": false,
+      "correctly_rejected": true
+    },
+    {
+      "scenario": "expired",
+      "stale_or_unauthorized_return": false,
+      "correctly_rejected": true
+    },
+    {
+      "scenario": "new_document",
+      "stale_or_unauthorized_return": false,
+      "correctly_rejected": true
+    }
+  ],
+  "tested_requests": 11,
+  "failures": 0,
+  "scope": "Controlled synthetic identities and documents; no production penetration test."
+}

@@ -1,0 +1,19 @@
+{
+  "documents": 64,
+  "relevance_labels_used": false,
+  "concurrent_experiment": true,
+  "measurements": [
+    {
+      "threads": 4,
+      "seconds": 2.854040799982613
+    },
+    {
+      "threads": 8,
+      "seconds": 1.669473600020865
+    },
+    {
+      "threads": 12,
+      "seconds": 1.3497467999986839
+    }
+  ]
+}

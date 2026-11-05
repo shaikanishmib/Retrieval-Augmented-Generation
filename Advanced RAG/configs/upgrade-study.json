@@ -1,0 +1,20 @@
+{
+  "development_questions": 64,
+  "fresh_heldout_questions": 256,
+  "excluded_original_heldout": 64,
+  "generator_selection_questions_per_dataset": 16,
+  "retrieval_selection_questions_per_dataset": 24,
+  "ablation_questions_per_dataset": 64,
+  "seed": 42,
+  "bootstrap_replicates": 2000,
+  "threshold_candidates": [0.0, 0.1, 0.25, 0.5, 0.75, 0.9, 0.99],
+  "generator_candidates": ["flan-small", "flan-base", "qwen06", "qwen17"],
+  "retrieval_candidates": [
+    {"name": "bm25", "encoder": "minilm", "retrieval": "bm25", "budget": 768},
+    {"name": "dense_minilm", "encoder": "minilm", "retrieval": "dense", "budget": 768},
+    {"name": "hybrid_minilm", "encoder": "minilm", "retrieval": "hybrid", "budget": 768},
+    {"name": "hybrid_bge", "encoder": "bge-small", "retrieval": "hybrid", "budget": 768},
+    {"name": "tinybert", "encoder": "bge-small", "retrieval": "rerank", "reranker": "tinybert", "budget": 768},
+    {"name": "minilm_rerank", "encoder": "bge-small", "retrieval": "rerank", "reranker": "minilm-rerank", "budget": 768}
+  ]
+}

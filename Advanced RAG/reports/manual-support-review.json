@@ -1,0 +1,30 @@
+{
+  "reviewer": "Coding assistant qualitative review of original retained citation windows",
+  "selection": "First ten held-out questions in deterministic study order for each dataset, hybrid method only",
+  "blinding": "Reference answers were visible. No independent human reviewer or second rater participated.",
+  "criterion": "The cited window must support the complete answer as a response to the question. A comparison needs both sides; shared answer words alone do not suffice.",
+  "scope": "Exploratory case analysis, not a population faithfulness estimate",
+  "counts": {"supported": 8, "partial": 3, "unsupported": 9},
+  "cases": [
+    {"dataset": "hotpot", "id": "5a8b8b3a5542995d1e6f13e5", "label": "unsupported", "reason": "The cited album description does not establish the claimed relationship between the singers."},
+    {"dataset": "hotpot", "id": "5ab746c8554299110f219aef", "label": "unsupported", "reason": "The negative answer is not established by the cited description; the second item is absent."},
+    {"dataset": "hotpot", "id": "5ab48c325542996a3a969f93", "label": "partial", "reason": "The citation identifies a burial location but does not identify the requested county. The output gives the wrong geographic level."},
+    {"dataset": "hotpot", "id": "5a8e024f5542995085b37375", "label": "unsupported", "reason": "The school occurs in evidence about a different composer, without the album-to-person link required by the question."},
+    {"dataset": "hotpot", "id": "5a7bbee85542997c3ec97270", "label": "unsupported", "reason": "The passage mentions a character played by a different actor and does not establish the requested character link."},
+    {"dataset": "hotpot", "id": "5adbf43655429947ff173864", "label": "supported", "reason": "The cited window explicitly states the shared coloration pattern for both breeds."},
+    {"dataset": "hotpot", "id": "5a7c90125542990527d554d1", "label": "unsupported", "reason": "The cited year concerns a song release, not the requested author's birth."},
+    {"dataset": "hotpot", "id": "5add2df85542992ae4cec4d6", "label": "partial", "reason": "The answer matches the reference, but its single citation supplies the country of only one band."},
+    {"dataset": "hotpot", "id": "5ac4f12d55429924173fb4f6", "label": "partial", "reason": "The cited performer description establishes an opera for one item but does not support the conjunction about both items."},
+    {"dataset": "hotpot", "id": "5abe9c1a5542993f32c2a183", "label": "supported", "reason": "The cited window explicitly identifies the person honored by the genus name."},
+    {"dataset": "squad", "id": "57263677ec44d21400f3dc49", "label": "supported", "reason": "The cited window directly states the concept developed during the specified research."},
+    {"dataset": "squad", "id": "571090abb654c5140001f997", "label": "unsupported", "reason": "The output names a population rather than the economic practice described in evidence."},
+    {"dataset": "squad", "id": "5ad25f29d7d075001a428f60", "label": "unsupported", "reason": "The output transfers a distance for a different settlement to the settlement in the question."},
+    {"dataset": "squad", "id": "5a25fa34c93d92001a400370", "label": "unsupported", "reason": "The cited rate concerns a different jurisdiction from the one requested."},
+    {"dataset": "squad", "id": "5a6659d3846392001a1e1b0f", "label": "unsupported", "reason": "The evidence concerns activists and does not establish the statement about political office holders."},
+    {"dataset": "squad", "id": "571153422419e3140095557e", "label": "supported", "reason": "The cited window attributes the named locomotive to the returned person."},
+    {"dataset": "squad", "id": "5730b6592461fd1900a9cfcf", "label": "supported", "reason": "The cited passage identifies the empire with the requested size distinction."},
+    {"dataset": "squad", "id": "5705e63175f01819005e7724", "label": "supported", "reason": "The cited window directly gives the requested relative direction."},
+    {"dataset": "squad", "id": "5728510f4b864d1900164937", "label": "supported", "reason": "The cited window explicitly gives the count of graduate research divisions."},
+    {"dataset": "squad", "id": "5727aeac3acd2414000de98a", "label": "supported", "reason": "The cited window explicitly gives the number of presidential alumni."}
+  ]
+}

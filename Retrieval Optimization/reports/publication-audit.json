@@ -1,0 +1,206 @@
+{
+  "candidate_files_excluding_audit": [
+    {
+      "path": "rag-retrieval-optimization/.gitignore",
+      "bytes": 169
+    },
+    {
+      "path": "rag-retrieval-optimization/README.md",
+      "bytes": 5513
+    },
+    {
+      "path": "rag-retrieval-optimization/docs/CLEANUP.md",
+      "bytes": 2931
+    },
+    {
+      "path": "rag-retrieval-optimization/docs/DATA.md",
+      "bytes": 6011
+    },
+    {
+      "path": "rag-retrieval-optimization/models.lock.json",
+      "bytes": 3505
+    },
+    {
+      "path": "rag-retrieval-optimization/notebooks/01_public_retrieval_research.ipynb",
+      "bytes": 61641
+    },
+    {
+      "path": "rag-retrieval-optimization/pyproject.toml",
+      "bytes": 622
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/dataset-validation.json",
+      "bytes": 4056
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/encoding-thread-probe.json",
+      "bytes": 336
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/fiqa-acquisition.json",
+      "bytes": 260
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/notebook-verification.json",
+      "bytes": 379
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/publication-review.json",
+      "bytes": 1016
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/requirements-lock.txt",
+      "bytes": 1776
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/research/candidate-counts.json",
+      "bytes": 717
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/research/embedding-integrity.json",
+      "bytes": 1029
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/research/environment.json",
+      "bytes": 1106
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/research/fiqa.json",
+      "bytes": 18801
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/research/index-costs.json",
+      "bytes": 577
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/research/latency-repeatability.csv",
+      "bytes": 5568
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/research/memory-observation.json",
+      "bytes": 616
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/research/metrics.csv",
+      "bytes": 6683
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/research/paired-bootstrap.csv",
+      "bytes": 1197
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/research/scifact.json",
+      "bytes": 18095
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/scifact-original-mapping.json",
+      "bytes": 468
+    },
+    {
+      "path": "rag-retrieval-optimization/reports/tests.xml",
+      "bytes": 3866
+    },
+    {
+      "path": "rag-retrieval-optimization/scripts/acquire.py",
+      "bytes": 3336
+    },
+    {
+      "path": "rag-retrieval-optimization/scripts/acquire_models.py",
+      "bytes": 2089
+    },
+    {
+      "path": "rag-retrieval-optimization/scripts/audit_publication.py",
+      "bytes": 3465
+    },
+    {
+      "path": "rag-retrieval-optimization/scripts/benchmark_encoding_threads.py",
+      "bytes": 1222
+    },
+    {
+      "path": "rag-retrieval-optimization/scripts/build_notebook.py",
+      "bytes": 48613
+    },
+    {
+      "path": "rag-retrieval-optimization/scripts/compare_retrieval_passes.py",
+      "bytes": 1759
+    },
+    {
+      "path": "rag-retrieval-optimization/scripts/execute_notebook.py",
+      "bytes": 2247
+    },
+    {
+      "path": "rag-retrieval-optimization/scripts/monitor_process.py",
+      "bytes": 1945
+    },
+    {
+      "path": "rag-retrieval-optimization/scripts/publish_notebook.py",
+      "bytes": 2576
+    },
+    {
+      "path": "rag-retrieval-optimization/scripts/run_research.py",
+      "bytes": 252
+    },
+    {
+      "path": "rag-retrieval-optimization/scripts/verify_scifact_origin.py",
+      "bytes": 2303
+    },
+    {
+      "path": "rag-retrieval-optimization/sources.lock.json",
+      "bytes": 1240
+    },
+    {
+      "path": "rag-retrieval-optimization/src/rag_data/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "rag-retrieval-optimization/src/rag_data/chunking.py",
+      "bytes": 2126
+    },
+    {
+      "path": "rag-retrieval-optimization/src/rag_data/dense.py",
+      "bytes": 2955
+    },
+    {
+      "path": "rag-retrieval-optimization/src/rag_data/research.py",
+      "bytes": 12663
+    },
+    {
+      "path": "rag-retrieval-optimization/src/rag_data/retrieval.py",
+      "bytes": 4022
+    },
+    {
+      "path": "rag-retrieval-optimization/src/rag_data/transforms.py",
+      "bytes": 1895
+    },
+    {
+      "path": "rag-retrieval-optimization/src/rag_data/validation.py",
+      "bytes": 5044
+    },
+    {
+      "path": "rag-retrieval-optimization/tests/conftest.py",
+      "bytes": 194
+    },
+    {
+      "path": "rag-retrieval-optimization/tests/test_acquisition.py",
+      "bytes": 2020
+    },
+    {
+      "path": "rag-retrieval-optimization/tests/test_artifacts.py",
+      "bytes": 1958
+    },
+    {
+      "path": "rag-retrieval-optimization/tests/test_notebooks.py",
+      "bytes": 1059
+    },
+    {
+      "path": "rag-retrieval-optimization/tests/test_research.py",
+      "bytes": 7045
+    }
+  ],
+  "candidate_bytes_excluding_audit": 258966,
+  "excluded_artifact_checks": true,
+  "cell_source_identity": true,
+  "public_outputs_empty": true,
+  "credential_pattern_scan": "No matching patterns in publication candidates",
+  "scope": "Only rag-retrieval-optimization; source-text and prose review are separate manual checks"
+}

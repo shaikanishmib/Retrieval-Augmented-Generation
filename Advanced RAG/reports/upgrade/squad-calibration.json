@@ -1,0 +1,89 @@
+{
+  "raw_nli": {
+    "brier": 0.40426519840121333,
+    "ece10": 0.4143421974913153,
+    "bins": [
+      {
+        "lower": 0.0,
+        "n": 200,
+        "confidence": 0.005187522112437364,
+        "accuracy": 0.385
+      },
+      {
+        "lower": 0.1,
+        "n": 4,
+        "confidence": 0.1388323251157999,
+        "accuracy": 0.0
+      },
+      {
+        "lower": 0.2,
+        "n": 3,
+        "confidence": 0.2457441439231237,
+        "accuracy": 0.0
+      },
+      {
+        "lower": 0.3,
+        "n": 2,
+        "confidence": 0.36400723457336426,
+        "accuracy": 0.5
+      },
+      {
+        "lower": 0.4,
+        "n": 3,
+        "confidence": 0.4800613323847453,
+        "accuracy": 1.0
+      },
+      {
+        "lower": 0.5,
+        "n": 2,
+        "confidence": 0.5484265685081482,
+        "accuracy": 0.0
+      },
+      {
+        "lower": 0.6,
+        "n": 3,
+        "confidence": 0.6647400061289469,
+        "accuracy": 0.3333333333333333
+      },
+      {
+        "lower": 0.7,
+        "n": 1,
+        "confidence": 0.7613675594329834,
+        "accuracy": 1.0
+      },
+      {
+        "lower": 0.8,
+        "n": 4,
+        "confidence": 0.8694368749856949,
+        "accuracy": 0.5
+      },
+      {
+        "lower": 0.9,
+        "n": 34,
+        "confidence": 0.9758026652476367,
+        "accuracy": 0.29411764705882354
+      }
+    ],
+    "target": "raw answer exact correctness, not entailment"
+  },
+  "platt": {
+    "brier": 0.23375688877422282,
+    "ece10": 0.022731346017533342,
+    "bins": [
+      {
+        "lower": 0.3,
+        "n": 60,
+        "confidence": 0.34369725624756914,
+        "accuracy": 0.35
+      },
+      {
+        "lower": 0.4,
+        "n": 196,
+        "confidence": 0.40531153038440143,
+        "accuracy": 0.37755102040816324
+      }
+    ],
+    "target": "raw answer exact correctness, not entailment"
+  },
+  "threshold": 0.1
+}

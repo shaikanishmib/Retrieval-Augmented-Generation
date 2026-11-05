@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "advanced-rag-research"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["numpy", "torch==2.10.0", "transformers==4.57.3", "sentence-transformers==5.2.0", "sentencepiece==0.2.1", "pyarrow==23.0.0", "pandas", "matplotlib", "nbformat", "nbclient", "ipykernel", "psutil"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.2.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"

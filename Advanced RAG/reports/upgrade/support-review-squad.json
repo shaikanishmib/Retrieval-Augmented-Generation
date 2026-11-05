@@ -1,0 +1,87 @@
+{
+  "reviewer": "Coding assistant, with references and actual cited windows visible",
+  "selection": "First ten original held-out SQuAD questions in deterministic order, matched to the baseline case review",
+  "independent_human_annotations": false,
+  "cases": [
+    {
+      "dataset": "squad",
+      "id": "57263677ec44d21400f3dc49",
+      "raw_label": "supported",
+      "final_label": "supported",
+      "reason": "The cited window directly names the concept developed during the specified research.",
+      "reviewed_prediction_sha256": "6287c561ea08cf3baa4046ef445413a69362c3121b2bb6e3c8809b3115c7bd74"
+    },
+    {
+      "dataset": "squad",
+      "id": "571090abb654c5140001f997",
+      "raw_label": "invalid",
+      "final_label": "abstained",
+      "reason": "A trailing quotation mark makes the response invalid JSON. The generated answer does not reach the final output.",
+      "reviewed_prediction_sha256": "8e6355ee69a605bca15d19e4ffcd812620c42a259c42a46c00bfbbf8405cd98a"
+    },
+    {
+      "dataset": "squad",
+      "id": "5ad25f29d7d075001a428f60",
+      "raw_label": "unsupported",
+      "final_label": "abstained",
+      "reason": "The response transfers a distance for a different settlement to the requested settlement. NLI support filtering rejects it.",
+      "reviewed_prediction_sha256": "7a029efbdc40fd7b542295869c0fad8d1f546c42b2e7522221a365a0ccf3e5dd"
+    },
+    {
+      "dataset": "squad",
+      "id": "5a25fa34c93d92001a400370",
+      "raw_label": "unsupported",
+      "final_label": "abstained",
+      "reason": "The cited numeric rate concerns the United States rather than the requested EU jurisdiction. The answer-binding guard rejects the response.",
+      "reviewed_prediction_sha256": "3e0f3ee84964430b6dd3d93c0fd62e42188aaeeb2e9260acbe3cca399ba523b5"
+    },
+    {
+      "dataset": "squad",
+      "id": "5a6659d3846392001a1e1b0f",
+      "raw_label": "invalid",
+      "final_label": "abstained",
+      "reason": "An extra closing brace makes the output invalid JSON. It is rejected before support evaluation.",
+      "reviewed_prediction_sha256": "9de366e46edbf3b58ac4a96753855afc211da181e40abbedd691354877d5c378"
+    },
+    {
+      "dataset": "squad",
+      "id": "571153422419e3140095557e",
+      "raw_label": "supported",
+      "final_label": "abstained",
+      "reason": "The cited window attributes the locomotive to the returned designer. The NLI filter rejects this supported response.",
+      "reviewed_prediction_sha256": "e6a2880b2913899fe7ec6ca70f97bd56338d859b941b51abdc6a81556bbc5c01"
+    },
+    {
+      "dataset": "squad",
+      "id": "5730b6592461fd1900a9cfcf",
+      "raw_label": "supported",
+      "final_label": "abstained",
+      "reason": "The cited description identifies the British Empire as the largest. The answer expresses its country as the United Kingdom, which differs from the literal reference strings. The NLI filter rejects it.",
+      "reviewed_prediction_sha256": "332f2890412b219a40ec46a5845196f53733db8272ea0845a00e8905cac8b9c1"
+    },
+    {
+      "dataset": "squad",
+      "id": "5705e63175f01819005e7724",
+      "raw_label": "supported",
+      "final_label": "supported",
+      "reason": "The cited window states the requested relative direction.",
+      "reviewed_prediction_sha256": "8c02df3ca1a3d86384a02d97c204e6ba6590ea54a7d972b6bffcffccb27ae575"
+    },
+    {
+      "dataset": "squad",
+      "id": "5728510f4b864d1900164937",
+      "raw_label": "unsupported",
+      "final_label": "abstained",
+      "reason": "The response confuses the number of professional schools with the number of graduate divisions. The source explicitly distinguishes them, and NLI filtering rejects the answer.",
+      "reviewed_prediction_sha256": "f77f1160f00b97f49f205cd94643e7ade8677ea6d6af251c16c73fad1601a809"
+    },
+    {
+      "dataset": "squad",
+      "id": "5727aeac3acd2414000de98a",
+      "raw_label": "invalid",
+      "final_label": "abstained",
+      "reason": "A trailing quotation mark causes JSON parsing failure. No final answer is accepted.",
+      "reviewed_prediction_sha256": "e8d124fc89565ff1444e629bdef8397ae32c4d16de84e5354013d454bebdd80d"
+    }
+  ]
+}

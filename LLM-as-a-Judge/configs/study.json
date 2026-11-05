@@ -1,0 +1,16 @@
+{
+  "seed": 58021,
+  "development_groups_per_task": 12,
+  "validation_groups_per_task": 8,
+  "test_groups_per_task": 30,
+  "pilot_responses": 18,
+  "selection_metric": "macro_f1",
+  "bootstrap_replicates": 2000,
+  "nli_window_words": 180,
+  "nli_stride_words": 120,
+  "nli_windows_per_claim": 3,
+  "qwen_context_tokens": 3072,
+  "thresholds": [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+  "models": ["nli", "qwen06", "qwen17"],
+  "test_policy": "One frozen study; no selection on official test. All six responses retained per sampled source."
+}

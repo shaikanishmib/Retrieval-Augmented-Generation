@@ -1,0 +1,224 @@
+{
+  "attempts": 448,
+  "elapsed_seconds": 0.014328300021588802,
+  "families": {
+    "freshness": {
+      "n": 32,
+      "stale_hit": {
+        "count": 0,
+        "rate": 0.0,
+        "wilson_95": [
+          0,
+          0.1071791982550706
+        ]
+      }
+    },
+    "index-id-substitution": {
+      "n": 32,
+      "id_only_exposure": {
+        "count": 32,
+        "rate": 1.0,
+        "wilson_95": [
+          0.8928208017449293,
+          1
+        ]
+      },
+      "integrity_checked_exposure": {
+        "count": 0,
+        "rate": 0.0,
+        "wilson_95": [
+          0,
+          0.1071791982550706
+        ]
+      }
+    },
+    "index-metadata": {
+      "n": 32,
+      "forged_authorized": {
+        "count": 0,
+        "rate": 0.0,
+        "wilson_95": [
+          0,
+          0.1071791982550706
+        ]
+      },
+      "forged_passes_integrity": {
+        "count": 0,
+        "rate": 0.0,
+        "wilson_95": [
+          0,
+          0.1071791982550706
+        ]
+      }
+    },
+    "ingestion": {
+      "n": 32,
+      "duplicate_accepted": {
+        "count": 0,
+        "rate": 0.0,
+        "wilson_95": [
+          0,
+          0.1071791982550706
+        ]
+      },
+      "unapproved_accepted": {
+        "count": 0,
+        "rate": 0.0,
+        "wilson_95": [
+          0,
+          0.1071791982550706
+        ]
+      }
+    },
+    "output-canary": {
+      "n": 32,
+      "accepted": {
+        "count": 0,
+        "rate": 0.0,
+        "wilson_95": [
+          0,
+          0.1071791982550706
+        ]
+      },
+      "canary_exposed": {
+        "count": 32,
+        "rate": 1.0,
+        "wilson_95": [
+          0.8928208017449293,
+          1
+        ]
+      }
+    },
+    "resource-budget": {
+      "n": 64,
+      "blocked": {
+        "count": 64,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9433759402071946,
+          1
+        ]
+      }
+    },
+    "revocation": {
+      "n": 32,
+      "stale_hit": {
+        "count": 0,
+        "rate": 0.0,
+        "wilson_95": [
+          0,
+          0.1071791982550706
+        ]
+      }
+    },
+    "tenant-cache-hit": {
+      "n": 32,
+      "attempted": {
+        "count": 32,
+        "rate": 1.0,
+        "wilson_95": [
+          0.8928208017449293,
+          1
+        ]
+      },
+      "authorized_hit": {
+        "count": 32,
+        "rate": 1.0,
+        "wilson_95": [
+          0.8928208017449293,
+          1
+        ]
+      },
+      "broken_exposure": {
+        "count": 32,
+        "rate": 1.0,
+        "wilson_95": [
+          0.8928208017449293,
+          1
+        ]
+      },
+      "protected_exposure": {
+        "count": 0,
+        "rate": 0.0,
+        "wilson_95": [
+          0,
+          0.1071791982550706
+        ]
+      }
+    },
+    "tenant-miss": {
+      "n": 32,
+      "attempted": {
+        "count": 32,
+        "rate": 1.0,
+        "wilson_95": [
+          0.8928208017449293,
+          1
+        ]
+      },
+      "broken_exposure": {
+        "count": 32,
+        "rate": 1.0,
+        "wilson_95": [
+          0.8928208017449293,
+          1
+        ]
+      },
+      "broken_retrieval": {
+        "count": 32,
+        "rate": 1.0,
+        "wilson_95": [
+          0.8928208017449293,
+          1
+        ]
+      },
+      "protected_exposure": {
+        "count": 0,
+        "rate": 0.0,
+        "wilson_95": [
+          0,
+          0.1071791982550706
+        ]
+      },
+      "protected_retrieval": {
+        "count": 0,
+        "rate": 0.0,
+        "wilson_95": [
+          0,
+          0.1071791982550706
+        ]
+      }
+    },
+    "tool-policy": {
+      "n": 96,
+      "executed": {
+        "count": 0,
+        "rate": 0.0,
+        "wilson_95": [
+          3.469446951953614e-18,
+          0.038475587857675686
+        ]
+      }
+    },
+    "untrusted-cache-write": {
+      "n": 32,
+      "accepted": {
+        "count": 0,
+        "rate": 0.0,
+        "wilson_95": [
+          0,
+          0.1071791982550706
+        ]
+      },
+      "attempted": {
+        "count": 32,
+        "rate": 1.0,
+        "wilson_95": [
+          0.8928208017449293,
+          1
+        ]
+      }
+    }
+  },
+  "scope": "Broken comparators are explicitly labeled application anti-patterns. They are separate from D0 and execute no external operation. Canary retrieval is exposure to the generation boundary; it is distinct from model-generated disclosure. Output-canary proposals are deterministic test inputs, not inference."
+}

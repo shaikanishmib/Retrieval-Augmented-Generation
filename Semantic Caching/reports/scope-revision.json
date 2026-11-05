@@ -1,0 +1,24 @@
+{
+  "reason": "Bind cache keys to exact generator and embedding model revisions, rather than aliases alone. Preserve early trials and reselect before final evaluation.",
+  "preserved": {
+    "reports/selection-freeze.json": "28a71d866e35a2c3bf825b9da62ed03bc6bdc601c1471e23ed3109bb6254966f",
+    "reports/execution-ledger.json": "1deae140476b0ef31e95d087e3a0bd4808b7ddcce130483444b5915621d9df1e",
+    "reports/generator-development.json": "ffacdae2e9e1ab5c6a3111c756f6be0996da73dfad50b80b98961baf1c324cf1",
+    "reports/embedding-development.json": "85015aedb28df37b97c79b9c9eaf3fe5f9d20e8549f61dd850882b806b19e54d",
+    "data/traces": {
+      "hotpot-mixed-evidence-0.json": "8b32488a4b2415177ec84be9ce200158df8bd399c2022c6bb6296a04ef2b0907",
+      "hotpot-mixed-exact-0.json": "61763e7ff16cdccfad506e5944232a4c1704599f5bc12d9b8cab2359373e84f7",
+      "hotpot-mixed-hybrid-0.json": "6d8328e00fc46c05d7bbd74d3f12f26404a586af9a868feb618fab941a5d18f8",
+      "hotpot-mixed-none-0.json": "c099fe8f055401284f1387f4e36fe0e188e5ee08683900ac2eb2b0b182de5b70",
+      "hotpot-mixed-semantic-0.json": "c4fcde4e58ff90571695b208db5cba39f3728bcd72fc580f9c08f54e429bc8b0"
+    },
+    "data/development": {
+      "bge-small-scores.json": "6d83a4a6869f420d80377eaa0be278e0d34862863bad9c171040b5a89ed0a2f5",
+      "flan-base-qa.json": "9550968d8d430c874d4f8bdc671a20d11c731a2d46c02f165259f65655b54f1f",
+      "flan-small-qa.json": "096076d616fbdb57074bbb78123e938968c51303cecbf36eca871133fb947f38",
+      "minilm-scores.json": "c259d19bbbcc2b960569f53e76b4affb36b8ffc85bcc1966b59b661a3eb15fa5",
+      "tfidf-scores.json": "9652da2ee29234941069fb1d6d181ab47f81e097e496f3de5d9c4abb73762eee"
+    }
+  },
+  "deleted": []
+}

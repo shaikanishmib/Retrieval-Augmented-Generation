@@ -1,0 +1,14 @@
+{
+  "type": "scikit-learn LogisticRegression with TF-IDF and three scalar features",
+  "sha256": "4ec9ee8cdf2d92329091878adf111c7723c367449a77621d9b4e3a54a13b8476",
+  "bytes": 1426749,
+  "source_identity": "5b42d53d13c491b833fa5423f1fa022d324cfd5e904c3b280e70b14ede658c1e",
+  "training_identity": "bd5225fa8104f7a168e4224e7ddc87c1a4c0e604bb7798bd65525c492b0532f6",
+  "sklearn": "1.9.1",
+  "classes": [
+    0,
+    1
+  ],
+  "positive_class": "At least one original RAGTruth hallucination span",
+  "artifact_policy": "Trained parameters remain local; retrain from pinned training data."
+}

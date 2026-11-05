@@ -1,0 +1,31 @@
+[
+  {
+    "name": "scifact",
+    "filename": "scifact.zip",
+    "url": "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/scifact.zip",
+    "bytes": 2816079,
+    "sha256": "536e14446a0ba56ed1398ab1055f39fe852686ecad24a6306c80c490fa8e0165",
+    "upstream_md5": "5f7d1de60b170fc8027bb7898e2efca1",
+    "version": "BEIR archive pinned by SHA-256",
+    "acquired_date": "2026-10-31"
+  },
+  {
+    "name": "scifact-original",
+    "filename": "scifact-original.tar.gz",
+    "url": "https://scifact.s3-us-west-2.amazonaws.com/release/latest/data.tar.gz",
+    "bytes": 3115079,
+    "sha256": "11c621288d41ac144d29b13b0f8503b3820b7d6e8b1f6ff24dff335c196d76be",
+    "version": "Original SciFact release pinned by SHA-256; mutable latest URL",
+    "acquired_date": "2026-10-31"
+  },
+  {
+    "url": "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/fiqa.zip",
+    "download_completed_utc": "2026-11-01T03:59:12.431423+00:00",
+    "bytes": 17948027,
+    "sha256": "32c7df99ed21252fdfb2cf3f5673502a8d245ee0c44c4a133570d92ce2b3ad02",
+    "name": "fiqa",
+    "filename": "fiqa.zip",
+    "version": "BEIR archive pinned by SHA-256",
+    "upstream_md5": "17918ed23cd04fb15047f73e6c3bd9d9"
+  }
+]

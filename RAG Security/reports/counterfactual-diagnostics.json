@@ -1,0 +1,28 @@
+{
+  "task": "synthetic-evaluation-station-0",
+  "method": "tfidf",
+  "threshold": 0.7260682531219017,
+  "variants": {
+    "original": {
+      "score": 0.8314442441880351,
+      "flagged": true
+    },
+    "neutral_name": {
+      "score": 0.6766253173185234,
+      "flagged": false
+    },
+    "development_name": {
+      "score": 0.6869316739887769,
+      "flagged": false
+    },
+    "development_domain": {
+      "score": 0.8334046331331656,
+      "flagged": true
+    },
+    "both_development_terms": {
+      "score": 0.6920073658482552,
+      "flagged": false
+    }
+  },
+  "scope": "Post-freeze detector-only analysis of one synthetic factual passage. No generator is run, no protected task or threshold changes, and no result replaces the primary study. Administrative split prefixes are present in original synthetic facility names and can create lexical distribution artifacts. These variants test sensitivity, not general domain transfer or corrected security performance."
+}

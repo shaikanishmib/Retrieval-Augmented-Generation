@@ -1,0 +1,78 @@
+{
+  "hotpot": {
+    "original": {
+      "hybrid": {
+        "delta": 0.08005289666473876,
+        "low": -0.025035575718141516,
+        "high": 0.18477361522797356,
+        "clusters": 64,
+        "replicates": 2000,
+        "unit": "article for SQuAD; question for HotpotQA"
+      },
+      "rerank": {
+        "delta": -0.010898339598997487,
+        "low": -0.11235677083333333,
+        "high": 0.08802563048245612,
+        "clusters": 64,
+        "replicates": 2000,
+        "unit": "article for SQuAD; question for HotpotQA"
+      }
+    },
+    "fresh": {
+      "hybrid": {
+        "delta": 0.05045799469627595,
+        "low": 0.0016432214161706327,
+        "high": 0.0997201713217338,
+        "clusters": 256,
+        "replicates": 2000,
+        "unit": "article for SQuAD; question for HotpotQA"
+      },
+      "rerank": {
+        "delta": 0.06737144867435842,
+        "low": 0.02405245118379884,
+        "high": 0.11005682473019782,
+        "clusters": 256,
+        "replicates": 2000,
+        "unit": "article for SQuAD; question for HotpotQA"
+      }
+    }
+  },
+  "squad": {
+    "original": {
+      "hybrid": {
+        "delta": 0.27412178813833227,
+        "low": 0.18420192828992638,
+        "high": 0.366054711983158,
+        "clusters": 22,
+        "replicates": 2000,
+        "unit": "article for SQuAD; question for HotpotQA"
+      },
+      "rerank": {
+        "delta": 0.27412178813833227,
+        "low": 0.1866332669431409,
+        "high": 0.3590829871975444,
+        "clusters": 22,
+        "replicates": 2000,
+        "unit": "article for SQuAD; question for HotpotQA"
+      }
+    },
+    "fresh": {
+      "hybrid": {
+        "delta": 0.20661227250454225,
+        "low": 0.13787126522178964,
+        "high": 0.2800214110537889,
+        "clusters": 24,
+        "replicates": 2000,
+        "unit": "article for SQuAD; question for HotpotQA"
+      },
+      "rerank": {
+        "delta": 0.2111695641712089,
+        "low": 0.142177291273134,
+        "high": 0.2847278458122352,
+        "clusters": 24,
+        "replicates": 2000,
+        "unit": "article for SQuAD; question for HotpotQA"
+      }
+    }
+  }
+}

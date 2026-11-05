@@ -1,0 +1,217 @@
+{
+  "configuration": "ensemble",
+  "annotation_subsets": {
+    "any implicit_true": {
+      "responses": 19,
+      "missed_hallucination_fraction": 0.2631578947368421
+    },
+    "any conflict": {
+      "responses": 100,
+      "missed_hallucination_fraction": 0.34
+    },
+    "any baseless information": {
+      "responses": 110,
+      "missed_hallucination_fraction": 0.37272727272727274
+    },
+    "any subtle error": {
+      "responses": 30,
+      "missed_hallucination_fraction": 0.26666666666666666
+    }
+  },
+  "subset_policy": "Annotation subsets overlap. Miss rates measure detection of human evidence-support labels, including true-but-unestablished assertions; they do not establish factual correctness.",
+  "quality_flags": {
+    "good": {
+      "responses": 535,
+      "predicted_hallucinations": 139
+    },
+    "incorrect_refusal": {
+      "responses": 5,
+      "predicted_hallucinations": 1
+    }
+  },
+  "by_generator": {
+    "gpt-3.5-turbo-0613": {
+      "n": 90,
+      "accuracy": 0.8666666666666667,
+      "balanced_accuracy": 0.5352564102564102,
+      "precision": 0.5,
+      "recall": 0.08333333333333333,
+      "f1": 0.14285714285714285,
+      "macro_f1": 0.5352839931153184,
+      "kappa": 0.10891089108910879,
+      "mcc": 0.16261090889699772,
+      "roc_auc": 0.8333333333333333,
+      "pr_auc": 0.4666854757274839,
+      "brier": 0.10849544912228158,
+      "ece_10_bins": 0.1385519344895805,
+      "false_positive_rate": 0.01282051282051282,
+      "false_negative_rate": 0.9166666666666666,
+      "confusion": [
+        [
+          77,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ]
+    },
+    "gpt-4-0613": {
+      "n": 90,
+      "accuracy": 0.8888888888888888,
+      "balanced_accuracy": 0.5442073170731707,
+      "precision": 0.25,
+      "recall": 0.125,
+      "f1": 0.16666666666666666,
+      "macro_f1": 0.5535714285714286,
+      "kappa": 0.11417322834645671,
+      "mcc": 0.12209471138394842,
+      "roc_auc": 0.896341463414634,
+      "pr_auc": 0.37123171966921964,
+      "brier": 0.09905554300168239,
+      "ece_10_bins": 0.18483634446485125,
+      "false_positive_rate": 0.036585365853658534,
+      "false_negative_rate": 0.875,
+      "confusion": [
+        [
+          79,
+          3
+        ],
+        [
+          7,
+          1
+        ]
+      ]
+    },
+    "llama-2-13b-chat": {
+      "n": 90,
+      "accuracy": 0.8444444444444444,
+      "balanced_accuracy": 0.8386123680241326,
+      "precision": 0.8378378378378378,
+      "recall": 0.7948717948717948,
+      "f1": 0.8157894736842105,
+      "macro_f1": 0.840587044534413,
+      "kappa": 0.6813353566009104,
+      "mcc": 0.6820424524274985,
+      "roc_auc": 0.9054801407742584,
+      "pr_auc": 0.8919713969585134,
+      "brier": 0.13577106891811516,
+      "ece_10_bins": 0.14621847716346675,
+      "false_positive_rate": 0.11764705882352941,
+      "false_negative_rate": 0.20512820512820512,
+      "confusion": [
+        [
+          45,
+          6
+        ],
+        [
+          8,
+          31
+        ]
+      ]
+    },
+    "llama-2-70b-chat": {
+      "n": 90,
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.7667050691244239,
+      "precision": 0.6785714285714286,
+      "recall": 0.6785714285714286,
+      "f1": 0.6785714285714286,
+      "macro_f1": 0.7667050691244239,
+      "kappa": 0.5334101382488479,
+      "mcc": 0.533410138248848,
+      "roc_auc": 0.865783410138249,
+      "pr_auc": 0.7465314915510404,
+      "brier": 0.14614961743023439,
+      "ece_10_bins": 0.11478006820182234,
+      "false_positive_rate": 0.14516129032258066,
+      "false_negative_rate": 0.32142857142857145,
+      "confusion": [
+        [
+          53,
+          9
+        ],
+        [
+          9,
+          19
+        ]
+      ]
+    },
+    "llama-2-7b-chat": {
+      "n": 90,
+      "accuracy": 0.7111111111111111,
+      "balanced_accuracy": 0.7075705096486888,
+      "precision": 0.7297297297297297,
+      "recall": 0.627906976744186,
+      "f1": 0.675,
+      "macro_f1": 0.7075,
+      "kappa": 0.41762070681931307,
+      "mcc": 0.42144412806481957,
+      "roc_auc": 0.735774369124196,
+      "pr_auc": 0.7552134151369158,
+      "brier": 0.20940725542386068,
+      "ece_10_bins": 0.09215755303023124,
+      "false_positive_rate": 0.2127659574468085,
+      "false_negative_rate": 0.37209302325581395,
+      "confusion": [
+        [
+          37,
+          10
+        ],
+        [
+          16,
+          27
+        ]
+      ]
+    },
+    "mistral-7B-instruct": {
+      "n": 90,
+      "accuracy": 0.7222222222222222,
+      "balanced_accuracy": 0.7369337979094077,
+      "precision": 0.875,
+      "recall": 0.5714285714285714,
+      "f1": 0.691358024691358,
+      "macro_f1": 0.7194163860830527,
+      "kappa": 0.458353394318729,
+      "mcc": 0.4930125719808803,
+      "roc_auc": 0.834245893479343,
+      "pr_auc": 0.8515807497608539,
+      "brier": 0.17780727775421093,
+      "ece_10_bins": 0.10047899099202941,
+      "false_positive_rate": 0.0975609756097561,
+      "false_negative_rate": 0.42857142857142855,
+      "confusion": [
+        [
+          37,
+          4
+        ],
+        [
+          21,
+          28
+        ]
+      ]
+    }
+  },
+  "selected_source_bootstrap_intervals_95": {
+    "accuracy": [
+      0.7648148148148148,
+      0.8407407407407408
+    ],
+    "precision": [
+      0.6734659863945578,
+      0.8487440299860951
+    ],
+    "recall": [
+      0.49354508196721314,
+      0.6867079917824379
+    ],
+    "f1": [
+      0.5836424190463629,
+      0.7405301803260986
+    ]
+  },
+  "bootstrap_replicates": 2000,
+  "resampling_unit": "source_id",
+  "causal_limit": "Generator-specific error rates describe the sampled responses and are not evidence of self-preference or causal identity bias."
+}

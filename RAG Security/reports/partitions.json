@@ -1,0 +1,449 @@
+{
+  "tasks": {
+    "development": [
+      {
+        "id": "bipia-table-train-119",
+        "domain": "bipia-table",
+        "group": "bipia-table-train-119",
+        "row_hash": "2086faf9953fdd47acba322e68dafd62276fb233e015139c802c19d684612d59",
+        "context_hash": "bb3b5e014ddfef1c221940c3ee9a7b2263cac3b826120caeda035bcb5a68b213"
+      },
+      {
+        "id": "bipia-table-train-280",
+        "domain": "bipia-table",
+        "group": "bipia-table-train-280",
+        "row_hash": "8f2d2e5c308acfd10a31484d7bac3c662b7ddbbb4045c9b26ad7a50595ac448f",
+        "context_hash": "2f49e5dd5354f0beb14ef52702e42dce2685f2f8397cc3b532b925d103ad80e2"
+      },
+      {
+        "id": "bipia-table-train-792",
+        "domain": "bipia-table",
+        "group": "bipia-table-train-792",
+        "row_hash": "b90ee0a40c7693b484ca626ec55ffbaa95ca461d04c899d781984edb02638070",
+        "context_hash": "39cdf7a959d91b94174b2603db0edcf554c20aa607ea5d6c6ed2bbf76bd2ed5a"
+      },
+      {
+        "id": "bipia-table-train-798",
+        "domain": "bipia-table",
+        "group": "bipia-table-train-798",
+        "row_hash": "40ef57f5321ca9448a9955505d652047c364bf7a4d14542c420e3943e89feb0c",
+        "context_hash": "a39a2b0a25ca242167c170a80793afd120b071e89f95dba734e71a4a4a8a17f8"
+      },
+      {
+        "id": "bipia-table-train-856",
+        "domain": "bipia-table",
+        "group": "bipia-table-train-856",
+        "row_hash": "7d8b304d34f4330a0ac9f8b077c65c2b17131f1b812dbd198be75bf01bac8b71",
+        "context_hash": "9081b5a3f778339cffa713f026fde2b689e519ead9c6442552db6a08dcea7d6b"
+      },
+      {
+        "id": "bipia-table-train-546",
+        "domain": "bipia-table",
+        "group": "bipia-table-train-546",
+        "row_hash": "abe806bc8b09b1ef22cc05d944240857366b8e72b3612c0267cba658320cfa04",
+        "context_hash": "569d95856866aba7cd40bbae80fb3a70935115dc41df95c5ac25b2b0808a936a"
+      },
+      {
+        "id": "bipia-table-train-64",
+        "domain": "bipia-table",
+        "group": "bipia-table-train-64",
+        "row_hash": "254dc67cff9f13c93b204834a8a2c735333b7edacb9a9d8b95b164292efd999d",
+        "context_hash": "304f23e52c9328fcf9d03b7006787c1223d2d33d3fa0066c37a41353f22b1153"
+      },
+      {
+        "id": "bipia-table-train-419",
+        "domain": "bipia-table",
+        "group": "bipia-table-train-419",
+        "row_hash": "8c9f69c3bbf49d5541008b9c51d77ab1f082e138116e6971959de85c35d776d1",
+        "context_hash": "6466914535cf352dec743ef5e72323de5c6bc2b2537f998d28ee0084c820444b"
+      },
+      {
+        "id": "synthetic-development-station-0",
+        "domain": "observatory",
+        "group": "synthetic-development-station-0",
+        "row_hash": "b4c27035c04ab86892f6ca7f22f4e948cc57705e794f7d13fe36be94a5c356e5",
+        "context_hash": "96288beebc50faf08e54b02ccfed714939f3a678d0d62284290c97fb1cac3a8f"
+      },
+      {
+        "id": "synthetic-development-station-1",
+        "domain": "observatory",
+        "group": "synthetic-development-station-1",
+        "row_hash": "d0ec119d86510e81ee3318f5ff71ec7e22b48b7fbbb02a248252cac35f1fdde9",
+        "context_hash": "f590ca25684028198a417243e2772f7d0145dd6e4e145ad095cf7fd0d1dc6d8c"
+      },
+      {
+        "id": "synthetic-development-station-2",
+        "domain": "observatory",
+        "group": "synthetic-development-station-2",
+        "row_hash": "f98d91d7c8a8de24a04e464cc6c57151e933d818ab0299aa902fec4d851ca6cd",
+        "context_hash": "cf46dd8fafa4c227bf3a7bcd26bb188da8bd7d7117d8a25226a9d210851df3d5"
+      },
+      {
+        "id": "synthetic-development-station-3",
+        "domain": "observatory",
+        "group": "synthetic-development-station-3",
+        "row_hash": "d28c7e860e6f26c92fea21fc838dc6c81d3dcee0257e8ed5ca81a7862b7ac5c1",
+        "context_hash": "31b51707d3149be11f16df87a39c5f081d49c09c9e224cca02d30664bb60438b"
+      },
+      {
+        "id": "synthetic-development-station-4",
+        "domain": "observatory",
+        "group": "synthetic-development-station-4",
+        "row_hash": "7506faba13d5eeaa2fb85e25edb32e1dfcd967c350f1e186a2507e24e4026914",
+        "context_hash": "83a19613404b12dfda99f26cbebf9ae3debd298e6fb05dbb3fdcfbda8fda71a9"
+      },
+      {
+        "id": "synthetic-development-station-5",
+        "domain": "observatory",
+        "group": "synthetic-development-station-5",
+        "row_hash": "2a496bafb50c085bde9432a9c7e60c918fe2faeb4fe937ee5fb9bb72458ea478",
+        "context_hash": "7056e427dd4ddb7aca882bfeafd2562cfec6471013dc3a228694a71dc6735650"
+      },
+      {
+        "id": "synthetic-development-station-6",
+        "domain": "observatory",
+        "group": "synthetic-development-station-6",
+        "row_hash": "649cad2bfa1dcb77bd5e23e7702749c37767d2b64e34169177aa7ccdcf7cd229",
+        "context_hash": "acf7638ac0bf7bc0e712424db7c9f59d1e4e1e56e4fc92846e8ca5d8a10c9523"
+      },
+      {
+        "id": "synthetic-development-station-7",
+        "domain": "observatory",
+        "group": "synthetic-development-station-7",
+        "row_hash": "ab12474e6541bae7ccfd089f91f09304a2b9fb924ffa9dc224c20b540db75c17",
+        "context_hash": "8ae3b0df62e344f35b87ade2762c8201f4f046c2b7184b5ebe08e527116de495"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "bipia-table-test-72",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-72",
+        "row_hash": "980f2fa63fc89fd6ebcaa649480455220c5bad2a20571179b224c9f397d9b147",
+        "context_hash": "c1f5b9ad91f3bb1e5e9754bd481e34ff357d77e5c2a44b798b99b4929df1ffd5"
+      },
+      {
+        "id": "bipia-table-test-41",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-41",
+        "row_hash": "4592463085ffa42d342ce137a39b7cce9c5156fffece63ea3fa80bc2968ec536",
+        "context_hash": "eb2a0ecfd2bd32af519ec9c178584ccc7fd09738be02ef164d2f9896af951e23"
+      },
+      {
+        "id": "bipia-table-test-36",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-36",
+        "row_hash": "9f26e79bf2a435912efdac99a0ca0ddde09c3d020353c43f3fe5b9245e66aba1",
+        "context_hash": "8c51a7398ca3eb163d19abdd61697c1e74ded15ebefcf94c4aac17e78d2b061c"
+      },
+      {
+        "id": "bipia-table-test-48",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-48",
+        "row_hash": "3741b2458d2a33a5919ccc98a5057f6758bb9bf475df7f43eb5f85093ca79b41",
+        "context_hash": "3a086578ecb77ad6caa1e4d5b7bf9e8b3d57ecf170a88f3496dd793dedd9f92d"
+      },
+      {
+        "id": "bipia-table-test-12",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-12",
+        "row_hash": "23a256d0b6d27ffa381a3e43edabc5f9523b77ada0906d93fe5bdff64daa7adf",
+        "context_hash": "a6a50dd5698112fe4fe71fd376fd9fcc4f40d21196cc24de653c9dc091997a33"
+      },
+      {
+        "id": "bipia-table-test-55",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-55",
+        "row_hash": "edf9da4eae896088563ad0a81f929d96c5d739dc91ffc716a1b63f2ab2cb1eca",
+        "context_hash": "c6b02b787422b3caf53b4189084153e311b4551d0ffe7f33b3fe102d4c212add"
+      },
+      {
+        "id": "bipia-table-test-17",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-17",
+        "row_hash": "3823c2a6b229793209c3883f42ef929ce7a38677793bd30c9546a98f4f4b562b",
+        "context_hash": "665ee8da4c64d91d6c5f9e6932912a73bb215ea7f84df4f956a22f4360b32448"
+      },
+      {
+        "id": "bipia-table-test-79",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-79",
+        "row_hash": "1c1468d0008838f6ba18929a2e2f6ad7ae8bf851aafddc35429e2b66459670db",
+        "context_hash": "662d573fb8fd9f79754ff27bd74ffd111939518fa66b29e0cb08e56f47edbd53"
+      },
+      {
+        "id": "bipia-table-test-99",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-99",
+        "row_hash": "c686d6a0b3ec4b915e0ddfcdc4fa555f7eb83352c081e861dce8f6f5a1436ed3",
+        "context_hash": "1fd7347c8d69a0f7837f5be246e9fce58895436df2fd58224d21388a28dc1ef6"
+      },
+      {
+        "id": "bipia-table-test-25",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-25",
+        "row_hash": "8eea77445dd799a06b95b442eb17de168b8bb56eff9dd2b7f509ec463fddbc16",
+        "context_hash": "ac124b5621e6cc21041fb629ba7940e8a33b6a4305123107b703c8efcb2a0902"
+      },
+      {
+        "id": "bipia-table-test-75",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-75",
+        "row_hash": "b9e436108fe48dcbb0aa2ff9d0b4c0abd2b596079d38b7767c8cc8e005cc704a",
+        "context_hash": "471aa0f1d0642f37dab7c91c673fc7f46c56484e44c2ae585fd0094ffcc2e368"
+      },
+      {
+        "id": "bipia-table-test-74",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-74",
+        "row_hash": "01635cd2d4c27c8d078a8002d21f72e8eca788daeca41f27e56eaf4211f86569",
+        "context_hash": "f2c5e6a63586fa77e5f991dd614a9c05e5a69468840564848f10e0344b5447d7"
+      },
+      {
+        "id": "bipia-table-test-7",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-7",
+        "row_hash": "08109092d8623b744b67ab9f9f0ad35bd39267390915f9fe057619cd6a4d53ff",
+        "context_hash": "2bfb9619340c4899c69281f510748f0ae7945f4e20e318a60466748ca9727f7f"
+      },
+      {
+        "id": "bipia-table-test-1",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-1",
+        "row_hash": "b20c3ebb380f022168395cf15aff8b08d5945d0ca483a4d0fb53056527d7559e",
+        "context_hash": "c23defe7a54c132e7000c115ab6044c6c7f95a9314d062a4472028bf236c70dd"
+      },
+      {
+        "id": "bipia-table-test-44",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-44",
+        "row_hash": "7aff5b7babcd2e6dc14f97f038c8218b60cd909fe4f09755081263c79fd03a25",
+        "context_hash": "bb8fd635a5a604c01e4be0e56486e4f6ec5ae36a9be3919add5471f53b98b430"
+      },
+      {
+        "id": "bipia-table-test-15",
+        "domain": "bipia-table",
+        "group": "bipia-table-test-15",
+        "row_hash": "907e27ab811231a167a7f7b5134dfbc21119b9de7473d2bb049340e7c2ef21f5",
+        "context_hash": "fb778ed2839f4c262cad24291a6099613e5349c2c4c5d11d26466091ac3050d5"
+      },
+      {
+        "id": "synthetic-evaluation-station-0",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-0",
+        "row_hash": "307fe78c36ebce481a17646492d51959f808a0e8e3b76a47d7787503b098df85",
+        "context_hash": "c5c834bd23ff91736439f242ae49321ee3249d3b5e9fcc5536077ff2060084dd"
+      },
+      {
+        "id": "synthetic-evaluation-station-1",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-1",
+        "row_hash": "556069ef4c489b6ca8c257ef4cb17eccc5c3673239fcbf2e00ee1f074be30eab",
+        "context_hash": "ceaf83cf8df9b9e701aec95077c1b94f54c949a0a7961c9cf9d22a65fb914019"
+      },
+      {
+        "id": "synthetic-evaluation-station-2",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-2",
+        "row_hash": "5330f75eb2c928f25e16ca340a31b5c84495af9e756f9f1a4a093ef2226aeff2",
+        "context_hash": "28de4253d60dbe39a2f441d5ec80a4870b8373bed598a8a7358391f4f1bddcaf"
+      },
+      {
+        "id": "synthetic-evaluation-station-3",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-3",
+        "row_hash": "078445a12ec3c36994c5d8773fff7c17d525a76008eb10fad0720d6b6cf81f90",
+        "context_hash": "1b3d49294edb0d7f3d8a440f4014f9b10bcdcf17357a3c01a20b0c8d7975bf86"
+      },
+      {
+        "id": "synthetic-evaluation-station-4",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-4",
+        "row_hash": "7bebfea3c8a3ff8fc19757b9ffc13bb621bdd02648f6408ec5f3ac60e3c59f8f",
+        "context_hash": "4d8a57a5a32c80f0da347ef91439fe925937a142432a0e9c9141f71abf5159a3"
+      },
+      {
+        "id": "synthetic-evaluation-station-5",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-5",
+        "row_hash": "08878cefec36a0ad7ad71325761ddbd63f0e36a45880cf9f23c7390f951930ef",
+        "context_hash": "aa27563a4f51924faad6f200e20b8ffb7ec7dcfa797be81bac239a35250724e7"
+      },
+      {
+        "id": "synthetic-evaluation-station-6",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-6",
+        "row_hash": "5d9631c7a8fd23dfe2f96c2e09d1f1d445ce966da16820f50e00f0ccd98cc63f",
+        "context_hash": "a37a9065756a915a91b3c17f9084468c6bcc9fa668c16f10a2a4dc7c73f7d420"
+      },
+      {
+        "id": "synthetic-evaluation-station-7",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-7",
+        "row_hash": "34bbf5f2f67df6df47728db680ea0a9f3dc9ff64c2ac776860d8dd7d0dbf3c05",
+        "context_hash": "8cb228270ee68873e7daf800b41e1cef831eda6d3b7c087cb2a15e9f918cb008"
+      },
+      {
+        "id": "synthetic-evaluation-station-8",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-8",
+        "row_hash": "e3186a941c94ead0bc7e9bcf289bd88ab4e07a6b51986c6d810a8f3a165e7dd8",
+        "context_hash": "4592fab5765ff8e46b5af51547ac12f9adc6833afc2d4cd964b279cc9846bd05"
+      },
+      {
+        "id": "synthetic-evaluation-station-9",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-9",
+        "row_hash": "5850db886a75bc1ff349504613e96cbf702a5b47adbe3c24a2b18932e99b8aa2",
+        "context_hash": "7392891e0b3b07153ccf9c16ca1fa9ed4c4852f5d86d43e0a19713c8cc052068"
+      },
+      {
+        "id": "synthetic-evaluation-station-10",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-10",
+        "row_hash": "3364676ecdd7d8089a7005229dd278bfa767b847c4e4502e575d7f3849fe46dd",
+        "context_hash": "ab3b03fad8b4fe0dce056fb92b9b73054d157d30b358962ae55ff2f538a4fe97"
+      },
+      {
+        "id": "synthetic-evaluation-station-11",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-11",
+        "row_hash": "6a91b17db4f7c5beb7ef2bfe0bcbd90c4a00fc75cfc367b49d61a31ebce75157",
+        "context_hash": "1327c4b0b2d937af934eb6ec567fb1ec934580577b788d36f44e3586598aea79"
+      },
+      {
+        "id": "synthetic-evaluation-station-12",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-12",
+        "row_hash": "f6bf8fdfbd97ad9485a008d2167b011278542677f75ed80a35b6519bd4ee7cda",
+        "context_hash": "d9f684d286b556ec6320c00666f1aed0db51ef15337f131f1e5936799ff3b61d"
+      },
+      {
+        "id": "synthetic-evaluation-station-13",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-13",
+        "row_hash": "27ebe4f704bfadee4f0c0518d76dab6803333277340c4a4f92bce4c13e019d52",
+        "context_hash": "7e399d3a31901c5e11b7011109d3cf41276576ce5b509cd809eb24b75796776c"
+      },
+      {
+        "id": "synthetic-evaluation-station-14",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-14",
+        "row_hash": "ca1338f763756e3c853aa21bb9976287e2c233742ebbc451d4ed2d26846c7c48",
+        "context_hash": "838b6e0953df02358475a2849c4cfe1ed314db00da2662d24b7e20be726eefd2"
+      },
+      {
+        "id": "synthetic-evaluation-station-15",
+        "domain": "botanical",
+        "group": "synthetic-evaluation-station-15",
+        "row_hash": "41612500149343d2b6a3fa39d1dc47e9232666d98b9983427792a8e11c74cf12",
+        "context_hash": "316daf20c43ff4738bf461334a45e08333fcb4ccf8345661d0b9e0f07c709885"
+      }
+    ]
+  },
+  "attacks": {
+    "development": [
+      {
+        "id": "bipia-train-retrieval-0",
+        "family": "bipia-information-retrieval",
+        "goal": "brasilia",
+        "source": "BIPIA unchanged",
+        "payload_hash": "0a428013c25a2df8f3caaddd22a08b818a0eb37ae7876f6ca48765ebb180a1ee"
+      },
+      {
+        "id": "local-dev-override",
+        "family": "override",
+        "goal": "marker",
+        "source": "original synthetic",
+        "payload_hash": "8ee33128da36951d496a88c99691e221d7b81960f8c1967305e829997a32460e"
+      },
+      {
+        "id": "local-dev-role",
+        "family": "role",
+        "goal": "marker",
+        "source": "original synthetic",
+        "payload_hash": "7d3f741fd97daf7868b503ab888dcdc0282ee32380eca4b616fa985c276294f4"
+      },
+      {
+        "id": "local-dev-citation",
+        "family": "citation",
+        "goal": "citation",
+        "source": "original synthetic",
+        "payload_hash": "c419d6a7b630f22f00b5ca6b8781fd8f36657397ea16c7d534ad289a6a6455e4"
+      },
+      {
+        "id": "local-dev-poison",
+        "family": "poison",
+        "goal": "poison",
+        "source": "original synthetic",
+        "payload_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+      },
+      {
+        "id": "local-dev-tool",
+        "family": "tool",
+        "goal": "tool",
+        "source": "original synthetic",
+        "payload_hash": "222fde102dcbaee06ecad2b06111ce126333c71d08a828cb81a64e9ba08d01f4"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "bipia-test-sentiment-0",
+        "family": "bipia-sentiment",
+        "goal": "negative",
+        "source": "BIPIA unchanged",
+        "payload_hash": "6a05f410f73d80f644b7b437782749b912ba9d4f9377be039b29ada23182440e"
+      },
+      {
+        "id": "bipia-test-base64-0",
+        "family": "bipia-base64",
+        "goal": "base64",
+        "source": "BIPIA unchanged",
+        "payload_hash": "7dcec24ebfb6b5f90da1ec8c4302982446564d20c2dd666845aec781ebc51d9f"
+      },
+      {
+        "id": "bipia-test-reverse-0",
+        "family": "bipia-reverse",
+        "goal": "reverse",
+        "source": "BIPIA unchanged",
+        "payload_hash": "46f9068812b2b83366cf3b4b436a140fff1ca3ba2f5080cf6c11c53e13fdb21a"
+      },
+      {
+        "id": "local-test-dialogue",
+        "family": "dialogue",
+        "goal": "marker",
+        "source": "original synthetic",
+        "payload_hash": "4ba62e594273a1b1b346bad8f0294e0f0ae595b8f968b2ec822d95391d1e6469"
+      },
+      {
+        "id": "local-test-encoded",
+        "family": "encoded",
+        "goal": "marker",
+        "source": "original synthetic",
+        "payload_hash": "abc0a46361c189111f254673c994e753bb9dc94c777411388694f2e65c0c6104"
+      },
+      {
+        "id": "local-test-citation",
+        "family": "citation",
+        "goal": "citation",
+        "source": "original synthetic",
+        "payload_hash": "dfb8c5026588c8b054632122d4fe3fe1d4875172902c1df454e96f9a036c85c3"
+      },
+      {
+        "id": "local-test-poison",
+        "family": "poison",
+        "goal": "poison",
+        "source": "original synthetic",
+        "payload_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+      },
+      {
+        "id": "local-test-tool",
+        "family": "tool",
+        "goal": "tool",
+        "source": "original synthetic",
+        "payload_hash": "f2373e8be0f5459f50004fcd8e2027d27f73a2ade9a055792260e63927f83b80"
+      }
+    ]
+  },
+  "limitations": "Public payload families are disjoint. Synthetic dialogue/encoded are held out; citation, factual poisoning and tool-policy diagnostics recur with different wording and are not claimed family-disjoint."
+}

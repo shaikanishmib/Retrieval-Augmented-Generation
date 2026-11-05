@@ -1,0 +1,19 @@
+{
+  "same_corpus_ids": true,
+  "titles_match": true,
+  "abstracts_match_after_whitespace_normalization": true,
+  "train": {
+    "original_split": "train",
+    "original_claims": 809,
+    "query_texts_match": true,
+    "qrels_equal_cited_document_pairs": true,
+    "pairs": 919
+  },
+  "test": {
+    "original_split": "dev",
+    "original_claims": 300,
+    "query_texts_match": true,
+    "qrels_equal_cited_document_pairs": true,
+    "pairs": 339
+  }
+}

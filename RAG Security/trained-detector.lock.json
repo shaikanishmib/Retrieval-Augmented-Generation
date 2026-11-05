@@ -1,0 +1,8 @@
+{
+  "method": "word/character TF-IDF logistic regression",
+  "artifact": "data/detectors/tfidf.joblib",
+  "sha256": "42a35ce3949254e4fabd34107574200e451c1b90455272757d4ebf0a682d0a55",
+  "training_identity": "dd7b7cfc17936aed577a03d505f379c5de29d677fcc8c8e94aea8b303e9aa692",
+  "sklearn_version": "1.9.1",
+  "redistributed": false
+}

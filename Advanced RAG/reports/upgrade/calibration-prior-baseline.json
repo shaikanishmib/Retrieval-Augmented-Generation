@@ -1,0 +1,36 @@
+{
+  "hotpot": {
+    "development_fit_n": 32,
+    "smoothed_prior": 0.29411764705882354,
+    "constant_prior": {
+      "brier": 0.18301254325259522,
+      "ece10": 0.059742647058823484,
+      "bins": [
+        {
+          "lower": 0.2,
+          "n": 256,
+          "confidence": 0.2941176470588235,
+          "accuracy": 0.234375
+        }
+      ],
+      "target": "raw answer exact correctness, not entailment"
+    }
+  },
+  "squad": {
+    "development_fit_n": 26,
+    "smoothed_prior": 0.39285714285714285,
+    "constant_prior": {
+      "brier": 0.23385682397959187,
+      "ece10": 0.02176339285714296,
+      "bins": [
+        {
+          "lower": 0.3,
+          "n": 256,
+          "confidence": 0.39285714285714296,
+          "accuracy": 0.37109375
+        }
+      ],
+      "target": "raw answer exact correctness, not entailment"
+    }
+  }
+}

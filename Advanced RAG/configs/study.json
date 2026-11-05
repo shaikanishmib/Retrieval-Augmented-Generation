@@ -1,0 +1,9 @@
+{
+  "development_questions": 24,
+  "heldout_questions": 64,
+  "seed": 42,
+  "context_budget": 360,
+  "methods": ["no_context", "bm25", "dense", "hybrid", "rerank", "multihop", "corrective", "oracle"],
+  "threshold_candidates": [-1, 0.5, 1.0],
+  "bootstrap_replicates": 2000
+}

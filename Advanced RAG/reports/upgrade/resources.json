@@ -1,0 +1,22 @@
+{
+  "sampled_peak_rss_bytes": 10040967168,
+  "windows_process_peak_bytes": 10212954112,
+  "sample_interval_ms": 50,
+  "samples": 188151,
+  "gpu_peak_allocated_bytes": 5086352384,
+  "gpu_peak_reserved_bytes": 6624903168,
+  "scope": "Whole sequential study process; peaks are not isolated per method",
+  "model_loading_ms": {
+    "verifier": 2880.830900001456,
+    "flan-small": 274.1643999979715,
+    "minilm": 131.27450000320096,
+    "flan-base": 598.76660000009,
+    "qwen06": 1352.3740999953588,
+    "qwen17": 2684.700999998313,
+    "bge-small": 204.8854000022402,
+    "tinybert": 49.89950000162935,
+    "minilm-rerank": 98.230000003241
+  },
+  "verifier_pairs": 4208,
+  "verifier_truncated_pairs": 4
+}

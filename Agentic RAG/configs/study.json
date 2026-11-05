@@ -1,0 +1,19 @@
+{
+  "seed": 314159,
+  "development_per_dataset": 32,
+  "validation_per_dataset": 32,
+  "evaluation_per_dataset": 128,
+  "pilot_per_dataset": 8,
+  "ablation_per_dataset": 32,
+  "max_steps": 4,
+  "max_calls": 4,
+  "max_tokens": 4096,
+  "context_tokens": 440,
+  "top_k": 2,
+  "retry_limit": 1,
+  "failure_limit": 2,
+  "memory_limit": 12,
+  "generation_tokens": 48,
+  "planner_tokens": 128,
+  "verification_threshold": 0.5
+}

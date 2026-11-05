@@ -1,0 +1,22 @@
+{
+  "encoder_load_ms": 767.1722000086447,
+  "reranker_load_ms": 106.97880000225268,
+  "nli_load_ms": 662.4473999982001,
+  "generator_load_ms": 826.6927999939071,
+  "planner_loads": {
+    "qwen17": 3959.855000008247
+  },
+  "device": "cuda",
+  "torch": "2.10.0+cu128",
+  "cuda": "12.8",
+  "seed": 314159,
+  "quantization": "none",
+  "dtype": "float16 generators on CUDA; float32 retrieval and NLI",
+  "pid": 15872,
+  "source_identity": "6404cce9d78f7e4faa09829cd071d134376f593d8a03e483ad722c54203b177b",
+  "rss_bytes": 2160164864,
+  "peak_working_set_bytes": 7970742272,
+  "cuda_peak_allocated_bytes": 5060978176,
+  "cuda_peak_reserved_bytes": 5217714176,
+  "available_ram_bytes": 16703389696
+}

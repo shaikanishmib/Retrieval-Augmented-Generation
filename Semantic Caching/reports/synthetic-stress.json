@@ -1,0 +1,98 @@
+[
+  {
+    "encoder": "minilm",
+    "kind": "entity",
+    "similarity": 0.663238525390625,
+    "guard": true,
+    "synthetic": true,
+    "expected_equivalent": false
+  },
+  {
+    "encoder": "minilm",
+    "kind": "date",
+    "similarity": 0.9414277076721191,
+    "guard": false,
+    "synthetic": true,
+    "expected_equivalent": false
+  },
+  {
+    "encoder": "minilm",
+    "kind": "negation",
+    "similarity": 0.9532256722450256,
+    "guard": false,
+    "synthetic": true,
+    "expected_equivalent": false
+  },
+  {
+    "encoder": "minilm",
+    "kind": "number",
+    "similarity": 0.7909524440765381,
+    "guard": false,
+    "synthetic": true,
+    "expected_equivalent": false
+  },
+  {
+    "encoder": "minilm",
+    "kind": "role_reversal",
+    "similarity": 0.9951494932174683,
+    "guard": true,
+    "synthetic": true,
+    "expected_equivalent": false
+  },
+  {
+    "encoder": "minilm",
+    "kind": "temporal",
+    "similarity": 0.8688322901725769,
+    "guard": true,
+    "synthetic": true,
+    "expected_equivalent": false
+  },
+  {
+    "encoder": "bge-small",
+    "kind": "entity",
+    "similarity": 0.7946418523788452,
+    "guard": true,
+    "synthetic": true,
+    "expected_equivalent": false
+  },
+  {
+    "encoder": "bge-small",
+    "kind": "date",
+    "similarity": 0.8975649476051331,
+    "guard": false,
+    "synthetic": true,
+    "expected_equivalent": false
+  },
+  {
+    "encoder": "bge-small",
+    "kind": "negation",
+    "similarity": 0.902095377445221,
+    "guard": false,
+    "synthetic": true,
+    "expected_equivalent": false
+  },
+  {
+    "encoder": "bge-small",
+    "kind": "number",
+    "similarity": 0.8547624945640564,
+    "guard": false,
+    "synthetic": true,
+    "expected_equivalent": false
+  },
+  {
+    "encoder": "bge-small",
+    "kind": "role_reversal",
+    "similarity": 0.9941164255142212,
+    "guard": true,
+    "synthetic": true,
+    "expected_equivalent": false
+  },
+  {
+    "encoder": "bge-small",
+    "kind": "temporal",
+    "similarity": 0.8655353784561157,
+    "guard": true,
+    "synthetic": true,
+    "expected_equivalent": false
+  }
+]

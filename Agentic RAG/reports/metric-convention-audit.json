@@ -1,0 +1,9 @@
+{
+  "question_results_checked": 3432,
+  "mismatches": 0,
+  "implementation": "Separate standard-library normalizer and precision/recall implementation; normalized yes/no/noanswer guard only for HotpotQA. Tolerance 1e-12.",
+  "reference_sources": [
+    "https://github.com/hotpotqa/hotpot/blob/master/hotpot_evaluate_v1.py",
+    "https://github.com/rajpurkar/SQuAD-explorer/blob/master/evaluate-v2.0.py"
+  ]
+}

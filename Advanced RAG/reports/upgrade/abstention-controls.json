@@ -1,0 +1,20 @@
+{
+  "hotpot": {
+    "n": 256,
+    "always_abstain_em": 0.0,
+    "always_abstain_f1": 0.0,
+    "coverage": 0.0,
+    "answerable_f1": 0.0,
+    "unanswerable_recall": null,
+    "selected_f1_minus_always_abstain": 0.28315452593824303
+  },
+  "squad": {
+    "n": 256,
+    "always_abstain_em": 0.52734375,
+    "always_abstain_f1": 0.52734375,
+    "coverage": 0.0,
+    "answerable_f1": 0.0,
+    "unanswerable_recall": 1.0,
+    "selected_f1_minus_always_abstain": 0.005626860119047672
+  }
+}

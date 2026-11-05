@@ -1,0 +1,70 @@
+{
+  "hotpot": {
+    "bm25": {
+      "delta": -0.16466521393687367,
+      "low": -0.2318839369181166,
+      "high": -0.09680493899519786,
+      "clusters": 256,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "dense": {
+      "delta": -0.09545725541819292,
+      "low": -0.1659313055650946,
+      "high": -0.02554093692765588,
+      "clusters": 256,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "hybrid": {
+      "delta": -0.14932137808522533,
+      "low": -0.21652192019135377,
+      "high": -0.08293060265472382,
+      "clusters": 256,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "rerank": {
+      "delta": -0.15692242869977244,
+      "low": -0.22254890915291306,
+      "high": -0.08871572790273966,
+      "clusters": 256,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    }
+  },
+  "squad": {
+    "bm25": {
+      "delta": 0.14245489753302254,
+      "low": 0.033483105449061384,
+      "high": 0.2375057113947021,
+      "clusters": 24,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "dense": {
+      "delta": 0.14375698086635585,
+      "low": 0.035077908562174576,
+      "high": 0.23675934981198124,
+      "clusters": 24,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "hybrid": {
+      "delta": 0.13985073086635588,
+      "low": 0.03245830560976442,
+      "high": 0.23342231059676868,
+      "clusters": 24,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    },
+    "rerank": {
+      "delta": 0.14245489753302254,
+      "low": 0.03026818420496667,
+      "high": 0.23805835313462434,
+      "clusters": 24,
+      "replicates": 2000,
+      "unit": "article for SQuAD; question for HotpotQA"
+    }
+  }
+}

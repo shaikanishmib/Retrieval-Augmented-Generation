@@ -1,0 +1,14 @@
+{
+  "prior_projects_unchanged": true,
+  "prior_tracked_files_verified": 634,
+  "public_files_reviewed": 105,
+  "raw_data_weights_traces_excluded": true,
+  "secret_pattern_scan_passed": true,
+  "notebook_sources_identical": true,
+  "frozen_sources_match": true,
+  "metrics_reconciled": true,
+  "licenses_reviewed": "docs/provenance.md",
+  "scope": "Regex secret checks supplement explicit path exclusions and manual review; they cannot prove absence of unknown sensitive content.",
+  "git_index_blobs_verified": true,
+  "staged_scope_verified": true
+}

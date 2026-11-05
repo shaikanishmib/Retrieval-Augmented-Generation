@@ -1,0 +1,11 @@
+{
+  "reference_commit": "462b6dcd7f5b45f5627228b109e7f93553a1dac4",
+  "references": ["Retrieval Optimization", "Advanced RAG", "Advanced RAG model and grounding upgrade"],
+  "workflow_sources": ["Retrieval Optimization/README.md", "Advanced RAG/README.md", "Advanced RAG/README.upgrade.md", "Advanced RAG/docs/research-design.md", "Advanced RAG/docs/upgrade-design.md", "Advanced RAG/docs/execution-notes.md", "Advanced RAG/scripts/acquire.py", "Advanced RAG/scripts/execute_upgrade_notebook.py"],
+  "applicable_agents_files_found": [],
+  "standalone_master_workflow_found": false,
+  "workflow_basis": "Repository research/execution/publication records and the user's current master instruction.",
+  "carried_forward": ["Authentic source locks", "Development selection before held-out evaluation", "Per-question checkpoints and raw traces", "Separate answer, evidence and model-support measures", "Original artifact preservation", "Source-identical local executed and public output-free notebooks", "Staged-byte publication audit"],
+  "model_findings": "The prior practical FLAN-T5-base reference outperformed structured Qwen generation. Project 3 therefore holds FLAN fixed for the primary controller comparison and tests Qwen separately for planning.",
+  "preservation": "No implementation, notebook, original report, or experimental artifact of Projects 1 or 2 is intentionally modified. The preservation manifest and original model/data locks supply hash checks."
+}

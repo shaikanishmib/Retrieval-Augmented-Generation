@@ -1,0 +1,34 @@
+[
+  {
+    "dataset": "scifact",
+    "model": "all-MiniLM-L6-v2",
+    "rows": 5183,
+    "dimensions": 384,
+    "maximum_norm_error": 1.1920928955078125e-07,
+    "file_sha256": "042071509789fe63c097acd142147bbb378f48f1726b9552beb7abfb52d21eef"
+  },
+  {
+    "dataset": "scifact",
+    "model": "multi-qa-MiniLM-L6-cos-v1",
+    "rows": 5183,
+    "dimensions": 384,
+    "maximum_norm_error": 1.1920928955078125e-07,
+    "file_sha256": "2416ed32a4ef0f4cc55ad7cc7d52efda6472f3c753b4b06c004ecd6744b81d33"
+  },
+  {
+    "dataset": "fiqa",
+    "model": "all-MiniLM-L6-v2",
+    "rows": 57638,
+    "dimensions": 384,
+    "maximum_norm_error": 1.1920928955078125e-07,
+    "file_sha256": "2a64169eb69ecb79e79678b4ca36cb1fe44db37f590c1dea20591e9c990d4248"
+  },
+  {
+    "dataset": "fiqa",
+    "model": "multi-qa-MiniLM-L6-cos-v1",
+    "rows": 57638,
+    "dimensions": 384,
+    "maximum_norm_error": 1.1920928955078125e-07,
+    "file_sha256": "8ed78a5e86747f4762127e456e55ee62e3f78bae560eff626b4af41634f89308"
+  }
+]

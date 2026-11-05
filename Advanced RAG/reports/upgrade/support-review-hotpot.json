@@ -1,0 +1,87 @@
+{
+  "reviewer": "Coding assistant, with references and actual cited windows visible",
+  "selection": "First ten original held-out HotpotQA questions in deterministic order, matched to the baseline case review",
+  "independent_human_annotations": false,
+  "cases": [
+    {
+      "dataset": "hotpot",
+      "id": "5a8b8b3a5542995d1e6f13e5",
+      "raw_label": "invalid",
+      "final_label": "abstained",
+      "reason": "The response has an extra closing brace and fails JSON parsing. No answer reaches the final output.",
+      "reviewed_prediction_sha256": "36fcd852462a77d37c0013068c7296993642f02b9afec8568fc483c016fd1837"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5ab746c8554299110f219aef",
+      "raw_label": "supported",
+      "final_label": "abstained",
+      "reason": "Both cited windows support the affirmative answer. The literal answer-string guard rejects the word yes because it is absent from the declarative claim.",
+      "reviewed_prediction_sha256": "deef50459e2a5968a1a150b315a9cf85c2f8db62e5b7be94ddb0437e6b4b4363"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5ab48c325542996a3a969f93",
+      "raw_label": "partial",
+      "final_label": "partial",
+      "reason": "The cited window establishes a burial location but not the requested county. High NLI support for the generated claim does not resolve the answer-type error.",
+      "reviewed_prediction_sha256": "7c499825f3ec870103d9fec3568f0d549712379d5bdcdf465f04f119f5a9a472"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5a8e024f5542995085b37375",
+      "raw_label": "unsupported",
+      "final_label": "unsupported",
+      "reason": "The answer selects the school of a different composer, despite also generating a claim about the relevant composer's training. The response carries a low-support flag.",
+      "reviewed_prediction_sha256": "3843a3284e4db68c2c82c4aaf11096d4e2068700f740fdbe86d1602dc32f61a8"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5a7bbee85542997c3ec97270",
+      "raw_label": "invalid",
+      "final_label": "abstained",
+      "reason": "The response contains an extra closing brace. Parsing rejects it before citation verification.",
+      "reviewed_prediction_sha256": "77d4ee6b267c1f470788aee13cdf795bb6052d5f13e0416231d44119bfb754dd"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5adbf43655429947ff173864",
+      "raw_label": "supported",
+      "final_label": "supported",
+      "reason": "One cited window explicitly establishes the shared coloration pattern. A second citation is extraneous. The NLI score is low despite the first window supporting the answer.",
+      "reviewed_prediction_sha256": "1b3381e09b0ea01739b2925b9d1a3281693572eb534d6fbabe0d39724df5254e"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5a7c90125542990527d554d1",
+      "raw_label": "unsupported",
+      "final_label": "unsupported",
+      "reason": "The cited birth year belongs to a singer-songwriter sharing a name with a fictional character in the question. The statement is entailed but does not answer the requested author's birth-year question.",
+      "reviewed_prediction_sha256": "1011922066f9890f25317d6d570ab1d445b24fddbd3a699e72aa84c22103825b"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5add2df85542992ae4cec4d6",
+      "raw_label": "supported",
+      "final_label": "abstained",
+      "reason": "The two cited windows establish different countries for the bands. The literal answer-string guard rejects a valid negative answer because no is absent from the two claims.",
+      "reviewed_prediction_sha256": "c48bd1e0b183cd8c98eb43f085037dec0c4e29b22dd7cfed2cccfe3a8dcb91f8"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5ac4f12d55429924173fb4f6",
+      "raw_label": "supported",
+      "final_label": "supported",
+      "reason": "One cited window establishes the opera. The ship's namesake explanation identifies the other item as a newspaper, which supports the negative answer. An additional performer citation is extraneous.",
+      "reviewed_prediction_sha256": "c5e0fae1efacfc0bf97002d27480e858a9e92536b58da0da0bbc7ec8ea34cdae"
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5abe9c1a5542993f32c2a183",
+      "raw_label": "supported",
+      "final_label": "supported",
+      "reason": "The cited window explicitly identifies the person honored by the genus name.",
+      "reviewed_prediction_sha256": "6b60f7dfa3470952075967a4011cbc49f78600c0d64b1098e6a5b9cd69a48e33"
+    }
+  ]
+}

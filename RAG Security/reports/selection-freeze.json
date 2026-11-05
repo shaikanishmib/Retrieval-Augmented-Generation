@@ -1,0 +1,146 @@
+{
+  "experiment_identity": "533a9a154e884135d5d1b32aa430e188fb02865b5f57200093cc21044aebd60e",
+  "source_identity": "7a3bc0bbbca929ee2927b4ae429b320af024d8c18e22af39ea3e9ce81f34a6f8",
+  "selected_model": "qwen06",
+  "selected_defense": "D6",
+  "selection": {
+    "model": "qwen06",
+    "defense": "D6",
+    "score": 0.4166666666666667,
+    "clean_completion": 0.5,
+    "attacked_completion": 0.5833333333333334,
+    "asr": 0.16666666666666666
+  },
+  "candidates": [
+    {
+      "model": "flan-base",
+      "defense": "D1",
+      "score": 0.3333333333333333,
+      "clean_completion": 0.5,
+      "attacked_completion": 0.5,
+      "asr": 0.16666666666666666
+    },
+    {
+      "model": "flan-base",
+      "defense": "D2",
+      "score": 0.041666666666666664,
+      "clean_completion": 0.5,
+      "attacked_completion": 0.041666666666666664,
+      "asr": 0.0
+    },
+    {
+      "model": "flan-base",
+      "defense": "D3",
+      "score": -0.5,
+      "clean_completion": 0.0,
+      "attacked_completion": 0.0,
+      "asr": 0.0
+    },
+    {
+      "model": "flan-base",
+      "defense": "D4",
+      "score": 0.3333333333333333,
+      "clean_completion": 0.5,
+      "attacked_completion": 0.5,
+      "asr": 0.16666666666666666
+    },
+    {
+      "model": "flan-base",
+      "defense": "D5",
+      "score": 0.3333333333333333,
+      "clean_completion": 0.5,
+      "attacked_completion": 0.5,
+      "asr": 0.16666666666666666
+    },
+    {
+      "model": "flan-base",
+      "defense": "D6",
+      "score": 0.3333333333333333,
+      "clean_completion": 0.5,
+      "attacked_completion": 0.5,
+      "asr": 0.16666666666666666
+    },
+    {
+      "model": "flan-base",
+      "defense": "D7",
+      "score": 0.3333333333333333,
+      "clean_completion": 0.5,
+      "attacked_completion": 0.5,
+      "asr": 0.16666666666666666
+    },
+    {
+      "model": "flan-base",
+      "defense": "D7-integrity",
+      "score": 0.0,
+      "clean_completion": 0.5,
+      "attacked_completion": 0.0,
+      "asr": 0.0
+    },
+    {
+      "model": "qwen06",
+      "defense": "D1",
+      "score": -0.5,
+      "clean_completion": 0.5,
+      "attacked_completion": 0.16666666666666666,
+      "asr": 0.6666666666666666
+    },
+    {
+      "model": "qwen06",
+      "defense": "D2",
+      "score": 0.0,
+      "clean_completion": 0.5,
+      "attacked_completion": 0.0,
+      "asr": 0.0
+    },
+    {
+      "model": "qwen06",
+      "defense": "D3",
+      "score": -0.5,
+      "clean_completion": 0.0,
+      "attacked_completion": 0.0,
+      "asr": 0.0
+    },
+    {
+      "model": "qwen06",
+      "defense": "D4",
+      "score": -0.375,
+      "clean_completion": 0.5,
+      "attacked_completion": 0.25,
+      "asr": 0.625
+    },
+    {
+      "model": "qwen06",
+      "defense": "D5",
+      "score": -0.5208333333333334,
+      "clean_completion": 0.5,
+      "attacked_completion": 0.14583333333333334,
+      "asr": 0.6666666666666666
+    },
+    {
+      "model": "qwen06",
+      "defense": "D6",
+      "score": 0.4166666666666667,
+      "clean_completion": 0.5,
+      "attacked_completion": 0.5833333333333334,
+      "asr": 0.16666666666666666
+    },
+    {
+      "model": "qwen06",
+      "defense": "D7",
+      "score": 0.3333333333333333,
+      "clean_completion": 0.5,
+      "attacked_completion": 0.5,
+      "asr": 0.16666666666666666
+    },
+    {
+      "model": "qwen06",
+      "defense": "D7-integrity",
+      "score": 0.0,
+      "clean_completion": 0.5,
+      "attacked_completion": 0.0,
+      "asr": 0.0
+    }
+  ],
+  "development_trace_identity": "bba8ae8df7be81b048a046796ae9c700af85ba39d44d4f41b0913aa92a52b5b9",
+  "confirmation_policy": "No tuning after this freeze; positions/ingestion are diagnostic only. Adaptive search uses development tasks and fixed payloads only."
+}

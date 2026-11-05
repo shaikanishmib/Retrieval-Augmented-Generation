@@ -1,0 +1,111 @@
+{
+  "verbosity": {
+    "n": 30,
+    "decision_flip_fraction": 0.3,
+    "mean_score_change": -0.0034606953461964927,
+    "label_policy": "Sensitivity only; changed evidence and injected answers are not independently relabeled.",
+    "changed_inputs": 30,
+    "unchanged_inputs": 0,
+    "flip_fraction_among_changed_inputs": 0.3
+  },
+  "identity": {
+    "n": 30,
+    "decision_flip_fraction": 0.13333333333333333,
+    "mean_score_change": 0.0023697177569071454,
+    "label_policy": "Sensitivity only; changed evidence and injected answers are not independently relabeled.",
+    "changed_inputs": 30,
+    "unchanged_inputs": 0,
+    "flip_fraction_among_changed_inputs": 0.13333333333333333
+  },
+  "injection": {
+    "n": 30,
+    "decision_flip_fraction": 0.6333333333333333,
+    "mean_score_change": -0.3625769170932472,
+    "label_policy": "Sensitivity only; changed evidence and injected answers are not independently relabeled.",
+    "changed_inputs": 30,
+    "unchanged_inputs": 0,
+    "flip_fraction_among_changed_inputs": 0.6333333333333333
+  },
+  "irrelevant": {
+    "n": 30,
+    "decision_flip_fraction": 0.4666666666666667,
+    "mean_score_change": -0.0323641041914622,
+    "label_policy": "Sensitivity only; changed evidence and injected answers are not independently relabeled.",
+    "changed_inputs": 30,
+    "unchanged_inputs": 0,
+    "flip_fraction_among_changed_inputs": 0.4666666666666667
+  },
+  "truncate": {
+    "n": 30,
+    "decision_flip_fraction": 0.26666666666666666,
+    "mean_score_change": 0.0019206643104553224,
+    "label_policy": "Sensitivity only; changed evidence and injected answers are not independently relabeled.",
+    "changed_inputs": 30,
+    "unchanged_inputs": 0,
+    "flip_fraction_among_changed_inputs": 0.26666666666666666
+  },
+  "reverse-evidence": {
+    "n": 30,
+    "decision_flip_fraction": 0.13333333333333333,
+    "mean_score_change": -0.0006308972835540772,
+    "label_policy": "Sensitivity only; changed evidence and injected answers are not independently relabeled.",
+    "changed_inputs": 20,
+    "unchanged_inputs": 10,
+    "flip_fraction_among_changed_inputs": 0.2
+  },
+  "rubric-paraphrase": {
+    "n": 30,
+    "decision_flip_fraction": 0.6333333333333333,
+    "mean_score_change": -0.8588136966400877
+  },
+  "repeat": {
+    "n": 6,
+    "uncached_passes": 2,
+    "maximum_absolute_score_difference": 0.0,
+    "decoding": "Deterministic conditional token scoring; no sampled generation."
+  },
+  "pairwise": {
+    "n_pairs": 30,
+    "orderings": 2,
+    "accuracy": 0.6666666666666666,
+    "reversal_consistency": 0.6666666666666666,
+    "first_position_choice_rate": 0.3333333333333333,
+    "label_source": "Derived support ordering from human hallucination spans: zero spans versus at least one. Not a human-preference benchmark."
+  },
+  "sentence_units": {
+    "metrics_at_response_threshold": {
+      "n": 4100,
+      "accuracy": 0.7958536585365854,
+      "balanced_accuracy": 0.6205841203217909,
+      "precision": 0.1520912547528517,
+      "recall": 0.4166666666666667,
+      "f1": 0.22284122562674094,
+      "macro_f1": 0.5526672785441019,
+      "kappa": 0.1336794879174077,
+      "mcc": 0.15634165789434787,
+      "roc_auc": 0.72051799143057,
+      "pr_auc": 0.14153642463053281,
+      "brier": 0.2929253445003518,
+      "ece_10_bins": 0.3347443630155914,
+      "false_positive_rate": 0.175498426023085,
+      "false_negative_rate": 0.5833333333333334,
+      "confusion": [
+        [
+          3143,
+          669
+        ],
+        [
+          168,
+          120
+        ]
+      ]
+    },
+    "interpretation": "Original human spans projected by character overlap onto deterministic sentence units. Not atomic-claim annotations or span-level localization. Threshold selected for response detection."
+  },
+  "configuration": "qwen17/rubric for perturbations and uncached repeatability; Qwen3-1.7B A/B prompt for pairwise; nli-base/claims for sentence units",
+  "model_revisions": {
+    "qwen17": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "nli-base": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb"
+  },
+  "perturbation_scope": "Evidence-line reversal can leave single-line JSON unchanged. Rates among changed inputs are reported separately; unchanged inputs reuse identical cached predictions."
+}

@@ -1,0 +1,6 @@
+{
+  "target_existed_at_start": false,
+  "planned_deletions": [],
+  "deleted": [],
+  "policy": "Preserve previous projects, shared packages and model weights. No cleanup planned."
+}

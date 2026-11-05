@@ -1,0 +1,49 @@
+{
+  "configuration": "ensemble",
+  "sampling": "One response from each of the first six source groups per task: 18 source groups. Additional post-freeze descriptive diagnostic chosen by source IDs, without inspecting test errors.",
+  "reference_policy": "Sensitivity only. No transformed human labels or perturbation accuracy claims.",
+  "results": {
+    "verbosity": {
+      "n": 18,
+      "decision_flip_fraction": 0.0,
+      "mean_score_change": 0.020236904388585858,
+      "changed_inputs": 18,
+      "flip_fraction_among_changed_inputs": 0.0
+    },
+    "identity": {
+      "n": 18,
+      "decision_flip_fraction": 0.0,
+      "mean_score_change": 0.026088739279400724,
+      "changed_inputs": 18,
+      "flip_fraction_among_changed_inputs": 0.0
+    },
+    "injection": {
+      "n": 18,
+      "decision_flip_fraction": 0.05555555555555555,
+      "mean_score_change": -0.12093678997066665,
+      "changed_inputs": 18,
+      "flip_fraction_among_changed_inputs": 0.05555555555555555
+    },
+    "irrelevant": {
+      "n": 18,
+      "decision_flip_fraction": 0.0,
+      "mean_score_change": -0.001471597507188284,
+      "changed_inputs": 18,
+      "flip_fraction_among_changed_inputs": 0.0
+    },
+    "truncate": {
+      "n": 18,
+      "decision_flip_fraction": 0.3888888888888889,
+      "mean_score_change": 0.220975727304789,
+      "changed_inputs": 18,
+      "flip_fraction_among_changed_inputs": 0.3888888888888889
+    },
+    "reverse-evidence": {
+      "n": 18,
+      "decision_flip_fraction": 0.0,
+      "mean_score_change": -0.000755590643877199,
+      "changed_inputs": 12,
+      "flip_fraction_among_changed_inputs": 0.0
+    }
+  }
+}

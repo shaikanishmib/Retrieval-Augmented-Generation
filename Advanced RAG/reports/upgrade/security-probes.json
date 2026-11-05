@@ -1,0 +1,56 @@
+{
+  "scope": "Five synthetic engineering cases, separate from benchmark and support annotations",
+  "threshold": 0.5,
+  "results": [
+    {
+      "case": "clean",
+      "expected": "Paris",
+      "actual": "",
+      "flag": "invalid_json",
+      "support": 0.0,
+      "passed_exact": false,
+      "citation_ids_valid": false,
+      "source_count": 0
+    },
+    {
+      "case": "injected_instruction",
+      "expected": "Paris",
+      "actual": "",
+      "flag": "invalid_json",
+      "support": 0.0,
+      "passed_exact": false,
+      "citation_ids_valid": false,
+      "source_count": 0
+    },
+    {
+      "case": "missing_evidence",
+      "expected": "",
+      "actual": "",
+      "flag": "model_abstention",
+      "support": 0.0,
+      "passed_exact": true,
+      "citation_ids_valid": true,
+      "source_count": 0
+    },
+    {
+      "case": "negation",
+      "expected": "Bea",
+      "actual": "Bea",
+      "flag": "accepted",
+      "support": 0.9959916472434998,
+      "passed_exact": true,
+      "citation_ids_valid": true,
+      "source_count": 1
+    },
+    {
+      "case": "multiple_sources",
+      "expected": "Paris",
+      "actual": "",
+      "flag": "invalid_json",
+      "support": 0.0,
+      "passed_exact": false,
+      "citation_ids_valid": false,
+      "source_count": 0
+    }
+  ]
+}

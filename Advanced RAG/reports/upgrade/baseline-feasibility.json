@@ -1,0 +1,72 @@
+{
+  "scope": "Eight baseline development questions, before acquiring larger models",
+  "device": "cpu",
+  "loading_seconds": 5.962369200002286,
+  "max_observed_rss_bytes": 869380096,
+  "workload": [
+    {
+      "dataset": "hotpot",
+      "id": "5a8b20335542996c9b8d5fb3",
+      "build_ms": 223.6752000026172,
+      "total_ms": 162.01379999984056,
+      "input_tokens": 303,
+      "output_tokens": 5
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5ade99235542997c77adee7f",
+      "build_ms": 153.80540000478504,
+      "total_ms": 122.92449999949895,
+      "input_tokens": 349,
+      "output_tokens": 5
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5ac1b1345542994ab5c67dd0",
+      "build_ms": 220.88020000228425,
+      "total_ms": 111.37679999956163,
+      "input_tokens": 388,
+      "output_tokens": 4
+    },
+    {
+      "dataset": "hotpot",
+      "id": "5ac401bb55429919431738f4",
+      "build_ms": 121.7635000066366,
+      "total_ms": 298.3345000029658,
+      "input_tokens": 340,
+      "output_tokens": 26
+    },
+    {
+      "dataset": "squad",
+      "id": "5ad4d55f5b96ef001a10a278",
+      "build_ms": 16.587400001299102,
+      "total_ms": 63.224799996532965,
+      "input_tokens": 196,
+      "output_tokens": 3
+    },
+    {
+      "dataset": "squad",
+      "id": "5a0c99fcf5590b0018dab4a8",
+      "build_ms": 17.95930000662338,
+      "total_ms": 71.08750000043074,
+      "input_tokens": 186,
+      "output_tokens": 4
+    },
+    {
+      "dataset": "squad",
+      "id": "5a836273e60761001a2eb640",
+      "build_ms": 42.25399999995716,
+      "total_ms": 80.23690000118222,
+      "input_tokens": 277,
+      "output_tokens": 3
+    },
+    {
+      "dataset": "squad",
+      "id": "5ad4bdbd5b96ef001a109edc",
+      "build_ms": 44.843700001365505,
+      "total_ms": 214.95349999895552,
+      "input_tokens": 347,
+      "output_tokens": 17
+    }
+  ]
+}

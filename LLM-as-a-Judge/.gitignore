@@ -1,0 +1,6 @@
+data/
+.local/
+__pycache__/
+.pytest_cache/
+*.pyc
+notebooks/01_complete_llm_judge_research.ipynb

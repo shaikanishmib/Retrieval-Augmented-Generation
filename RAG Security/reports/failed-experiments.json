@@ -1,0 +1,15 @@
+{
+  "failures": [
+    {
+      "stage": "initial cold-process profile",
+      "condition": "An assertion expected the selected D6 policy to preserve the amber fixture. It returned an incorrect or rejected answer.",
+      "resolution": "The profiler now records completion and actual answers instead of discarding failed answers. No primary model, threshold, defense or outcome definition changed.",
+      "timing": "The aborted probe did not save a valid timing record and is excluded from profile aggregates."
+    },
+    {
+      "stage": "sandbox package imports",
+      "condition": "Sandbox-visible package overlays exposed incomplete Torch and PyArrow imports.",
+      "resolution": "The same local commands were rerun with approved filesystem access. No model inference is attributed to the failed imports."
+    }
+  ]
+}

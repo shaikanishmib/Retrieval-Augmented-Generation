@@ -1,0 +1,11 @@
+{
+  "encoder_load_ms": 2353.14500000095,
+  "generator_load_ms": 854.1091000079177,
+  "model_warmup": "one discarded encoder and generator request",
+  "rss_loaded": 2312323072,
+  "cuda_allocated": 681348608,
+  "trials": 3,
+  "cache_state": "fresh per strategy/trial/workload/dataset",
+  "rss_final": 1414217728,
+  "cuda_peak_allocated": 720859648
+}

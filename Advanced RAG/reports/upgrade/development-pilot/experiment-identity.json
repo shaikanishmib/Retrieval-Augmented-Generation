@@ -1,0 +1,81 @@
+{
+  "fingerprint": "0c82b4dfdc2ef06671db5ccd2ae7b2637cb577d6009adb0326514407379a0b4b",
+  "source_sha256": {
+    "src/advanced_rag/upgrade/artifacts.py": "17be0e2b528e403af257900b8a153314482be413a2f916520d782876f23cd1d7",
+    "src/advanced_rag/upgrade/engine.py": "6f21edae3a8cae64fd9d22094e88b89c57d775694f71162b6e18e365aa2c9135",
+    "src/advanced_rag/upgrade/evaluate.py": "0677e0a1fdb6b7268bf3b8cc76c726df7882eccf8be7840d6ae365b3143ea723",
+    "src/advanced_rag/upgrade/grounding.py": "3ea670b760153b2f87040e2b40260c2683bb1d1bdd0ad12412cdb74202e22b3c",
+    "src/advanced_rag/upgrade/models.py": "1f9eef4158add2314f9e5204530bd95e08d171e6afa8f78851a18c42e6ccde2d",
+    "src/advanced_rag/upgrade/retrieval.py": "1d6a32f5b2cb5d322d3a142b8ef3e47753b58091c848a6ecaa26608d41bf9b6d",
+    "src/advanced_rag/upgrade/study.py": "5233695fb3745262784d727f57a78b85ab2a18efbf443b4e594972d49fe0df14",
+    "src/advanced_rag/upgrade/__init__.py": "c0c4c0cff9712ff472b05cec66e8902cf0c444908270abec39683d5d890ed1d8"
+  },
+  "config": {
+    "development_questions": 64,
+    "fresh_heldout_questions": 256,
+    "excluded_original_heldout": 64,
+    "generator_selection_questions_per_dataset": 16,
+    "retrieval_selection_questions_per_dataset": 24,
+    "ablation_questions_per_dataset": 64,
+    "seed": 42,
+    "bootstrap_replicates": 2000,
+    "threshold_candidates": [
+      0.0,
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.9,
+      0.99
+    ],
+    "generator_candidates": [
+      "flan-small",
+      "flan-base",
+      "qwen06",
+      "qwen17"
+    ],
+    "retrieval_candidates": [
+      {
+        "name": "bm25",
+        "encoder": "minilm",
+        "retrieval": "bm25",
+        "budget": 768
+      },
+      {
+        "name": "dense_minilm",
+        "encoder": "minilm",
+        "retrieval": "dense",
+        "budget": 768
+      },
+      {
+        "name": "hybrid_minilm",
+        "encoder": "minilm",
+        "retrieval": "hybrid",
+        "budget": 768
+      },
+      {
+        "name": "hybrid_bge",
+        "encoder": "bge-small",
+        "retrieval": "hybrid",
+        "budget": 768
+      },
+      {
+        "name": "tinybert",
+        "encoder": "bge-small",
+        "retrieval": "rerank",
+        "reranker": "tinybert",
+        "budget": 768
+      },
+      {
+        "name": "minilm_rerank",
+        "encoder": "bge-small",
+        "retrieval": "rerank",
+        "reranker": "minilm-rerank",
+        "budget": 768
+      }
+    ]
+  },
+  "torch": "2.10.0+cu128",
+  "cuda": true,
+  "cuda_version": "12.8"
+}

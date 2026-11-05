@@ -1,0 +1,167 @@
+{
+  "hotpot": {
+    "fresh": {
+      "n": 256,
+      "question_check_vs_nli_f1": {
+        "delta": -0.036074912843004944,
+        "low": -0.07042821145411605,
+        "high": -0.004015213815789503,
+        "clusters": 256,
+        "replicates": 2000,
+        "unit": "article for SQuAD; question for HotpotQA"
+      },
+      "qa_citation_source_precision": 0.825,
+      "qa_citation_source_recall": 0.26171875,
+      "qa_ms": 212.99088789086795,
+      "nli_ms": 152.02315000021827,
+      "default": {
+        "question_check_enabled": false,
+        "em": 0.2109375,
+        "f1": 0.28315452593824303,
+        "coverage": 0.5546875,
+        "answerable_f1": 0.28315452593824303,
+        "unanswerable_recall": null,
+        "selective_risk": 0.6197183098591549
+      },
+      "flags_by_kind": {
+        "bridge": {
+          "invalid_json": 75,
+          "low_model_support": 53,
+          "qa_disagreement": 40,
+          "accepted": 23,
+          "qa_evidence_insufficient": 7,
+          "qa_context_limit": 2
+        },
+        "comparison": {
+          "low_model_support": 15,
+          "accepted": 9,
+          "invalid_json": 21,
+          "qa_disagreement": 9,
+          "qa_context_limit": 2
+        }
+      }
+    },
+    "original": {
+      "n": 64,
+      "question_check_vs_nli_f1": {
+        "delta": -0.022168803418803416,
+        "low": -0.07425213675213674,
+        "high": 0.027647569444444426,
+        "clusters": 64,
+        "replicates": 2000,
+        "unit": "article for SQuAD; question for HotpotQA"
+      },
+      "qa_citation_source_precision": 0.7866666666666666,
+      "qa_citation_source_recall": 0.2578125,
+      "qa_ms": 241.8665375001865,
+      "nli_ms": 162.70181875017897,
+      "default": {
+        "question_check_enabled": false,
+        "em": 0.1875,
+        "f1": 0.24347807066018273,
+        "coverage": 0.578125,
+        "answerable_f1": 0.24347807066018273,
+        "unanswerable_recall": null,
+        "selective_risk": 0.6756756756756757
+      },
+      "flags_by_kind": {
+        "bridge": {
+          "invalid_json": 20,
+          "accepted": 10,
+          "qa_disagreement": 12,
+          "low_model_support": 11
+        },
+        "comparison": {
+          "accepted": 2,
+          "qa_disagreement": 3,
+          "invalid_json": 2,
+          "low_model_support": 2,
+          "qa_context_limit": 2
+        }
+      }
+    }
+  },
+  "squad": {
+    "fresh": {
+      "n": 256,
+      "question_check_vs_nli_f1": {
+        "delta": 0.05083705357142858,
+        "low": -0.00010799380596905935,
+        "high": 0.09899548115337133,
+        "clusters": 24,
+        "replicates": 2000,
+        "unit": "article for SQuAD; question for HotpotQA"
+      },
+      "qa_citation_source_precision": 0.6153846153846154,
+      "qa_citation_source_recall": 0.39669421487603307,
+      "qa_ms": 200.40724023456846,
+      "nli_ms": 113.12734062477148,
+      "default": {
+        "question_check_enabled": true,
+        "em": 0.5625,
+        "f1": 0.5838076636904762,
+        "coverage": 0.3046875,
+        "answerable_f1": 0.3673947264856356,
+        "unanswerable_recall": 0.7777777777777778,
+        "selective_risk": 0.5
+      },
+      "flags_by_kind": {
+        "answerable": {
+          "invalid_json": 53,
+          "low_model_support": 27,
+          "accepted": 21,
+          "qa_disagreement": 20
+        },
+        "unanswerable": {
+          "invalid_json": 52,
+          "qa_disagreement": 29,
+          "low_model_support": 21,
+          "qa_evidence_insufficient": 22,
+          "accepted": 9,
+          "qa_context_limit": 1,
+          "missing_answer_or_claim": 1
+        }
+      }
+    },
+    "original": {
+      "n": 64,
+      "question_check_vs_nli_f1": {
+        "delta": 0.071875,
+        "low": -0.03081967213114754,
+        "high": 0.15885294117647045,
+        "clusters": 22,
+        "replicates": 2000,
+        "unit": "article for SQuAD; question for HotpotQA"
+      },
+      "qa_citation_source_precision": 0.6666666666666666,
+      "qa_citation_source_recall": 0.3783783783783784,
+      "qa_ms": 198.37162812473252,
+      "nli_ms": 129.19872031272917,
+      "default": {
+        "question_check_enabled": true,
+        "em": 0.515625,
+        "f1": 0.525,
+        "coverage": 0.328125,
+        "answerable_f1": 0.3675675675675676,
+        "unanswerable_recall": 0.7407407407407407,
+        "selective_risk": 0.38095238095238093
+      },
+      "flags_by_kind": {
+        "answerable": {
+          "accepted": 6,
+          "invalid_json": 16,
+          "low_model_support": 8,
+          "qa_disagreement": 7
+        },
+        "unanswerable": {
+          "low_model_support": 5,
+          "qa_evidence_insufficient": 7,
+          "invalid_json": 10,
+          "model_abstention": 1,
+          "accepted": 2,
+          "qa_disagreement": 2
+        }
+      }
+    }
+  }
+}

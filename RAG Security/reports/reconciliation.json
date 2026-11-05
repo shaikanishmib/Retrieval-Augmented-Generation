@@ -1,0 +1,30 @@
+{
+  "stages": {
+    "pilot": {
+      "n": 32,
+      "attempt_identity": "c97def0564e3a9563a2ae26665965d1ddd511cb1c52503de6367641fdcf6d663"
+    },
+    "development": {
+      "n": 1152,
+      "attempt_identity": "bba8ae8df7be81b048a046796ae9c700af85ba39d44d4f41b0913aa92a52b5b9"
+    },
+    "evaluation": {
+      "n": 2560,
+      "attempt_identity": "cf8989d554bf00105213f1ea793506d345d9a441fe6444e4a7de485409c7cc9a"
+    },
+    "positions": {
+      "n": 192,
+      "attempt_identity": "0d7b12872ec425adc8b49e926fd72c49ce051c72d59c35ed336a32795ede67b5"
+    },
+    "ingestion": {
+      "n": 32,
+      "attempt_identity": "dfb432f61fa097b4d887b5b179d278967187f1f653b3c0199da2fe83d2e69ba5"
+    },
+    "adaptive": {
+      "n": 48,
+      "attempt_identity": "52196e0f320032732da8ff09d6092313eb81266f946b4d58db75f54eca930ddb"
+    }
+  },
+  "metrics_rebuilt_from_attempt_ids": true,
+  "stale_files_excluded": true
+}

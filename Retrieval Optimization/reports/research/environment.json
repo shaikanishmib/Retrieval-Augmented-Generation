@@ -1,0 +1,18 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+  "logical_cpus": 24,
+  "seed": 42,
+  "dense_threads": 12,
+  "thread_selection": "Corpus-only 64-document throughput probe; no relevance judgments",
+  "source_sha256": {
+    "src/rag_data/chunking.py": "37a4156a21ea488621bc0dd1ac3d1bb0bd4ca2f48907be53e15580bd3127e6ae",
+    "src/rag_data/dense.py": "f07c7b12917ae600e5925f3369ae2ac6665be9b9451541313a1bd5b963663e66",
+    "src/rag_data/research.py": "26f3d302e5fce02e8df2724200d7b0f3f157b8653c6b61659dc0aa0ed1c9d9ed",
+    "src/rag_data/retrieval.py": "91a60ee9836fbb6478eadfe1bfa85632da753f3a7125a1c945a40d20e72d1321",
+    "src/rag_data/transforms.py": "b12ec14241aecee74825fd71fed776cb33dbace28b47e36acd9954fb534ea02c",
+    "src/rag_data/validation.py": "20142be9122e76a91ec07447c3a6c07422abc7a952d2a4f2ffb48dda19e8939f",
+    "src/rag_data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

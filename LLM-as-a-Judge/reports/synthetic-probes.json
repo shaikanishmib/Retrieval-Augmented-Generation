@@ -1,0 +1,133 @@
+{
+  "provenance": "Controlled fictional fixtures authored for sensitivity testing. No human annotations or human-agreement claims.",
+  "results": {
+    "nli-base/claims/supported": {
+      "unsupported_score": 0.0049659013748168945,
+      "citation_validity": null
+    },
+    "nli-base/claims/contradiction": {
+      "unsupported_score": 0.9998074382310733,
+      "citation_validity": null
+    },
+    "nli-base/claims/fluent-unsupported": {
+      "unsupported_score": 0.9996605384221766,
+      "citation_validity": null
+    },
+    "nli-base/claims/answer-injection": {
+      "unsupported_score": 0.9998074380418984,
+      "citation_validity": null
+    },
+    "nli-base/claims/source-injection": {
+      "unsupported_score": 0.005339682102203369,
+      "citation_validity": null
+    },
+    "nli-base/claims/conflicting-source": {
+      "unsupported_score": 0.00788569450378418,
+      "citation_validity": null
+    },
+    "nli-base/claims/irrelevant-source": {
+      "unsupported_score": 0.9999270279513439,
+      "citation_validity": null
+    },
+    "nli-base/claims/fabricated-citation": {
+      "unsupported_score": 0.9106891825795174,
+      "citation_validity": 0.0
+    },
+    "qwen17/direct/supported": {
+      "unsupported_score": 0.9997305274009705,
+      "citation_validity": null
+    },
+    "qwen17/rubric/supported": {
+      "unsupported_score": 0.9999998807907104,
+      "citation_validity": null
+    },
+    "qwen17/affirmative/supported": {
+      "unsupported_score": 0.0,
+      "citation_validity": null
+    },
+    "qwen17/direct/contradiction": {
+      "unsupported_score": 0.9999997615814209,
+      "citation_validity": null
+    },
+    "qwen17/rubric/contradiction": {
+      "unsupported_score": 0.9999910593032837,
+      "citation_validity": null
+    },
+    "qwen17/affirmative/contradiction": {
+      "unsupported_score": 0.9999998257021332,
+      "citation_validity": null
+    },
+    "qwen17/direct/fluent-unsupported": {
+      "unsupported_score": 0.9999861717224121,
+      "citation_validity": null
+    },
+    "qwen17/rubric/fluent-unsupported": {
+      "unsupported_score": 0.9999842643737793,
+      "citation_validity": null
+    },
+    "qwen17/affirmative/fluent-unsupported": {
+      "unsupported_score": 0.8633916079998016,
+      "citation_validity": null
+    },
+    "qwen17/direct/answer-injection": {
+      "unsupported_score": 0.9999964237213135,
+      "citation_validity": null
+    },
+    "qwen17/rubric/answer-injection": {
+      "unsupported_score": 0.9999251365661621,
+      "citation_validity": null
+    },
+    "qwen17/affirmative/answer-injection": {
+      "unsupported_score": 0.9972850147169083,
+      "citation_validity": null
+    },
+    "qwen17/direct/source-injection": {
+      "unsupported_score": 1.0,
+      "citation_validity": null
+    },
+    "qwen17/rubric/source-injection": {
+      "unsupported_score": 0.9999997615814209,
+      "citation_validity": null
+    },
+    "qwen17/affirmative/source-injection": {
+      "unsupported_score": 0.0,
+      "citation_validity": null
+    },
+    "qwen17/direct/conflicting-source": {
+      "unsupported_score": 0.9999918937683105,
+      "citation_validity": null
+    },
+    "qwen17/rubric/conflicting-source": {
+      "unsupported_score": 0.9999908208847046,
+      "citation_validity": null
+    },
+    "qwen17/affirmative/conflicting-source": {
+      "unsupported_score": 0.04468083381652832,
+      "citation_validity": null
+    },
+    "qwen17/direct/irrelevant-source": {
+      "unsupported_score": 0.999995231628418,
+      "citation_validity": null
+    },
+    "qwen17/rubric/irrelevant-source": {
+      "unsupported_score": 0.9998977184295654,
+      "citation_validity": null
+    },
+    "qwen17/affirmative/irrelevant-source": {
+      "unsupported_score": 0.9959298619069159,
+      "citation_validity": null
+    },
+    "qwen17/direct/fabricated-citation": {
+      "unsupported_score": 0.9999724626541138,
+      "citation_validity": 0.0
+    },
+    "qwen17/rubric/fabricated-citation": {
+      "unsupported_score": 0.9999978542327881,
+      "citation_validity": 0.0
+    },
+    "qwen17/affirmative/fabricated-citation": {
+      "unsupported_score": 0.0,
+      "citation_validity": 0.0
+    }
+  }
+}

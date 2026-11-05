@@ -1,0 +1,15 @@
+{
+  "reason": "Hybrid initially duplicated answer-cache logic. Add evidence fallback and fresh generation; preserve superseded partial trials, then reselect before final evaluation.",
+  "preserved": {
+    "reports/selection-freeze.json": "5a9a46edb47ac7deab648634421741a62b3f11968e3234b295bf58143967c14e",
+    "reports/execution-ledger.json": "5786396576b8524d827f1ab7af82f27f143c055521c30b15b247db6636a800d7",
+    "reports/generator-development.json": "08a1a8c082056120c054b3fe6c326f9e226d265e597d2fc1525b5e336cf5910c",
+    "reports/embedding-development.json": "6a0fa222eeee6647bf091ef81dfb5a098b578d2bf0fd4eeda5acaa01507e5bf4",
+    "data/traces": {
+      "hotpot-mixed-exact-0.json": "1738201f19cc01e6065d7bccfe57f96371394008af5ff8a8c14e574af8f29b38",
+      "hotpot-mixed-none-0.json": "51a5cf28f5f813bb5cf8b34f07f1d47d83ab17e7459d188374a1ddefc8e0d6d5",
+      "hotpot-mixed-semantic-0.json": "de2f53dd59702de7d937f756a14666e6f16d200a2b3d9370faebaef57b53bd5c"
+    }
+  },
+  "deleted": []
+}

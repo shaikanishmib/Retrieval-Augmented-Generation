@@ -1,0 +1,96 @@
+{
+  "identity": "e94fdd9cdb81b8116d421cc82084910eb6e8ace0de5a6ee5ce8a5741e6c931a4",
+  "device": "cpu",
+  "results": {
+    "hotpot": {
+      "fresh": {
+        "n": 256,
+        "em": 0.18359375,
+        "f1": 0.2470796130952381,
+        "coverage": 0.390625,
+        "answerable_f1": 0.2470796130952381,
+        "unanswerable_recall": null,
+        "abstention_precision": 0.0,
+        "selective_risk": 0.53,
+        "qa_checked_fraction": 0.609375,
+        "mean_additional_validation_ms": 366.9050582032298,
+        "qa_output_tokens": 3.32421875,
+        "paired_f1_vs_original_structured_parser": {
+          "delta": -0.036074912843004944,
+          "low": -0.07042821145411605,
+          "high": -0.004015213815789503,
+          "clusters": 256,
+          "replicates": 2000,
+          "unit": "article for SQuAD; question for HotpotQA"
+        }
+      },
+      "original": {
+        "n": 64,
+        "em": 0.1875,
+        "f1": 0.2213092672413793,
+        "coverage": 0.390625,
+        "answerable_f1": 0.2213092672413793,
+        "unanswerable_recall": null,
+        "abstention_precision": 0.0,
+        "selective_risk": 0.52,
+        "qa_checked_fraction": 0.625,
+        "mean_additional_validation_ms": 407.0443328123474,
+        "qa_output_tokens": 3.6875,
+        "paired_f1_vs_original_structured_parser": {
+          "delta": -0.022168803418803416,
+          "low": -0.07425213675213674,
+          "high": 0.027647569444444426,
+          "clusters": 64,
+          "replicates": 2000,
+          "unit": "article for SQuAD; question for HotpotQA"
+        }
+      }
+    },
+    "squad": {
+      "fresh": {
+        "n": 256,
+        "em": 0.5625,
+        "f1": 0.5838076636904762,
+        "coverage": 0.3046875,
+        "answerable_f1": 0.36739472648563554,
+        "unanswerable_recall": 0.7777777777777778,
+        "abstention_precision": 0.5898876404494382,
+        "selective_risk": 0.5,
+        "qa_checked_fraction": 0.58203125,
+        "mean_additional_validation_ms": 315.3217574219127,
+        "qa_output_tokens": 3.58984375,
+        "paired_f1_vs_original_structured_parser": {
+          "delta": 0.1566313244047619,
+          "low": 0.10453905866796119,
+          "high": 0.20820202216262,
+          "clusters": 24,
+          "replicates": 2000,
+          "unit": "article for SQuAD; question for HotpotQA"
+        }
+      },
+      "original": {
+        "n": 64,
+        "em": 0.515625,
+        "f1": 0.525,
+        "coverage": 0.328125,
+        "answerable_f1": 0.36756756756756753,
+        "unanswerable_recall": 0.7407407407407407,
+        "abstention_precision": 0.46511627906976744,
+        "selective_risk": 0.38095238095238093,
+        "qa_checked_fraction": 0.578125,
+        "mean_additional_validation_ms": 329.88487343777706,
+        "qa_output_tokens": 3.484375,
+        "paired_f1_vs_original_structured_parser": {
+          "delta": 0.10052083333333332,
+          "low": 0.039247311827956995,
+          "high": 0.1723103448275862,
+          "clusters": 22,
+          "replicates": 2000,
+          "unit": "article for SQuAD; question for HotpotQA"
+        }
+      }
+    }
+  },
+  "latency_scope": "Additional verification replay on retained generations; no new end-to-end latency claim",
+  "limitations": "QA-model agreement and NLI remain model judgments and can share entity or relevance errors"
+}

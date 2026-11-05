@@ -1,0 +1,82 @@
+{
+  "cpu_registry_name": "13th Gen Intel(R) Core(TM) i7-13700HX",
+  "global_cache_locations": {
+    "C:\\Users\\shaik\\.cache\\huggingface": {
+      "exists": false,
+      "children": []
+    },
+    "C:\\Users\\shaik\\.cache\\torch": {
+      "exists": false,
+      "children": []
+    },
+    "C:\\Users\\shaik\\Retrieval-Augmented-Generation\\LLM-as-a-Judge\\data\\hf": {
+      "exists": false,
+      "children": []
+    }
+  },
+  "previous_project_locations": {
+    "Retrieval Optimization": {
+      "data_directories": [],
+      "python_environments": [],
+      "instructions": []
+    },
+    "Advanced RAG": {
+      "data_directories": [
+        "experiments",
+        "gpu-packages",
+        "ipython",
+        "matplotlib",
+        "models",
+        "packages",
+        "raw",
+        "upgrade"
+      ],
+      "python_environments": [],
+      "instructions": []
+    },
+    "Agentic RAG": {
+      "data_directories": [
+        "development-history",
+        "ipython",
+        "manifests",
+        "matplotlib",
+        "partitions",
+        "probes",
+        "raw",
+        "review",
+        "scores",
+        "traces"
+      ],
+      "python_environments": [],
+      "instructions": []
+    },
+    "Semantic Caching": {
+      "data_directories": [
+        "ablations",
+        "backend",
+        "development",
+        "evaluation",
+        "ipython",
+        "jupyter",
+        "matplotlib",
+        "packages",
+        "partitions",
+        "probes",
+        "raw",
+        "runtime",
+        "superseded-hybrid-v1",
+        "superseded-prompt-v1",
+        "superseded-scope-v1",
+        "traces"
+      ],
+      "python_environments": [],
+      "instructions": []
+    }
+  },
+  "inference_libraries": [
+    "Transformers",
+    "PyTorch CUDA"
+  ],
+  "reuse": "Read-only model paths from the published model lock; prior package overlays when outside a virtual environment.",
+  "cleanup": "None. The target did not exist before this build; no prior unique work was removed."
+}

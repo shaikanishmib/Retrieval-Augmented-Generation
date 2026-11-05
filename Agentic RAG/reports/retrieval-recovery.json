@@ -1,0 +1,56 @@
+{
+  "empty_first-hotpot": {
+    "n": 32,
+    "intervention_applied": 31,
+    "answerable_interventions": 31,
+    "later_gold_recovered": 21,
+    "recovery_rate": 0.6774193548387096,
+    "overall_rate": 0.6774193548387096,
+    "limitation": "Intervention requires the first dispatch to succeed. Primary recovery denominator uses answerable cases with gold documents. Recovery means later annotated document retrieval, not necessarily a correct answer."
+  },
+  "irrelevant_first-hotpot": {
+    "n": 32,
+    "intervention_applied": 31,
+    "answerable_interventions": 31,
+    "later_gold_recovered": 17,
+    "recovery_rate": 0.5483870967741935,
+    "overall_rate": 0.5483870967741935,
+    "limitation": "Intervention requires the first dispatch to succeed. Primary recovery denominator uses answerable cases with gold documents. Recovery means later annotated document retrieval, not necessarily a correct answer."
+  },
+  "injection_first-hotpot": {
+    "n": 32,
+    "intervention_applied": 31,
+    "answerable_interventions": 31,
+    "later_gold_recovered": 19,
+    "recovery_rate": 0.6129032258064516,
+    "overall_rate": 0.6129032258064516,
+    "limitation": "Intervention requires the first dispatch to succeed. Primary recovery denominator uses answerable cases with gold documents. Recovery means later annotated document retrieval, not necessarily a correct answer."
+  },
+  "empty_first-squad": {
+    "n": 32,
+    "intervention_applied": 32,
+    "answerable_interventions": 25,
+    "later_gold_recovered": 20,
+    "recovery_rate": 0.8,
+    "overall_rate": 0.625,
+    "limitation": "Intervention requires the first dispatch to succeed. Primary recovery denominator uses answerable cases with gold documents. Recovery means later annotated document retrieval, not necessarily a correct answer."
+  },
+  "irrelevant_first-squad": {
+    "n": 32,
+    "intervention_applied": 32,
+    "answerable_interventions": 25,
+    "later_gold_recovered": 16,
+    "recovery_rate": 0.64,
+    "overall_rate": 0.5,
+    "limitation": "Intervention requires the first dispatch to succeed. Primary recovery denominator uses answerable cases with gold documents. Recovery means later annotated document retrieval, not necessarily a correct answer."
+  },
+  "injection_first-squad": {
+    "n": 32,
+    "intervention_applied": 32,
+    "answerable_interventions": 25,
+    "later_gold_recovered": 22,
+    "recovery_rate": 0.88,
+    "overall_rate": 0.6875,
+    "limitation": "Intervention requires the first dispatch to succeed. Primary recovery denominator uses answerable cases with gold documents. Recovery means later annotated document retrieval, not necessarily a correct answer."
+  }
+}

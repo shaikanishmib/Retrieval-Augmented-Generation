@@ -1,0 +1,55 @@
+{
+  "raw_responses": 17790,
+  "raw_sources": 2965,
+  "official_splits": {
+    "train": 15090,
+    "test": 2700
+  },
+  "original_label_types": {
+    "Evident Conflict": 5324,
+    "Evident Baseless Info": 6237,
+    "Subtle Baseless Info": 2527,
+    "Subtle Conflict": 201
+  },
+  "implicit_true_spans": 1928,
+  "duplicate_evidence_groups_excluded": 2,
+  "missing_context_or_response": 0,
+  "duplicate_response_texts": 238,
+  "partitions": {
+    "development": {
+      "responses": 216,
+      "sources": 36,
+      "positive_labels": 102,
+      "tasks": {
+        "Summary": 72,
+        "Data2txt": 72,
+        "QA": 72
+      },
+      "identity": "a00913fb1bbc601056ce09474f0d87dbefc00fc71a8337c1d30f404b95c0c950"
+    },
+    "validation": {
+      "responses": 144,
+      "sources": 24,
+      "positive_labels": 62,
+      "tasks": {
+        "Summary": 48,
+        "Data2txt": 48,
+        "QA": 48
+      },
+      "identity": "3658df568a22135c4f1b4bd694db7befd5d362c0743cb2c897ea0f59e6116a60"
+    },
+    "test": {
+      "responses": 540,
+      "sources": 90,
+      "positive_labels": 179,
+      "tasks": {
+        "Summary": 180,
+        "Data2txt": 180,
+        "QA": 180
+      },
+      "identity": "2b39ae2feb664611cace63b8afa7333675efe9b678a31eb307525dc812fdace6"
+    }
+  },
+  "positive_class": "Any original annotated hallucination span, including implicit_true; 1=hallucination",
+  "scope": "Response detection; sentence overlap diagnostics are not span localization or independently annotated atomic claims."
+}

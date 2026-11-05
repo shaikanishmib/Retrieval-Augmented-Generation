@@ -1,0 +1,34 @@
+[
+  {
+    "dataset": "scifact",
+    "configured_limit": 20,
+    "fusion_pool_per_retriever": 20,
+    "actual_min": 20,
+    "actual_mean": 20.0,
+    "actual_max": 20
+  },
+  {
+    "dataset": "scifact",
+    "configured_limit": 50,
+    "fusion_pool_per_retriever": 20,
+    "actual_min": 21,
+    "actual_mean": 34.196666666666665,
+    "actual_max": 40
+  },
+  {
+    "dataset": "fiqa",
+    "configured_limit": 20,
+    "fusion_pool_per_retriever": 100,
+    "actual_min": 20,
+    "actual_mean": 20.0,
+    "actual_max": 20
+  },
+  {
+    "dataset": "fiqa",
+    "configured_limit": 50,
+    "fusion_pool_per_retriever": 100,
+    "actual_min": 50,
+    "actual_mean": 50.0,
+    "actual_max": 50
+  }
+]

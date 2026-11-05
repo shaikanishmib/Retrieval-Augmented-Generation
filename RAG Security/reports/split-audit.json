@@ -1,0 +1,17 @@
+{
+  "exact_context_overlap": 0,
+  "claimed_transfer_payload_pairs": 25,
+  "near_payload_threshold": 0.85,
+  "near_payload_pairs": [],
+  "maximum_payload_pair": {
+    "development": "local-dev-override",
+    "evaluation": "bipia-test-reverse-0",
+    "character_sequence_similarity": 0.4672897196261682
+  },
+  "maximum_public_context_pair": {
+    "development": "bipia-table-train-798",
+    "evaluation": "bipia-table-test-12",
+    "word_trigram_jaccard": 0.015748031496062992
+  },
+  "limitations": "Lexical checks do not rule out semantic relationships or pretraining contamination. Recurring synthetic citation, poisoning and tool diagnostics are explicitly excluded from family-disjoint claims."
+}

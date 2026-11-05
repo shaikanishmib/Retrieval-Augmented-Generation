@@ -1,0 +1,41 @@
+{
+  "official_test_rows_downloaded": 314,
+  "evaluated_rows": 120,
+  "unique_ids": 60,
+  "unique_evidence_groups": 60,
+  "duplicate_response_texts": 0,
+  "original_test_missing_values": {
+    "id": 0,
+    "question": 0,
+    "documents": 0,
+    "response": 0,
+    "generation_model_name": 0,
+    "annotating_model_name": 0,
+    "dataset_name": 0,
+    "documents_sentences": 0,
+    "response_sentences": 0,
+    "sentence_support_information": 0,
+    "unsupported_response_sentence_keys": 0,
+    "adherence_score": 0,
+    "overall_supported_explanation": 0,
+    "relevance_explanation": 0,
+    "all_relevant_sentence_keys": 0,
+    "all_utilized_sentence_keys": 0,
+    "trulens_groundedness": 5,
+    "trulens_context_relevance": 14,
+    "ragas_faithfulness": 9,
+    "ragas_context_relevance": 0,
+    "gpt3_adherence": 2,
+    "gpt3_context_relevance": 2,
+    "gpt35_utilization": 2,
+    "relevance_score": 0,
+    "utilization_score": 0,
+    "completeness_score": 0
+  },
+  "evaluated_positive_labels": 54,
+  "exact_evidence_overlap_with_primary_partitions": 0,
+  "annotation_models": {
+    "gpt-4-turbo-2024-04-09": 314
+  },
+  "label_origin": "Original model-generated adherence_score, inverted to positive=non-adherence; not human labels."
+}

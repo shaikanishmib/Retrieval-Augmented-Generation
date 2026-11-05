@@ -1,0 +1,6 @@
+{
+  "returncode": 0,
+  "stdout": ".....................................                                    [100%]\n37 passed in 3.87s\n",
+  "stderr": "",
+  "scope": "Unit and recorded-artifact regression tests; real local model inference is separately verified by smoke.py and the executed notebook."
+}

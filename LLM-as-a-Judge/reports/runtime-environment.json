@@ -1,0 +1,62 @@
+{
+  "torch": {
+    "version": "2.10.0+cu128",
+    "file": "C:\\Users\\shaik\\Retrieval-Augmented-Generation\\Advanced RAG\\data\\gpu-packages\\torch\\__init__.py"
+  },
+  "transformers": {
+    "version": "4.57.3",
+    "file": "C:\\Users\\shaik\\Retrieval-Augmented-Generation\\Advanced RAG\\data\\packages\\transformers\\__init__.py"
+  },
+  "numpy": {
+    "version": "2.5.4",
+    "file": "C:\\Users\\shaik\\Retrieval-Augmented-Generation\\Advanced RAG\\data\\packages\\numpy\\__init__.py"
+  },
+  "scipy": {
+    "version": "1.18.1",
+    "file": "C:\\Users\\shaik\\Retrieval-Augmented-Generation\\Advanced RAG\\data\\packages\\scipy\\__init__.py"
+  },
+  "sklearn": {
+    "version": "1.9.1",
+    "file": "C:\\Users\\shaik\\Retrieval-Augmented-Generation\\Advanced RAG\\data\\packages\\sklearn\\__init__.py"
+  },
+  "pandas": {
+    "version": "2.3.3",
+    "file": "C:\\Users\\shaik\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pandas\\__init__.py"
+  },
+  "pyarrow": {
+    "version": "23.0.0",
+    "file": "C:\\Users\\shaik\\Retrieval-Augmented-Generation\\Advanced RAG\\data\\packages\\pyarrow\\__init__.py"
+  },
+  "psutil": {
+    "version": "7.2.2",
+    "file": "C:\\Users\\shaik\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\psutil\\__init__.py"
+  },
+  "nbformat": {
+    "version": "5.11.1",
+    "file": "C:\\Users\\shaik\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbformat\\__init__.py"
+  },
+  "nbclient": {
+    "version": "0.11.0",
+    "file": "C:\\Users\\shaik\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\nbclient\\__init__.py"
+  },
+  "ipykernel": {
+    "version": "7.4.0",
+    "file": "C:\\Users\\shaik\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\ipykernel\\__init__.py"
+  },
+  "matplotlib": {
+    "version": "3.11.2",
+    "file": "C:\\Users\\shaik\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\matplotlib\\__init__.py"
+  },
+  "pytest": {
+    "version": "9.2.0",
+    "file": "C:\\Users\\shaik\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pytest\\__init__.py"
+  },
+  "sentencepiece": {
+    "version": "0.2.1",
+    "file": "C:\\Users\\shaik\\Retrieval-Augmented-Generation\\Advanced RAG\\data\\packages\\sentencepiece\\__init__.py"
+  },
+  "joblib": {
+    "version": "1.6.0",
+    "file": "C:\\Users\\shaik\\Retrieval-Augmented-Generation\\Advanced RAG\\data\\packages\\joblib\\__init__.py"
+  }
+}

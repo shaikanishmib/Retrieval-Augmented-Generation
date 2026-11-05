@@ -1,0 +1,11 @@
+{
+  "pairs": 16,
+  "warm_model": true,
+  "traffic_estimate": false,
+  "order": "Alternating baseline/hit order after one real seed request per family",
+  "cold_cache_seed_p50_ms": 148.45390000846237,
+  "no_cache_p50_ms": 140.87040000595152,
+  "warm_exact_hit_p50_ms": 0.2592999953776598,
+  "same_answer": 16,
+  "generation_calls_avoided": 16
+}
